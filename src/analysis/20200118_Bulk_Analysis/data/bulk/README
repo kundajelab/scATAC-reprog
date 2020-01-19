@@ -1,0 +1,17 @@
+After creating these using the Python script, merged bins as 
+
+cat data/bulk/D0.bed data/bulk/D2.bed data/bulk/D4.bed data/bulk/D6.bed data/bulk/D8.bed data/bulk/D10.bed data/bulk/D12.bed data/bulk/D14.bed | cut -f1-3 | sort -k1,1 -k2,2n | bedtools merge -i stdin > merged
+
+Next count each samples against this merged reference and then combined into one matrix.
+
+temp is a file with D0, D2, D4, D6, D8, D10, D12, D14 on different lines.
+
+# get the counts
+for x in `cat temp` ; do bedtools intersect -a data/bulk/merge.sites.bed -b data/bulk/$x.bed -loj | cut -f7 | awk -v OFS='\t' '{if ($1==".") {$1=0} ; print $1}' > data/bulk/merged.sites.$x.cts & done
+
+# merge counts
+paste data/bulk/merge.sites.bed `for x in $(cat temp) ; do ls data/bulk/merged.sites.$x.cts ; done` > data/bulk/counts.2kb.txt
+
+Header was added manually.
+
+Note that many bins have 0 counts even though they don't actually have 0 counts. It likely stems from the fact that for each day, those bins were dropped that didn't have some number of counts. It may be best to ignore those sites for analysis that have 0 in any sample, i.e. work with intersection of all sites.
