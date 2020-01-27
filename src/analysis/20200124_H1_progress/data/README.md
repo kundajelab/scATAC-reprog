@@ -1,0 +1,11 @@
+- H1.hESC.atac.idr.peaks.hg19.bed is derived from /oak/stanford/groups/akundaje/laks/atac_dnase_pipeline_output/output/H1/cromwell-executions/atac/71a46735-f324-4740-ac12-305981f88b88/call-reproducibility_idr/execution/optimal_peak.gz.
+- It was ported over to hg38 using liftOver to H1.hESC.atac.idr.peaks.liftover.to.hg38.bed.
+- liftOver command: liftOver <(cut -f1-3 H1.hESC.atac.overlap.peaks.hg19.bed) hg19ToHg38.over.chain H1.hESC.atac.overlap.peaks.liftover.to.hg38.bed unmapped
+- very few were unmapped (<100) 
+- bedtools intersect -a <(cut -f1-3 ../../20200118_Bulk_Analysis/data/bulk_from_pipeline/idr.counts.tsv | sed '1d') -b H1.hESC.atac.idr.peaks.liftover.to.hg38.bed -loj -wa -c > H1.hESC.atac.idr.bulk.idr.intersect.bed was used to count number of idr H1-hESC peaks that overlap with each bin in idr.counts.tsv. A header was added and filename changed to H1.hESC.atac.idr.bulk.idr.intersect.txt
+- Though values are not binary, data should be used after binarzing. 
+
+- Similarly H1.hESC.atac.overlap.peaks.hg19.bed is derived from /oak/stanford/groups/akundaje/laks/atac_dnase_pipeline_output/output/H1/cromwell-executions/atac/71a46735-f324-4740-ac12-305981f88b88/call-reproducibility_overlap/execution/optimal_peak.gz.
+- It was ported over to hg38 using liftOver to H1.hESC.atac.overlap.peaks.liftover.to.hg38.bed.
+- same liftOver command as above. Very few were unmapped (<200)
+- H1.hESC.atac.overlap.bulk.idr.intersect.txt was generated the same way as above. Though values are not binary, data should be used after binarzing.
