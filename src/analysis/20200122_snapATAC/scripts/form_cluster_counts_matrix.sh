@@ -7,7 +7,7 @@ set -o pipefail
 # modified by Surag Nair
 
 WORKDIR=$1
-PEAKS_FILE=$2 # it's a bed file but has a header in the first line
+PEAKS_FILE=$2 # it's a bed file 
 NUM_CLUSTERS=$3
 CLUSTER_BEDS_PREFIX=$4 # prefix to the clusters e.g. (full path) "...snapATAC_sessions/20200125_n76770/cluster_beds/cluster_idx"
 OUTFILE=$5
@@ -21,7 +21,7 @@ cd $WORKDIR
 export numfiles=$NUM_CLUSTERS
 echo $numfiles
 
-cut -f1-3 $PEAKS_FILE | sed '1d' | bedtools sort > peaks.sorted.bed
+cut -f1-3 $PEAKS_FILE |  bedtools sort > peaks.sorted.bed
 
 getcounts () {
  cur_sample_name=$1
