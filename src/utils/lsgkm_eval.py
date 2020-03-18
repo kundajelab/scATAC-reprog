@@ -7,6 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-p", "--pos", type=str, help="gkmpredict output on positive test examples", required=True)
 parser.add_argument("-n", "--neg", type=str, help="gkmpredict output on negative test examples", required=True)
 parser.add_argument("-t", "--thresh", type=float, help="threshold for accuracy prediction", default=0)
+parser.add_argument("-f", "--flip", type=bool, help="If true, predicted scores will be multiplied by -1", default=False)
 args = parser.parse_args()
 
 def get_scores(fname):
@@ -17,6 +18,17 @@ def get_scores(fname):
 
 pos_scores = get_scores(args.pos)
 neg_scores = get_scores(args.neg)
+
+# always treat minority as positive
+if len(pos_scores)>len(neg_scores):
+    pos_scores, neg_scores = neg_scores, pos_scores
+    pos_scores = [-x for x in pos_scores]
+    neg_scores = [-x for x in neg_scores]
+
+if args.flip:
+    pos_scores = [-x for x in pos_scores]
+    neg_scores = [-x for x in neg_scores]
+
 labels = [1]*len(pos_scores) + [0]*len(neg_scores)
 
 labels_shuf = deepcopy(labels)
