@@ -11,13 +11,15 @@ parser.add_argument("-m", "--mode", type=str, default="GC", help="GC% (GC) or Cp
 args = parser.parse_args()
 
 def calc_gc(s):
-    return len([x for x in s.lower() if x=='g' or x=='c'])/len(s)
+    tot = len([x for x in s.lower() if x=='g' or x=='c' or x=='a' or x=='t'])
+    return len([x for x in s.lower() if x=='g' or x=='c'])/tot
 
 def calc_cpg(s):
     c = s.lower().count('c')
     g = s.lower().count('g')
     cpg = s.lower().count('cg')
-    return cpg*len(s)/(c*g)
+    tot = len([x for x in s.lower() if x=='g' or x=='c' or x=='a' or x=='t'])
+    return cpg*tot/(c*g)
 
 fa = pyfaidx.Fasta(args.fasta)
 f = open(args.output, 'w')
