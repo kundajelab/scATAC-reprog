@@ -1,0 +1,3 @@
+`bash form_fixed_width_counts_matrix.sh /users/surag/kundajelab/scATAC-reprog/src/analysis/20200331_gc_stratify/data/ /users/surag/kundajelab/scATAC-reprog/src/analysis/20200331_gc_stratify/data/bulk.metadata.tsv 4 2 /users/surag/kundajelab/scATAC-reprog/src/analysis/20200331_gc_stratify/data/bulk.overlap.200bp.txt`
+
+`bash form_fixed_width_counts_matrix.sh /users/surag/kundajelab/scATAC-reprog/src/analysis/20200331_gc_stratify/data/cluster/ /users/surag/kundajelab/scATAC-reprog/src/analysis/20200331_gc_stratify/data/cluster/clusters.20200125.n76770.metadata.tsv 4 2 /users/surag/kundajelab/scATAC-reprog/src/analysis/20200331_gc_stratify/data/cluster/clusters.20200125.n76770.overlap.200bp.txt `
