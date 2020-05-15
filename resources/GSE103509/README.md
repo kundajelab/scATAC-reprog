@@ -9,3 +9,5 @@ Verify order of genes is consistent:
 `for x in $(ls ./human_tpm/) ; do diff <(cat ./human_tpm/$x | cut -f1) <(cat ./human_tpm/GSM2772599_hFb_MRC5_rep1.tpm.txt | cut -f1) ; done`
 
 Pasted TPMs from all files, added GENE names and header names. Some manual steps. Verified for a few genes.
+
+Got Gene names from gProfiler on 13 May 2020: https://biit.cs.ut.ee/gprofiler/convert.
