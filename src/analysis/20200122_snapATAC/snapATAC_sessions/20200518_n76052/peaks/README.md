@@ -12,4 +12,7 @@ Deleted intermediate files.
 ## Range SmallPeaks
 
 To get peaks without iPSC peaks: 
-- ` find ../croo/cluster_idx*/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz  | grep -v idx18 | xargs -I{} zcat {} | sort -k9 -nr | gzip > overlap.no_iPSC.peaks.qval.sort.narrowPeak.gz `
+- `find ../croo/cluster_idx*/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz  | grep -v idx18 | xargs -I{} zcat {} | sort -k9 -nr | gzip > overlap.no_iPSC.peaks.qval.sort.narrowPeak.gz`
+- `python ~/kundajelab/scATAC-reprog/src/processing/20200502_merge_peaks/range_merge.py -np ./overlap.no_iPSC.peaks.qval.sort.narrowPeak.gz -min 200 -max 300 -o ./overlap.no_iPSC.range.200.300.bed`
+
+Same for idr.
