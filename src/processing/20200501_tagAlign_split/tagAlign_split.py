@@ -12,8 +12,8 @@ Ultimately makes one tagAlign for each cluster (without barcodes).
 """
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-m", "--metadata", type=str, required=True) # should have barcode, sample and cluster columns 
-parser.add_argument("-st", "--sample_to_tagalign", type=str, required=True) # each line: sample<tab>path/to/sample/tagalign
+parser.add_argument("-m", "--metadata", type=str, required=True, help='TSV file which must have columns barcode, sample and cluster')
+parser.add_argument("-st", "--sample_to_tagalign", type=str, required=True, help='each line: sample<tab>path/to/sample/tagalign')
 parser.add_argument("-o", "--outdir", type=str, required=True)
 parser.add_argument("-p", "--parallel", type=int, default=20)
 args = parser.parse_args()
@@ -43,7 +43,8 @@ assert(set(sample_to_tagalign.keys())==set(metadata['sample']))
 
 def sample_tagAlign_split(sample, barcode_to_cluster, tagAlign_path, outdir):
     clst_to_file = {}
-    
+    clst_to_barcode = {x:set() for x in set(barcode_to_cluster.values())} # return reads from which barcodes were added to each cluster
+
     # open out files
     for clst in set(barcode_to_cluster.values()):
         clst_to_file[clst] = gzip.open(os.path.join(outdir, "cluster_idx{}.sample_{}.tagAlign.gz".format(clst, sample)), 'w')
@@ -59,17 +60,20 @@ def sample_tagAlign_split(sample, barcode_to_cluster, tagAlign_path, outdir):
         if s[6] in barcode_to_cluster: 
             # remove barcode before writing
             clst_to_file[barcode_to_cluster[s[6]]].write(('\t'.join(s[:6])+'\n').encode())
-        #    i+=1
-        #if i==1000:
-        #    break
+            clst_to_barcode[barcode_to_cluster[s[6]]].add('{}_{}'.format(sample, s[6]))
+     #       i+=1
+     #   if i==1000:
+     #       break
 
     f.close()
 
     for x in clst_to_file:
         clst_to_file[x].close()
 
+    return clst_to_barcode
+
 p = Pool(args.parallel)
-p.starmap(sample_tagAlign_split, [(sample, sample_barcode_to_cluster[sample], sample_to_tagalign[sample], args.outdir) for sample in sample_to_tagalign])
+clst_to_barcodes_found = p.starmap(sample_tagAlign_split, [(sample, sample_barcode_to_cluster[sample], sample_to_tagalign[sample], args.outdir) for sample in sample_to_tagalign])
 
 # merge cluster wise and delete rest
 for clst in set(metadata['cluster']):
@@ -78,3 +82,29 @@ for clst in set(metadata['cluster']):
     f.close()
 
     subprocess.check_call(['rm {}/cluster_idx{}.sample_*'.format(args.outdir, clst)], shell=True)
+
+# Robustness check reports
+cluster_to_sample_barcode = {x:set() for x in set(metadata['cluster'])}
+for i in range(len(metadata['barcode'])):
+    cluster_to_sample_barcode[metadata['cluster'][i]].add('{}_{}'.format(metadata['sample'][i], metadata['barcode'][i]))
+cluster_barcodes_found_count = {x:0 for x in set(metadata['cluster'])}
+
+# report which barcodes from which samples went to which cluster
+f = open(os.path.join(args.outdir, "barcodes_added.tsv"), 'w')
+f.write('sample\tbarcode\tcluster\n')
+for x in clst_to_barcodes_found:
+    for clst in x:
+        for sample_barcode in x[clst]:
+            assert(sample_barcode in cluster_to_sample_barcode[clst])
+            sample, barcode = sample_barcode.split('_')
+            cluster_barcodes_found_count[clst] += 1
+            f.write('{}\t{}\t{}\n'.format(sample, barcode, clst))
+f.close()
+
+# for each cluster, report number of barcodes successfully found
+f = open(os.path.join(args.outdir, "report.tsv"), 'w')
+f.write("cluster\tbarcodes_found\tbarcodes_total\n")
+for clst in cluster_barcodes_found_count:
+    f.write("{}\t{}\t{}\n".format(clst, cluster_barcodes_found_count[clst], len(cluster_to_sample_barcode[clst])))
+f.close()
+
