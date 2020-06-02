@@ -6,3 +6,5 @@ From Pmat.ipynb:
 - metadata.tsv: contains UMAP coordinates
 - peaks.bed: contains all peaks from snap files (not just those used for diff map + UMAP). No iPSC peaks.
 - pmat.sparse.mm: contains raw insertions in each of the above peaks for each of the cells. No iPSC peaks.
+
+Peak set used is merged overlap peaks after extending all summits 250 bp in either direction.
