@@ -1,0 +1,286 @@
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+WARNING:tensorflow:From /home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/modisco/backend/tensorflow_backend.py:87: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From /home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:184: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:186: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-07-03 17:05:35.685827: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-07-03 17:05:36.205812: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2400070000 Hz
+2020-07-03 17:05:36.210849: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e1615356b0 executing computations on platform Host. Devices:
+2020-07-03 17:05:36.210905: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-07-03 17:05:36.222060: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-07-03 17:05:36.286583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: TITAN Xp major: 6 minor: 1 memoryClockRate(GHz): 1.911
+pciBusID: 0000:02:00.0
+2020-07-03 17:05:36.453510: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-07-03 17:05:36.555510: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10
+2020-07-03 17:05:36.734380: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10
+2020-07-03 17:05:36.913760: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10
+2020-07-03 17:05:37.119742: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10
+2020-07-03 17:05:37.290645: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10
+2020-07-03 17:05:38.161499: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-07-03 17:05:38.165505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-07-03 17:05:38.165659: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.1
+2020-07-03 17:05:38.336531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-07-03 17:05:38.336628: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-07-03 17:05:38.336659: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-07-03 17:05:38.342359: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11436 MB memory) -> physical GPU (device: 0, name: TITAN Xp, pci bus id: 0000:02:00.0, compute capability: 6.1)
+2020-07-03 17:05:38.359805: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e16ce12510 executing computations on platform CUDA. Devices:
+2020-07-03 17:05:38.359870: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): TITAN Xp, Compute Capability 6.1
+WARNING:tensorflow:From /home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+2020-07-03 17:05:43.327895: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:25<20:36, 25.23s/it]  4%|▍         | 2/50 [00:46<19:13, 24.03s/it]  6%|▌         | 3/50 [01:11<19:01, 24.29s/it]  8%|▊         | 4/50 [01:26<16:32, 21.57s/it] 10%|█         | 5/50 [01:55<17:46, 23.70s/it] 12%|█▏        | 6/50 [02:27<19:11, 26.18s/it] 14%|█▍        | 7/50 [02:46<17:11, 24.00s/it] 16%|█▌        | 8/50 [03:09<16:42, 23.87s/it] 18%|█▊        | 9/50 [03:33<16:15, 23.79s/it] 20%|██        | 10/50 [03:54<15:20, 23.01s/it] 22%|██▏       | 11/50 [04:14<14:25, 22.20s/it] 24%|██▍       | 12/50 [04:44<15:28, 24.43s/it] 26%|██▌       | 13/50 [05:08<15:01, 24.36s/it] 28%|██▊       | 14/50 [05:27<13:41, 22.82s/it] 30%|███       | 15/50 [05:50<13:15, 22.73s/it] 32%|███▏      | 16/50 [06:15<13:14, 23.38s/it] 34%|███▍      | 17/50 [06:35<12:22, 22.49s/it] 36%|███▌      | 18/50 [06:54<11:23, 21.37s/it] 38%|███▊      | 19/50 [07:16<11:12, 21.69s/it] 40%|████      | 20/50 [07:35<10:25, 20.87s/it] 42%|████▏     | 21/50 [07:53<09:38, 19.95s/it] 44%|████▍     | 22/50 [08:20<10:20, 22.15s/it] 46%|████▌     | 23/50 [08:57<11:57, 26.57s/it] 48%|████▊     | 24/50 [09:15<10:21, 23.89s/it] 50%|█████     | 25/50 [09:29<08:43, 20.94s/it] 52%|█████▏    | 26/50 [09:55<08:58, 22.45s/it] 54%|█████▍    | 27/50 [10:16<08:27, 22.06s/it] 56%|█████▌    | 28/50 [10:39<08:07, 22.18s/it] 58%|█████▊    | 29/50 [10:54<07:02, 20.11s/it] 60%|██████    | 30/50 [11:13<06:35, 19.77s/it] 62%|██████▏   | 31/50 [11:31<06:04, 19.20s/it] 64%|██████▍   | 32/50 [11:50<05:44, 19.12s/it] 66%|██████▌   | 33/50 [12:11<05:37, 19.84s/it] 68%|██████▊   | 34/50 [12:29<05:07, 19.22s/it] 70%|███████   | 35/50 [12:51<05:03, 20.21s/it] 72%|███████▏  | 36/50 [13:10<04:37, 19.85s/it] 74%|███████▍  | 37/50 [13:24<03:51, 17.84s/it] 76%|███████▌  | 38/50 [13:41<03:33, 17.78s/it] 78%|███████▊  | 39/50 [13:57<03:07, 17.04s/it] 80%|████████  | 40/50 [14:17<03:00, 18.03s/it] 82%|████████▏ | 41/50 [14:36<02:44, 18.31s/it] 84%|████████▍ | 42/50 [14:50<02:16, 17.03s/it] 86%|████████▌ | 43/50 [15:09<02:03, 17.58s/it] 88%|████████▊ | 44/50 [15:32<01:54, 19.15s/it] 90%|█████████ | 45/50 [16:00<01:49, 21.97s/it] 92%|█████████▏| 46/50 [16:25<01:31, 22.92s/it] 94%|█████████▍| 47/50 [17:00<01:19, 26.38s/it] 96%|█████████▌| 48/50 [17:25<00:51, 25.97s/it] 98%|█████████▊| 49/50 [17:53<00:26, 26.71s/it]100%|██████████| 50/50 [18:23<00:00, 27.78s/it]100%|██████████| 50/50 [18:23<00:00, 22.08s/it]
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:17<14:24, 17.64s/it]  4%|▍         | 2/50 [00:31<13:12, 16.51s/it]  6%|▌         | 3/50 [00:47<12:44, 16.28s/it]  8%|▊         | 4/50 [01:03<12:32, 16.37s/it] 10%|█         | 5/50 [01:17<11:38, 15.51s/it] 12%|█▏        | 6/50 [01:36<12:05, 16.49s/it] 14%|█▍        | 7/50 [01:49<11:10, 15.59s/it] 16%|█▌        | 8/50 [02:07<11:20, 16.21s/it] 18%|█▊        | 9/50 [02:19<10:18, 15.08s/it] 20%|██        | 10/50 [02:32<09:34, 14.35s/it] 22%|██▏       | 11/50 [02:46<09:22, 14.42s/it] 24%|██▍       | 12/50 [02:59<08:45, 13.83s/it] 26%|██▌       | 13/50 [03:15<08:56, 14.49s/it] 28%|██▊       | 14/50 [03:25<07:59, 13.31s/it] 30%|███       | 15/50 [03:40<07:59, 13.69s/it] 32%|███▏      | 16/50 [03:55<07:54, 13.95s/it] 34%|███▍      | 17/50 [04:07<07:27, 13.57s/it] 36%|███▌      | 18/50 [04:22<07:24, 13.88s/it] 38%|███▊      | 19/50 [04:34<06:57, 13.48s/it] 40%|████      | 20/50 [04:46<06:26, 12.87s/it] 42%|████▏     | 21/50 [04:57<06:01, 12.45s/it] 44%|████▍     | 22/50 [05:11<05:57, 12.75s/it] 46%|████▌     | 23/50 [05:24<05:50, 12.97s/it] 48%|████▊     | 24/50 [05:36<05:24, 12.46s/it] 50%|█████     | 25/50 [05:51<05:37, 13.48s/it] 52%|█████▏    | 26/50 [06:17<06:48, 17.03s/it] 54%|█████▍    | 27/50 [06:27<05:45, 15.03s/it] 56%|█████▌    | 28/50 [06:39<05:07, 13.96s/it] 58%|█████▊    | 29/50 [06:53<04:57, 14.15s/it] 60%|██████    | 30/50 [07:10<04:59, 14.96s/it] 62%|██████▏   | 31/50 [07:29<05:06, 16.13s/it] 64%|██████▍   | 32/50 [07:53<05:33, 18.50s/it] 66%|██████▌   | 33/50 [08:09<05:00, 17.66s/it] 68%|██████▊   | 34/50 [08:22<04:23, 16.45s/it] 70%|███████   | 35/50 [08:37<03:58, 15.89s/it] 72%|███████▏  | 36/50 [08:53<03:42, 15.86s/it] 74%|███████▍  | 37/50 [09:14<03:46, 17.41s/it] 76%|███████▌  | 38/50 [09:28<03:18, 16.57s/it] 78%|███████▊  | 39/50 [09:46<03:06, 16.91s/it] 80%|████████  | 40/50 [09:55<02:26, 14.61s/it] 82%|████████▏ | 41/50 [10:10<02:12, 14.73s/it] 84%|████████▍ | 42/50 [10:23<01:52, 14.10s/it] 86%|████████▌ | 43/50 [10:36<01:37, 13.94s/it] 88%|████████▊ | 44/50 [10:56<01:34, 15.74s/it] 90%|█████████ | 45/50 [11:13<01:20, 16.02s/it] 92%|█████████▏| 46/50 [11:26<01:00, 15.23s/it] 94%|█████████▍| 47/50 [11:39<00:43, 14.43s/it] 96%|█████████▌| 48/50 [11:51<00:27, 13.82s/it] 98%|█████████▊| 49/50 [12:09<00:15, 15.04s/it]100%|██████████| 50/50 [12:31<00:00, 17.17s/it]100%|██████████| 50/50 [12:31<00:00, 15.04s/it]
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:18<14:47, 18.12s/it]  4%|▍         | 2/50 [00:40<15:24, 19.27s/it]  6%|▌         | 3/50 [01:06<16:43, 21.36s/it]  8%|▊         | 4/50 [01:30<16:56, 22.10s/it] 10%|█         | 5/50 [01:54<17:01, 22.70s/it] 12%|█▏        | 6/50 [02:17<16:42, 22.78s/it] 14%|█▍        | 7/50 [02:38<15:53, 22.19s/it] 16%|█▌        | 8/50 [03:00<15:37, 22.32s/it] 18%|█▊        | 9/50 [03:26<15:58, 23.39s/it] 20%|██        | 10/50 [03:57<17:09, 25.74s/it] 22%|██▏       | 11/50 [04:28<17:40, 27.20s/it] 24%|██▍       | 12/50 [04:53<16:50, 26.59s/it] 26%|██▌       | 13/50 [05:19<16:15, 26.36s/it] 28%|██▊       | 14/50 [05:43<15:28, 25.80s/it] 30%|███       | 15/50 [06:09<15:05, 25.87s/it] 32%|███▏      | 16/50 [06:37<14:58, 26.44s/it] 34%|███▍      | 17/50 [07:00<13:53, 25.27s/it] 36%|███▌      | 18/50 [07:25<13:26, 25.22s/it] 38%|███▊      | 19/50 [07:43<11:52, 22.99s/it] 40%|████      | 20/50 [08:00<10:43, 21.44s/it] 42%|████▏     | 21/50 [08:29<11:27, 23.71s/it] 44%|████▍     | 22/50 [08:54<11:09, 23.90s/it] 46%|████▌     | 23/50 [09:17<10:39, 23.69s/it] 48%|████▊     | 24/50 [09:41<10:16, 23.72s/it] 50%|█████     | 25/50 [10:06<10:04, 24.18s/it] 52%|█████▏    | 26/50 [10:25<09:04, 22.67s/it] 54%|█████▍    | 27/50 [11:01<10:14, 26.73s/it] 56%|█████▌    | 28/50 [11:21<09:04, 24.75s/it] 58%|█████▊    | 29/50 [11:55<09:36, 27.44s/it] 60%|██████    | 30/50 [12:30<09:52, 29.64s/it] 62%|██████▏   | 31/50 [12:49<08:25, 26.59s/it] 64%|██████▍   | 32/50 [13:14<07:49, 26.07s/it] 66%|██████▌   | 33/50 [13:32<06:40, 23.56s/it] 68%|██████▊   | 34/50 [13:57<06:25, 24.12s/it] 70%|███████   | 35/50 [14:28<06:31, 26.13s/it] 72%|███████▏  | 36/50 [14:58<06:19, 27.12s/it] 74%|███████▍  | 37/50 [15:17<05:21, 24.75s/it] 76%|███████▌  | 38/50 [15:37<04:38, 23.24s/it] 78%|███████▊  | 39/50 [16:03<04:26, 24.20s/it] 80%|████████  | 40/50 [16:26<03:58, 23.82s/it] 82%|████████▏ | 41/50 [17:00<04:03, 27.03s/it] 84%|████████▍ | 42/50 [17:37<03:58, 29.84s/it] 86%|████████▌ | 43/50 [18:00<03:13, 27.69s/it] 88%|████████▊ | 44/50 [18:21<02:34, 25.78s/it] 90%|█████████ | 45/50 [18:39<01:57, 23.44s/it] 92%|█████████▏| 46/50 [19:07<01:39, 24.91s/it] 94%|█████████▍| 47/50 [19:30<01:12, 24.28s/it] 96%|█████████▌| 48/50 [19:58<00:50, 25.37s/it] 98%|█████████▊| 49/50 [20:32<00:28, 28.01s/it]100%|██████████| 50/50 [20:53<00:00, 26.01s/it]100%|██████████| 50/50 [20:53<00:00, 25.08s/it]
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:25<21:04, 25.81s/it]  4%|▍         | 2/50 [00:50<20:19, 25.40s/it]  6%|▌         | 3/50 [01:10<18:40, 23.85s/it]  8%|▊         | 4/50 [01:23<15:50, 20.66s/it] 10%|█         | 5/50 [01:50<16:51, 22.48s/it] 12%|█▏        | 6/50 [02:14<16:50, 22.97s/it] 14%|█▍        | 7/50 [02:27<14:21, 20.05s/it] 16%|█▌        | 8/50 [02:49<14:18, 20.43s/it] 18%|█▊        | 9/50 [03:03<12:46, 18.69s/it] 20%|██        | 10/50 [03:27<13:33, 20.33s/it] 22%|██▏       | 11/50 [03:51<13:55, 21.43s/it] 24%|██▍       | 12/50 [04:11<13:18, 21.02s/it] 26%|██▌       | 13/50 [04:34<13:16, 21.52s/it] 28%|██▊       | 14/50 [04:50<11:54, 19.85s/it] 30%|███       | 15/50 [05:07<11:09, 19.12s/it] 32%|███▏      | 16/50 [05:25<10:31, 18.57s/it] 34%|███▍      | 17/50 [05:54<12:02, 21.88s/it] 36%|███▌      | 18/50 [06:16<11:35, 21.72s/it] 38%|███▊      | 19/50 [06:30<10:07, 19.60s/it] 40%|████      | 20/50 [06:46<09:15, 18.53s/it] 42%|████▏     | 21/50 [07:08<09:23, 19.43s/it] 44%|████▍     | 22/50 [07:33<09:54, 21.23s/it] 46%|████▌     | 23/50 [07:53<09:22, 20.85s/it] 48%|████▊     | 24/50 [08:09<08:23, 19.37s/it] 50%|█████     | 25/50 [08:35<08:49, 21.19s/it] 52%|█████▏    | 26/50 [08:51<07:52, 19.67s/it] 54%|█████▍    | 27/50 [09:22<08:49, 23.04s/it] 56%|█████▌    | 28/50 [09:43<08:17, 22.60s/it] 58%|█████▊    | 29/50 [10:00<07:17, 20.85s/it] 60%|██████    | 30/50 [10:17<06:36, 19.82s/it] 62%|██████▏   | 31/50 [10:38<06:19, 19.95s/it] 64%|██████▍   | 32/50 [11:04<06:35, 21.99s/it] 66%|██████▌   | 33/50 [11:34<06:53, 24.30s/it] 68%|██████▊   | 34/50 [11:56<06:16, 23.55s/it] 70%|███████   | 35/50 [12:11<05:14, 20.94s/it] 72%|███████▏  | 36/50 [12:24<04:20, 18.62s/it] 74%|███████▍  | 37/50 [12:37<03:41, 17.05s/it] 76%|███████▌  | 38/50 [13:01<03:49, 19.14s/it] 78%|███████▊  | 39/50 [13:19<03:24, 18.59s/it] 80%|████████  | 40/50 [13:41<03:18, 19.83s/it] 82%|████████▏ | 41/50 [14:03<03:02, 20.31s/it] 84%|████████▍ | 42/50 [14:18<02:29, 18.64s/it] 86%|████████▌ | 43/50 [14:34<02:04, 17.83s/it] 88%|████████▊ | 44/50 [14:59<02:00, 20.11s/it] 90%|█████████ | 45/50 [15:18<01:38, 19.71s/it] 92%|█████████▏| 46/50 [15:39<01:20, 20.21s/it] 94%|█████████▍| 47/50 [15:59<01:00, 20.21s/it] 96%|█████████▌| 48/50 [16:22<00:42, 21.01s/it] 98%|█████████▊| 49/50 [16:45<00:21, 21.54s/it]100%|██████████| 50/50 [17:10<00:00, 22.70s/it]100%|██████████| 50/50 [17:10<00:00, 20.62s/it]
+/scratch/users/surag/scATAC-reprog/svm/jobscripts/run_modisco.py:159: H5pyDeprecationWarning: The default file mode will change to 'r' (read-only) in h5py 3.0. To suppress this warning, pass the mode you need to h5py.File(), or set the global default h5.get_config().default_file_mode, or set the environment variable H5PY_DEFAULT_READONLY=1. Available modes are: 'r', 'r+', 'w', 'w-'/'x', 'a'. See the docs for details.
+  grp = h5py.File(save_path)
+/scratch/users/surag/scATAC-reprog/svm/jobscripts/run_modisco.py:189: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig = plt.figure(figsize=(20, 2))
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+TF-MoDISco is using the TensorFlow backend.
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/surag/oak/miniconda3/envs/mtbatchgen/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)

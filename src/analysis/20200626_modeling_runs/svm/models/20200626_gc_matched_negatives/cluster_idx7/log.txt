@@ -1,0 +1,2121 @@
+Live
+INFO 2020-06-28 19:34:39: Number of threads is set to 16
+INFO 2020-06-28 19:34:39: Arguments:
+INFO 2020-06-28 19:34:39:   posfile = /scratch/users/surag/scATAC-reprog/svm//data/20200518_n76052//cluster_idx7/fasta/pos.train.fa
+INFO 2020-06-28 19:34:39:   negfile = /scratch/users/surag/scATAC-reprog/svm//data/20200518_n76052//cluster_idx7/fasta/neg.train.fa
+INFO 2020-06-28 19:34:39:   outprefix = /scratch/users/surag/scATAC-reprog/svm//models/20200626_gc_matched_negatives/cluster_idx7/model
+INFO 2020-06-28 19:34:39: Parameters:
+INFO 2020-06-28 19:34:39:   kernel-type = 4
+INFO 2020-06-28 19:34:39:   L = 11
+INFO 2020-06-28 19:34:39:   k = 7
+INFO 2020-06-28 19:34:39:   d = 3
+INFO 2020-06-28 19:34:39:   M = 50
+INFO 2020-06-28 19:34:39:   H = 50
+INFO 2020-06-28 19:34:39:   C = 1
+INFO 2020-06-28 19:34:39:   eps = 0.001
+INFO 2020-06-28 19:34:39:   shrinking = no
+INFO 2020-06-28 19:34:39: reading 55168 sequences from /scratch/users/surag/scATAC-reprog/svm//data/20200518_n76052//cluster_idx7/fasta/pos.train.fa
+INFO 2020-06-28 19:34:39: reading... 0
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(852) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(853) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(854) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(855) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(856) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(857) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(858) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(859) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(860) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(861) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(862) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(863) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(864) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(865) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(866) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(867) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(868) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(869) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(870) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(871) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(872) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(873) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(874) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(875) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(876) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(877) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(878) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(879) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(880) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(881) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(882) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(883) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(884) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(885) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(886) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(887) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(888) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(889) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(890) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(891) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(892) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(893) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(894) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(895) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(896) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(897) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(898) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(899) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(900) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(901) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(902) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(903) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(904) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(905) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(906) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(907) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(908) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(909) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(910) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(911) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(912) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(913) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(914) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(915) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(916) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(917) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(918) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(919) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(920) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(921) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(922) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(923) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(924) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(925) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(926) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(927) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(928) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(929) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(930) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(931) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(932) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(933) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(934) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(935) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(936) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(937) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(938) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(939) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(940) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(941) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(942) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(943) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(944) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(945) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(946) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(947) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(948) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(949) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(950) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(951) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(952) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(953) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(954) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(955) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(956) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(957) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(958) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(959) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(960) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(961) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(962) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(963) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(964) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(965) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(966) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(967) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(968) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(969) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(970) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(971) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(972) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(973) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(974) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(975) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(976) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(977) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(978) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(979) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(980) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(981) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(982) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(983) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(984) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(985) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(986) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(987) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(988) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(989) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(990) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(991) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(992) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(993) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(994) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(995) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(996) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(997) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(998) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:489543-490543(999) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(0) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(1) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(2) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(3) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(4) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(5) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(6) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(7) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(8) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(9) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(10) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(11) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(12) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(13) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(14) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(15) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(16) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(17) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(18) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(19) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(20) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(21) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(22) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(23) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(24) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(25) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(26) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(27) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(28) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(29) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(30) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(31) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(32) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(33) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(34) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(35) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(36) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(37) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(38) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(39) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(40) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(41) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(42) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(43) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(44) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(45) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(46) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(47) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(48) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(49) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(50) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(51) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(52) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(53) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(54) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(55) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(56) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(57) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(58) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(59) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(60) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(61) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(62) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(63) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(64) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(65) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(66) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(67) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(68) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(69) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(70) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(71) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(72) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(73) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(74) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(75) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(76) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(77) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(78) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(79) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(80) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(81) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(82) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(83) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(84) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(85) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(86) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(87) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(88) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(89) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(90) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(91) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(92) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(93) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(94) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(95) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(96) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(97) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(98) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(99) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(100) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(101) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(102) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(103) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(104) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(105) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(106) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(107) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(108) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(109) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(110) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(111) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(112) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(113) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(114) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(115) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(116) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(117) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(118) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(119) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(120) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(121) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(122) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(123) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(124) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(125) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(126) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(127) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(128) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(129) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(130) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(131) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(132) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(133) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(134) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(135) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(136) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(137) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(138) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(139) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(140) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(141) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(142) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(143) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(144) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(145) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(146) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(147) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(148) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(149) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(150) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(151) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(152) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(153) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(154) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(155) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(156) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(157) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(158) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(159) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(160) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(161) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(162) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(163) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(164) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(165) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(166) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(167) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(168) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(169) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(170) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(171) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(172) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(173) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(174) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(175) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(176) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(177) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(178) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(179) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(180) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(181) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(182) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(183) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(184) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(185) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(186) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(187) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(188) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(189) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(190) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(191) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(192) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(193) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(194) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(195) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(196) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(197) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(198) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(199) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(200) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(201) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(202) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(203) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(204) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(205) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(206) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(207) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(208) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(209) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(210) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(211) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(212) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(213) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(214) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(215) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(216) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(217) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(218) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(219) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(220) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(221) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(222) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(223) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(224) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(225) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(226) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(227) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(228) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(229) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(230) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(231) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(232) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(233) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(234) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(235) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(236) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(237) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(238) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(239) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(240) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(241) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(242) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(243) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(244) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(245) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(246) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(247) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(248) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(249) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(250) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(251) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(252) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(253) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:40: 'N' at chr17:490856-491856(254) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:34:41: reading... 1000
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(0) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(1) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(2) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(3) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(4) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(5) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(6) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(7) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(8) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(9) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(10) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(11) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(12) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(13) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(14) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(15) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(16) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(17) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(18) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(19) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(20) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(21) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(22) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(23) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(24) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(25) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(26) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(27) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(28) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(29) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(30) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(31) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(32) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(33) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(34) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(35) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(36) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(37) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(38) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(39) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(40) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(41) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(42) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(43) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(44) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(45) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(46) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(47) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(48) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(49) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(50) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(51) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(52) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(53) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(54) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(55) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(56) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(57) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(58) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(59) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(60) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(61) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(62) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(63) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(64) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(65) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(66) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(67) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(68) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(69) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(70) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(71) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(72) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(73) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(74) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(75) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(76) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(77) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(78) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(79) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(80) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(81) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(82) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(83) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(84) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(85) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(86) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(87) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(88) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(89) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(90) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(91) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(92) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(93) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(94) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(95) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(96) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(97) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(98) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(99) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(100) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(101) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(102) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(103) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(104) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(105) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(106) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(107) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(108) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(109) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(110) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(111) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(112) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(113) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(114) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(115) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(116) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(117) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(118) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(119) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(120) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(121) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(122) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(123) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(124) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(125) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(126) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(127) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(128) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(129) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(130) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(131) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(132) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(133) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(134) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(135) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(136) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(137) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(138) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(139) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(140) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(141) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(142) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(143) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(144) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(145) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(146) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(147) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(148) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(149) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(150) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(151) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(152) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(153) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(154) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(155) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(156) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(157) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(158) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(159) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(160) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(161) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(162) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(163) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(164) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(165) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(166) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(167) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(168) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(169) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(170) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(171) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(172) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(173) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(174) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(175) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(176) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(177) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(178) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(179) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(180) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(181) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(182) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(183) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(184) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(185) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(186) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(187) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(188) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(189) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(190) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(191) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(192) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(193) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(194) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(195) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(196) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(197) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(198) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(199) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(200) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(201) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(202) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(203) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(204) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(205) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(206) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(207) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(208) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(209) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(210) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(211) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(212) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(213) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(214) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(215) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(216) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(217) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(218) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(219) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(220) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(221) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(222) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(223) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(224) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(225) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(226) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(227) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(228) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(229) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(230) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(231) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(232) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(233) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(234) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(235) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(236) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(237) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(238) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(239) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(240) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(241) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(242) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(243) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(244) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(245) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(246) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(247) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(248) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(249) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(250) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(251) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(252) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(253) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(254) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(255) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(256) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(257) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(258) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(259) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(260) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(261) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(262) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(263) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(264) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(265) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(266) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(267) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(268) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(269) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(270) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(271) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(272) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(273) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(274) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(275) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(276) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(277) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(278) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(279) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(280) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(281) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(282) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(283) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(284) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(285) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(286) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(287) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(288) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(289) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(290) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(291) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(292) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(293) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(294) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(295) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(296) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(297) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(298) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(299) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(300) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(301) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(302) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(303) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(304) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(305) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(306) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(307) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(308) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(309) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(310) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(311) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(312) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(313) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(314) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(315) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(316) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(317) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(318) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(319) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(320) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(321) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(322) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(323) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(324) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(325) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(326) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(327) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(328) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(329) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(330) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(331) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(332) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(333) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(334) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(335) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(336) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(337) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(338) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(339) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(340) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(341) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(342) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(343) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(344) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(345) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(346) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(347) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(348) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(349) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(350) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(351) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(352) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(353) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(354) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(355) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(356) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(357) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(358) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(359) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(360) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(361) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(362) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(363) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(364) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(365) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(366) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(367) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(368) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(369) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(370) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(371) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(372) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(373) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(374) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(375) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(376) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(377) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(378) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(379) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(380) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(381) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(382) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(383) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(384) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(385) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(386) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(387) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(388) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(389) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(390) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(391) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(392) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(393) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(394) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(395) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(396) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(397) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(398) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(399) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(400) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(401) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(402) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(403) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(404) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(405) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(406) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(407) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(408) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(409) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(410) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(411) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(412) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(413) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(414) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(415) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(416) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(417) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(418) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(419) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(420) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(421) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(422) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(423) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(424) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(425) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(426) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(427) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(428) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(429) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(430) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(431) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(432) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(433) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(434) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(435) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(436) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(437) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(438) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(439) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(440) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(441) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(442) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'N' at chr17:488543-489543(443) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:34:41: 'R' at chr17:488543-489543(830) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:34:42: reading... 2000
+INFO 2020-06-28 19:34:44: reading... 3000
+INFO 2020-06-28 19:34:45: reading... 4000
+INFO 2020-06-28 19:34:46: reading... 5000
+INFO 2020-06-28 19:34:47: reading... 6000
+INFO 2020-06-28 19:34:48: reading... 7000
+INFO 2020-06-28 19:34:50: reading... 8000
+INFO 2020-06-28 19:34:51: reading... 9000
+INFO 2020-06-28 19:34:52: reading... 10000
+INFO 2020-06-28 19:34:53: reading... 11000
+INFO 2020-06-28 19:34:54: reading... 12000
+WARN 2020-06-28 19:34:55: 'N' at chr10:58267521-58268521(421) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:34:55: reading... 13000
+INFO 2020-06-28 19:34:56: reading... 14000
+INFO 2020-06-28 19:34:58: reading... 15000
+INFO 2020-06-28 19:34:59: reading... 16000
+INFO 2020-06-28 19:35:00: reading... 17000
+INFO 2020-06-28 19:35:02: reading... 18000
+INFO 2020-06-28 19:35:03: reading... 19000
+INFO 2020-06-28 19:35:04: reading... 20000
+INFO 2020-06-28 19:35:06: reading... 21000
+INFO 2020-06-28 19:35:07: reading... 22000
+INFO 2020-06-28 19:35:08: reading... 23000
+INFO 2020-06-28 19:35:09: reading... 24000
+INFO 2020-06-28 19:35:11: reading... 25000
+INFO 2020-06-28 19:35:12: reading... 26000
+INFO 2020-06-28 19:35:14: reading... 27000
+INFO 2020-06-28 19:35:15: reading... 28000
+INFO 2020-06-28 19:35:17: reading... 29000
+INFO 2020-06-28 19:35:18: reading... 30000
+INFO 2020-06-28 19:35:19: reading... 31000
+INFO 2020-06-28 19:35:20: reading... 32000
+INFO 2020-06-28 19:35:21: reading... 33000
+INFO 2020-06-28 19:35:22: reading... 34000
+INFO 2020-06-28 19:35:23: reading... 35000
+INFO 2020-06-28 19:35:24: reading... 36000
+INFO 2020-06-28 19:35:26: reading... 37000
+INFO 2020-06-28 19:35:27: reading... 38000
+INFO 2020-06-28 19:35:28: reading... 39000
+INFO 2020-06-28 19:35:29: reading... 40000
+INFO 2020-06-28 19:35:31: reading... 41000
+INFO 2020-06-28 19:35:32: reading... 42000
+INFO 2020-06-28 19:35:34: reading... 43000
+INFO 2020-06-28 19:35:35: reading... 44000
+INFO 2020-06-28 19:35:37: reading... 45000
+INFO 2020-06-28 19:35:38: reading... 46000
+INFO 2020-06-28 19:35:40: reading... 47000
+INFO 2020-06-28 19:35:41: reading... 48000
+INFO 2020-06-28 19:35:42: reading... 49000
+INFO 2020-06-28 19:35:44: reading... 50000
+INFO 2020-06-28 19:35:45: reading... 51000
+INFO 2020-06-28 19:35:47: reading... 52000
+INFO 2020-06-28 19:35:48: reading... 53000
+INFO 2020-06-28 19:35:49: reading... 54000
+INFO 2020-06-28 19:35:50: reading... 55000
+INFO 2020-06-28 19:35:50: reading... done
+INFO 2020-06-28 19:35:50: reading 55168 sequences from /scratch/users/surag/scATAC-reprog/svm//data/20200518_n76052//cluster_idx7/fasta/neg.train.fa
+INFO 2020-06-28 19:35:50: reading... 0
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(554) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(555) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(556) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(557) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(558) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(559) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(560) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(561) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(562) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(563) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(564) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(565) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(566) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(567) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(568) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(569) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(570) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(571) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(572) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(573) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(574) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(575) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(576) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(577) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(578) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(579) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(580) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(581) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(582) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(583) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(584) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(585) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(586) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(587) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(588) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(589) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(590) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(591) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(592) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(593) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(594) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(595) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(596) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(597) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(598) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(599) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(600) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(601) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(602) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(603) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(604) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(605) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(606) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(607) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(608) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(609) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(610) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(611) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(612) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(613) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(614) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(615) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(616) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(617) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(618) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(619) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(620) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(621) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(622) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(623) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(624) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(625) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:51: 'N' at chr17:26638000-26639000(626) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:35:52: reading... 1000
+INFO 2020-06-28 19:35:53: reading... 2000
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(980) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(981) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(982) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(983) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(984) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(985) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(986) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(987) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(988) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(989) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(990) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(991) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(992) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(993) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(994) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(995) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(996) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(997) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(998) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:35:53: 'N' at chr17:26885000-26886000(999) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:35:54: reading... 3000
+INFO 2020-06-28 19:35:55: reading... 4000
+INFO 2020-06-28 19:35:56: reading... 5000
+INFO 2020-06-28 19:35:57: reading... 6000
+INFO 2020-06-28 19:35:59: reading... 7000
+INFO 2020-06-28 19:36:00: reading... 8000
+INFO 2020-06-28 19:36:02: reading... 9000
+INFO 2020-06-28 19:36:03: reading... 10000
+INFO 2020-06-28 19:36:04: reading... 11000
+INFO 2020-06-28 19:36:06: reading... 12000
+INFO 2020-06-28 19:36:07: reading... 13000
+INFO 2020-06-28 19:36:08: reading... 14000
+INFO 2020-06-28 19:36:09: reading... 15000
+INFO 2020-06-28 19:36:10: reading... 16000
+INFO 2020-06-28 19:36:12: reading... 17000
+INFO 2020-06-28 19:36:13: reading... 18000
+INFO 2020-06-28 19:36:14: reading... 19000
+INFO 2020-06-28 19:36:15: reading... 20000
+INFO 2020-06-28 19:36:16: reading... 21000
+INFO 2020-06-28 19:36:18: reading... 22000
+INFO 2020-06-28 19:36:19: reading... 23000
+INFO 2020-06-28 19:36:20: reading... 24000
+INFO 2020-06-28 19:36:21: reading... 25000
+INFO 2020-06-28 19:36:23: reading... 26000
+INFO 2020-06-28 19:36:24: reading... 27000
+INFO 2020-06-28 19:36:25: reading... 28000
+INFO 2020-06-28 19:36:26: reading... 29000
+INFO 2020-06-28 19:36:27: reading... 30000
+INFO 2020-06-28 19:36:28: reading... 31000
+INFO 2020-06-28 19:36:30: reading... 32000
+INFO 2020-06-28 19:36:31: reading... 33000
+INFO 2020-06-28 19:36:32: reading... 34000
+INFO 2020-06-28 19:36:34: reading... 35000
+INFO 2020-06-28 19:36:35: reading... 36000
+INFO 2020-06-28 19:36:36: reading... 37000
+INFO 2020-06-28 19:36:38: reading... 38000
+INFO 2020-06-28 19:36:39: reading... 39000
+INFO 2020-06-28 19:36:40: reading... 40000
+WARN 2020-06-28 19:36:41: 'N' at chr21:8216400-8217400(806) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:36:41: reading... 41000
+INFO 2020-06-28 19:36:43: reading... 42000
+INFO 2020-06-28 19:36:44: reading... 43000
+INFO 2020-06-28 19:36:45: reading... 44000
+INFO 2020-06-28 19:36:46: reading... 45000
+INFO 2020-06-28 19:36:47: reading... 46000
+INFO 2020-06-28 19:36:49: reading... 47000
+WARN 2020-06-28 19:36:49: 'M' at chr2:239865550-239866550(740) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:36:50: reading... 48000
+INFO 2020-06-28 19:36:51: reading... 49000
+INFO 2020-06-28 19:36:52: reading... 50000
+INFO 2020-06-28 19:36:53: reading... 51000
+INFO 2020-06-28 19:36:54: reading... 52000
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(877) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(878) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(879) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(880) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(881) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(882) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(883) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(884) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(885) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(886) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(887) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(888) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(889) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(890) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(891) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(892) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(893) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(894) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(895) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(896) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(897) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(898) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(899) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(900) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(901) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(902) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(903) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(904) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(905) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(906) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(907) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(908) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(909) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(910) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(911) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(912) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(913) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(914) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(915) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(916) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(917) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(918) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(919) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(920) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(921) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(922) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(923) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(924) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(925) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(926) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(927) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(928) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(929) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(930) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(931) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(932) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(933) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(934) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(935) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(936) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(937) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(938) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(939) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(940) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(941) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(942) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(943) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(944) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(945) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(946) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(947) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(948) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(949) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(950) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(951) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(952) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(953) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(954) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(955) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(956) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(957) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(958) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(959) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(960) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(961) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(962) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(963) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(964) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(965) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(966) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(967) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(968) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(969) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(970) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(971) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(972) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(973) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(974) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(975) is not a valid nucleotide. Only ACGT are allowed
+WARN 2020-06-28 19:36:55: 'N' at chr13:16227650-16228650(976) is not a valid nucleotide. Only ACGT are allowed
+INFO 2020-06-28 19:36:55: reading... 53000
+INFO 2020-06-28 19:36:57: reading... 54000
+INFO 2020-06-28 19:36:58: reading... 55000
+INFO 2020-06-28 19:36:58: reading... done
+INFO 2020-06-28 19:36:58: begin SVM training
+INFO 2020-06-28 19:40:19: iter 100, max_viol=2.73319
+INFO 2020-06-28 19:41:32: iter 200, max_viol=2.55364
+INFO 2020-06-28 19:42:42: iter 300, max_viol=2.77103
+INFO 2020-06-28 19:43:54: iter 400, max_viol=2.49188
+INFO 2020-06-28 19:45:06: iter 500, max_viol=2.45886
+INFO 2020-06-28 19:46:18: iter 600, max_viol=2.44812
+INFO 2020-06-28 19:47:30: iter 700, max_viol=2.4822
+INFO 2020-06-28 19:48:41: iter 800, max_viol=2.6326
+INFO 2020-06-28 19:49:49: iter 900, max_viol=2.44817
+INFO 2020-06-28 19:50:59: iter 1000, max_viol=2.46604
+INFO 2020-06-28 19:52:09: iter 1100, max_viol=2.44709
+INFO 2020-06-28 19:53:18: iter 1200, max_viol=2.46318
+INFO 2020-06-28 19:54:28: iter 1300, max_viol=2.48452
+INFO 2020-06-28 19:55:37: iter 1400, max_viol=2.48437
+INFO 2020-06-28 19:56:45: iter 1500, max_viol=2.49746
+INFO 2020-06-28 19:57:54: iter 1600, max_viol=2.47966
+INFO 2020-06-28 19:59:02: iter 1700, max_viol=2.49812
+INFO 2020-06-28 20:00:11: iter 1800, max_viol=2.49722
+INFO 2020-06-28 20:01:19: iter 1900, max_viol=2.48599
+INFO 2020-06-28 20:02:28: iter 2000, max_viol=2.50208
+INFO 2020-06-28 20:03:38: iter 2100, max_viol=2.49446
+INFO 2020-06-28 20:04:46: iter 2200, max_viol=2.51061
+INFO 2020-06-28 20:05:53: iter 2300, max_viol=2.52846
+INFO 2020-06-28 20:07:03: iter 2400, max_viol=2.51259
+INFO 2020-06-28 20:08:12: iter 2500, max_viol=2.52314
+INFO 2020-06-28 20:09:19: iter 2600, max_viol=2.51198
+INFO 2020-06-28 20:10:27: iter 2700, max_viol=2.49277
+INFO 2020-06-28 20:11:35: iter 2800, max_viol=2.5127
+INFO 2020-06-28 20:12:43: iter 2900, max_viol=2.4961
+INFO 2020-06-28 20:13:51: iter 3000, max_viol=2.54051
+INFO 2020-06-28 20:15:00: iter 3100, max_viol=2.50428
+INFO 2020-06-28 20:16:08: iter 3200, max_viol=2.5122
+INFO 2020-06-28 20:17:16: iter 3300, max_viol=2.50757
+INFO 2020-06-28 20:18:24: iter 3400, max_viol=2.51582
+INFO 2020-06-28 20:19:32: iter 3500, max_viol=2.52317
+INFO 2020-06-28 20:20:41: iter 3600, max_viol=2.50518
+INFO 2020-06-28 20:21:48: iter 3700, max_viol=2.49906
+INFO 2020-06-28 20:22:55: iter 3800, max_viol=2.50035
+INFO 2020-06-28 20:24:01: iter 3900, max_viol=2.5014
+INFO 2020-06-28 20:25:10: iter 4000, max_viol=2.52507
+INFO 2020-06-28 20:26:21: iter 4100, max_viol=2.49516
+INFO 2020-06-28 20:27:31: iter 4200, max_viol=2.51214
+INFO 2020-06-28 20:28:38: iter 4300, max_viol=2.47572
+INFO 2020-06-28 20:29:46: iter 4400, max_viol=2.52546
+INFO 2020-06-28 20:30:54: iter 4500, max_viol=2.50386
+INFO 2020-06-28 20:32:00: iter 4600, max_viol=2.47279
+INFO 2020-06-28 20:33:08: iter 4700, max_viol=2.48102
+INFO 2020-06-28 20:34:16: iter 4800, max_viol=2.45876
+INFO 2020-06-28 20:35:24: iter 4900, max_viol=2.47101
+INFO 2020-06-28 20:36:33: iter 5000, max_viol=2.46467
+INFO 2020-06-28 20:37:42: iter 5100, max_viol=2.46924
+INFO 2020-06-28 20:38:49: iter 5200, max_viol=2.45789
+INFO 2020-06-28 20:39:58: iter 5300, max_viol=2.47256
+INFO 2020-06-28 20:41:04: iter 5400, max_viol=2.46152
+INFO 2020-06-28 20:42:12: iter 5500, max_viol=2.44575
+INFO 2020-06-28 20:43:20: iter 5600, max_viol=2.4384
+INFO 2020-06-28 20:44:28: iter 5700, max_viol=2.4405
+INFO 2020-06-28 20:45:37: iter 5800, max_viol=2.43377
+INFO 2020-06-28 20:46:46: iter 5900, max_viol=2.45983
+INFO 2020-06-28 20:47:54: iter 6000, max_viol=2.42233
+INFO 2020-06-28 20:49:01: iter 6100, max_viol=2.42105
+INFO 2020-06-28 20:50:08: iter 6200, max_viol=2.43713
+INFO 2020-06-28 20:51:15: iter 6300, max_viol=2.42671
+INFO 2020-06-28 20:52:23: iter 6400, max_viol=2.40066
+INFO 2020-06-28 20:53:30: iter 6500, max_viol=2.42176
+INFO 2020-06-28 20:54:38: iter 6600, max_viol=2.39828
+INFO 2020-06-28 20:55:46: iter 6700, max_viol=2.39273
+INFO 2020-06-28 20:56:54: iter 6800, max_viol=2.38408
+INFO 2020-06-28 20:58:01: iter 6900, max_viol=2.38459
+INFO 2020-06-28 20:59:08: iter 7000, max_viol=2.36783
+INFO 2020-06-28 21:00:15: iter 7100, max_viol=2.37025
+INFO 2020-06-28 21:01:24: iter 7200, max_viol=2.37595
+INFO 2020-06-28 21:02:31: iter 7300, max_viol=2.37524
+INFO 2020-06-28 21:03:39: iter 7400, max_viol=2.33921
+INFO 2020-06-28 21:04:46: iter 7500, max_viol=2.3384
+INFO 2020-06-28 21:05:54: iter 7600, max_viol=2.35068
+INFO 2020-06-28 21:07:02: iter 7700, max_viol=2.35065
+INFO 2020-06-28 21:08:10: iter 7800, max_viol=2.31862
+INFO 2020-06-28 21:09:17: iter 7900, max_viol=2.31691
+INFO 2020-06-28 21:10:24: iter 8000, max_viol=2.31878
+INFO 2020-06-28 21:11:31: iter 8100, max_viol=2.29709
+INFO 2020-06-28 21:12:38: iter 8200, max_viol=2.30054
+INFO 2020-06-28 21:13:46: iter 8300, max_viol=2.29586
+INFO 2020-06-28 21:14:54: iter 8400, max_viol=2.35351
+INFO 2020-06-28 21:16:01: iter 8500, max_viol=2.26927
+INFO 2020-06-28 21:17:08: iter 8600, max_viol=2.25553
+INFO 2020-06-28 21:18:16: iter 8700, max_viol=2.25856
+INFO 2020-06-28 21:19:25: iter 8800, max_viol=2.26737
+INFO 2020-06-28 21:20:33: iter 8900, max_viol=2.24182
+INFO 2020-06-28 21:21:40: iter 9000, max_viol=2.22249
+INFO 2020-06-28 21:22:49: iter 9100, max_viol=2.21252
+INFO 2020-06-28 21:23:58: iter 9200, max_viol=2.2079
+INFO 2020-06-28 21:25:05: iter 9300, max_viol=2.21247
+INFO 2020-06-28 21:26:12: iter 9400, max_viol=2.22598
+INFO 2020-06-28 21:27:21: iter 9500, max_viol=2.1767
+INFO 2020-06-28 21:28:28: iter 9600, max_viol=2.17416
+INFO 2020-06-28 21:29:35: iter 9700, max_viol=2.15117
+INFO 2020-06-28 21:30:43: iter 9800, max_viol=2.16476
+INFO 2020-06-28 21:31:50: iter 9900, max_viol=2.142
+INFO 2020-06-28 21:32:58: iter 10000, max_viol=2.12234
+INFO 2020-06-28 21:34:07: iter 10100, max_viol=2.1135
+INFO 2020-06-28 21:35:13: iter 10200, max_viol=2.10411
+INFO 2020-06-28 21:36:20: iter 10300, max_viol=2.07991
+INFO 2020-06-28 21:37:27: iter 10400, max_viol=2.0817
+INFO 2020-06-28 21:38:35: iter 10500, max_viol=2.07604
+INFO 2020-06-28 21:39:42: iter 10600, max_viol=2.06729
+INFO 2020-06-28 21:40:50: iter 10700, max_viol=2.05946
+INFO 2020-06-28 21:41:57: iter 10800, max_viol=2.03154
+INFO 2020-06-28 21:43:04: iter 10900, max_viol=2.00383
+INFO 2020-06-28 21:44:11: iter 11000, max_viol=2.00526
+INFO 2020-06-28 21:45:18: iter 11100, max_viol=2.00209
+INFO 2020-06-28 21:46:27: iter 11200, max_viol=1.99035
+INFO 2020-06-28 21:47:35: iter 11300, max_viol=1.97303
+INFO 2020-06-28 21:48:42: iter 11400, max_viol=1.96413
+INFO 2020-06-28 21:49:50: iter 11500, max_viol=1.94387
+INFO 2020-06-28 21:50:57: iter 11600, max_viol=1.94433
+INFO 2020-06-28 21:52:02: iter 11700, max_viol=1.92398
+INFO 2020-06-28 21:53:08: iter 11800, max_viol=1.88259
+INFO 2020-06-28 21:54:14: iter 11900, max_viol=1.88345
+INFO 2020-06-28 21:55:20: iter 12000, max_viol=1.91875
+INFO 2020-06-28 21:56:26: iter 12100, max_viol=1.8411
+INFO 2020-06-28 21:57:30: iter 12200, max_viol=1.82769
+INFO 2020-06-28 21:58:37: iter 12300, max_viol=1.79765
+INFO 2020-06-28 21:59:44: iter 12400, max_viol=1.78943
+INFO 2020-06-28 22:00:49: iter 12500, max_viol=1.76576
+INFO 2020-06-28 22:01:53: iter 12600, max_viol=1.7524
+INFO 2020-06-28 22:02:59: iter 12700, max_viol=1.72165
+INFO 2020-06-28 22:04:04: iter 12800, max_viol=1.72404
+INFO 2020-06-28 22:05:09: iter 12900, max_viol=1.70945
+INFO 2020-06-28 22:06:14: iter 13000, max_viol=1.66953
+INFO 2020-06-28 22:07:17: iter 13100, max_viol=1.65182
+INFO 2020-06-28 22:08:22: iter 13200, max_viol=1.62982
+INFO 2020-06-28 22:09:25: iter 13300, max_viol=1.64542
+INFO 2020-06-28 22:10:30: iter 13400, max_viol=1.60002
+INFO 2020-06-28 22:11:33: iter 13500, max_viol=1.5877
+INFO 2020-06-28 22:12:31: iter 13600, max_viol=1.57889
+INFO 2020-06-28 22:13:33: iter 13700, max_viol=1.57685
+INFO 2020-06-28 22:14:38: iter 13800, max_viol=1.52524
+INFO 2020-06-28 22:15:38: iter 13900, max_viol=1.5169
+INFO 2020-06-28 22:16:37: iter 14000, max_viol=1.49473
+INFO 2020-06-28 22:17:38: iter 14100, max_viol=1.48356
+INFO 2020-06-28 22:18:40: iter 14200, max_viol=1.46439
+INFO 2020-06-28 22:19:40: iter 14300, max_viol=1.45268
+INFO 2020-06-28 22:20:41: iter 14400, max_viol=1.43264
+INFO 2020-06-28 22:21:38: iter 14500, max_viol=1.42218
+INFO 2020-06-28 22:22:38: iter 14600, max_viol=1.40274
+INFO 2020-06-28 22:23:36: iter 14700, max_viol=1.38428
+INFO 2020-06-28 22:24:36: iter 14800, max_viol=1.36689
+INFO 2020-06-28 22:25:36: iter 14900, max_viol=1.35145
+INFO 2020-06-28 22:26:32: iter 15000, max_viol=1.32531
+INFO 2020-06-28 22:27:30: iter 15100, max_viol=1.3234
+INFO 2020-06-28 22:28:28: iter 15200, max_viol=1.29247
+INFO 2020-06-28 22:29:25: iter 15300, max_viol=1.27535
+INFO 2020-06-28 22:30:20: iter 15400, max_viol=1.26527
+INFO 2020-06-28 22:31:16: iter 15500, max_viol=1.2635
+INFO 2020-06-28 22:32:11: iter 15600, max_viol=1.25362
+INFO 2020-06-28 22:33:06: iter 15700, max_viol=1.21417
+INFO 2020-06-28 22:33:56: iter 15800, max_viol=1.19388
+INFO 2020-06-28 22:34:48: iter 15900, max_viol=1.1897
+INFO 2020-06-28 22:35:41: iter 16000, max_viol=1.16995
+INFO 2020-06-28 22:36:34: iter 16100, max_viol=1.16849
+INFO 2020-06-28 22:37:25: iter 16200, max_viol=1.14437
+INFO 2020-06-28 22:38:20: iter 16300, max_viol=1.12825
+INFO 2020-06-28 22:39:10: iter 16400, max_viol=1.11888
+INFO 2020-06-28 22:40:00: iter 16500, max_viol=1.11135
+INFO 2020-06-28 22:40:48: iter 16600, max_viol=1.09224
+INFO 2020-06-28 22:41:36: iter 16700, max_viol=1.07985
+INFO 2020-06-28 22:42:25: iter 16800, max_viol=1.05577
+INFO 2020-06-28 22:43:15: iter 16900, max_viol=1.04944
+INFO 2020-06-28 22:44:05: iter 17000, max_viol=1.03925
+INFO 2020-06-28 22:44:53: iter 17100, max_viol=1.03172
+INFO 2020-06-28 22:45:41: iter 17200, max_viol=1.01327
+INFO 2020-06-28 22:46:22: iter 17300, max_viol=1.00752
+INFO 2020-06-28 22:47:05: iter 17400, max_viol=1.00363
+INFO 2020-06-28 22:47:49: iter 17500, max_viol=0.983001
+INFO 2020-06-28 22:48:30: iter 17600, max_viol=0.971201
+INFO 2020-06-28 22:49:12: iter 17700, max_viol=0.96668
+INFO 2020-06-28 22:49:57: iter 17800, max_viol=0.954847
+INFO 2020-06-28 22:50:39: iter 17900, max_viol=0.938568
+INFO 2020-06-28 22:51:18: iter 18000, max_viol=0.92621
+INFO 2020-06-28 22:51:55: iter 18100, max_viol=0.921387
+INFO 2020-06-28 22:52:35: iter 18200, max_viol=0.913516
+INFO 2020-06-28 22:53:17: iter 18300, max_viol=0.894112
+INFO 2020-06-28 22:53:58: iter 18400, max_viol=0.883313
+INFO 2020-06-28 22:54:40: iter 18500, max_viol=0.8704
+INFO 2020-06-28 22:55:18: iter 18600, max_viol=0.860034
+INFO 2020-06-28 22:55:56: iter 18700, max_viol=0.852634
+INFO 2020-06-28 22:56:36: iter 18800, max_viol=0.840045
+INFO 2020-06-28 22:57:14: iter 18900, max_viol=0.830855
+INFO 2020-06-28 22:57:52: iter 19000, max_viol=0.829704
+INFO 2020-06-28 22:58:28: iter 19100, max_viol=0.814457
+INFO 2020-06-28 22:59:04: iter 19200, max_viol=0.809706
+INFO 2020-06-28 22:59:42: iter 19300, max_viol=0.796704
+INFO 2020-06-28 23:00:17: iter 19400, max_viol=0.786725
+INFO 2020-06-28 23:00:52: iter 19500, max_viol=0.779528
+INFO 2020-06-28 23:01:32: iter 19600, max_viol=0.76824
+INFO 2020-06-28 23:02:05: iter 19700, max_viol=0.763818
+INFO 2020-06-28 23:02:41: iter 19800, max_viol=0.746176
+INFO 2020-06-28 23:03:17: iter 19900, max_viol=0.788022
+INFO 2020-06-28 23:03:54: iter 20000, max_viol=0.74809
+INFO 2020-06-28 23:04:29: iter 20100, max_viol=0.719992
+INFO 2020-06-28 23:05:05: iter 20200, max_viol=0.713099
+INFO 2020-06-28 23:05:36: iter 20300, max_viol=0.705268
+INFO 2020-06-28 23:06:08: iter 20400, max_viol=0.707262
+INFO 2020-06-28 23:06:41: iter 20500, max_viol=0.700711
+INFO 2020-06-28 23:07:19: iter 20600, max_viol=0.69856
+INFO 2020-06-28 23:07:54: iter 20700, max_viol=0.687713
+INFO 2020-06-28 23:08:27: iter 20800, max_viol=0.677469
+INFO 2020-06-28 23:09:01: iter 20900, max_viol=0.661231
+INFO 2020-06-28 23:09:32: iter 21000, max_viol=0.657248
+INFO 2020-06-28 23:10:06: iter 21100, max_viol=0.651056
+INFO 2020-06-28 23:10:38: iter 21200, max_viol=0.659611
+INFO 2020-06-28 23:11:10: iter 21300, max_viol=0.638043
+INFO 2020-06-28 23:11:46: iter 21400, max_viol=0.629523
+INFO 2020-06-28 23:12:19: iter 21500, max_viol=0.628581
+INFO 2020-06-28 23:12:53: iter 21600, max_viol=0.615847
+INFO 2020-06-28 23:13:25: iter 21700, max_viol=0.61048
+INFO 2020-06-28 23:14:00: iter 21800, max_viol=0.602671
+INFO 2020-06-28 23:14:32: iter 21900, max_viol=0.593527
+INFO 2020-06-28 23:15:02: iter 22000, max_viol=0.588364
+INFO 2020-06-28 23:15:31: iter 22100, max_viol=0.58634
+INFO 2020-06-28 23:16:04: iter 22200, max_viol=0.578979
+INFO 2020-06-28 23:16:35: iter 22300, max_viol=0.596788
+INFO 2020-06-28 23:17:05: iter 22400, max_viol=0.562039
+INFO 2020-06-28 23:17:35: iter 22500, max_viol=0.552975
+INFO 2020-06-28 23:18:06: iter 22600, max_viol=0.554785
+INFO 2020-06-28 23:18:36: iter 22700, max_viol=0.549873
+INFO 2020-06-28 23:19:07: iter 22800, max_viol=0.543817
+INFO 2020-06-28 23:19:37: iter 22900, max_viol=0.537681
+INFO 2020-06-28 23:20:07: iter 23000, max_viol=0.53582
+INFO 2020-06-28 23:20:37: iter 23100, max_viol=0.529665
+INFO 2020-06-28 23:21:10: iter 23200, max_viol=0.534925
+INFO 2020-06-28 23:21:38: iter 23300, max_viol=0.519627
+INFO 2020-06-28 23:22:04: iter 23400, max_viol=0.510264
+INFO 2020-06-28 23:22:31: iter 23500, max_viol=0.506126
+INFO 2020-06-28 23:23:00: iter 23600, max_viol=0.501559
+INFO 2020-06-28 23:23:26: iter 23700, max_viol=0.495522
+INFO 2020-06-28 23:23:57: iter 23800, max_viol=0.490234
+INFO 2020-06-28 23:24:25: iter 23900, max_viol=0.483738
+INFO 2020-06-28 23:24:54: iter 24000, max_viol=0.479658
+INFO 2020-06-28 23:25:22: iter 24100, max_viol=0.477029
+INFO 2020-06-28 23:25:51: iter 24200, max_viol=0.470595
+INFO 2020-06-28 23:26:21: iter 24300, max_viol=0.467286
+INFO 2020-06-28 23:26:49: iter 24400, max_viol=0.462467
+INFO 2020-06-28 23:27:17: iter 24500, max_viol=0.455999
+INFO 2020-06-28 23:27:46: iter 24600, max_viol=0.449778
+INFO 2020-06-28 23:28:09: iter 24700, max_viol=0.445513
+INFO 2020-06-28 23:28:36: iter 24800, max_viol=0.437535
+INFO 2020-06-28 23:29:01: iter 24900, max_viol=0.440886
+INFO 2020-06-28 23:29:28: iter 25000, max_viol=0.433732
+INFO 2020-06-28 23:29:53: iter 25100, max_viol=0.428511
+INFO 2020-06-28 23:30:16: iter 25200, max_viol=0.418507
+INFO 2020-06-28 23:30:41: iter 25300, max_viol=0.418536
+INFO 2020-06-28 23:31:06: iter 25400, max_viol=0.412977
+INFO 2020-06-28 23:31:32: iter 25500, max_viol=0.41243
+INFO 2020-06-28 23:31:52: iter 25600, max_viol=0.40573
+INFO 2020-06-28 23:32:17: iter 25700, max_viol=0.405397
+INFO 2020-06-28 23:32:42: iter 25800, max_viol=0.396159
+INFO 2020-06-28 23:33:05: iter 25900, max_viol=0.393704
+INFO 2020-06-28 23:33:27: iter 26000, max_viol=0.385838
+INFO 2020-06-28 23:33:50: iter 26100, max_viol=0.382048
+INFO 2020-06-28 23:34:13: iter 26200, max_viol=0.380301
+INFO 2020-06-28 23:34:36: iter 26300, max_viol=0.375661
+INFO 2020-06-28 23:35:00: iter 26400, max_viol=0.37221
+INFO 2020-06-28 23:35:21: iter 26500, max_viol=0.368264
+INFO 2020-06-28 23:35:46: iter 26600, max_viol=0.367814
+INFO 2020-06-28 23:36:08: iter 26700, max_viol=0.3596
+INFO 2020-06-28 23:36:32: iter 26800, max_viol=0.357981
+INFO 2020-06-28 23:36:54: iter 26900, max_viol=0.426479
+INFO 2020-06-28 23:37:15: iter 27000, max_viol=0.349886
+INFO 2020-06-28 23:37:37: iter 27100, max_viol=0.344731
+INFO 2020-06-28 23:38:00: iter 27200, max_viol=0.339653
+INFO 2020-06-28 23:38:19: iter 27300, max_viol=0.334845
+INFO 2020-06-28 23:38:40: iter 27400, max_viol=0.338172
+INFO 2020-06-28 23:39:02: iter 27500, max_viol=0.331119
+INFO 2020-06-28 23:39:22: iter 27600, max_viol=0.327638
+INFO 2020-06-28 23:39:43: iter 27700, max_viol=0.323046
+INFO 2020-06-28 23:40:03: iter 27800, max_viol=0.318514
+INFO 2020-06-28 23:40:24: iter 27900, max_viol=0.317754
+INFO 2020-06-28 23:40:45: iter 28000, max_viol=0.312163
+INFO 2020-06-28 23:41:06: iter 28100, max_viol=0.310959
+INFO 2020-06-28 23:41:25: iter 28200, max_viol=0.306254
+INFO 2020-06-28 23:41:45: iter 28300, max_viol=0.304801
+INFO 2020-06-28 23:42:00: iter 28400, max_viol=0.300245
+INFO 2020-06-28 23:42:17: iter 28500, max_viol=0.297636
+INFO 2020-06-28 23:42:37: iter 28600, max_viol=0.293778
+INFO 2020-06-28 23:42:59: iter 28700, max_viol=0.294841
+INFO 2020-06-28 23:43:18: iter 28800, max_viol=0.288501
+INFO 2020-06-28 23:43:36: iter 28900, max_viol=0.28821
+INFO 2020-06-28 23:43:51: iter 29000, max_viol=0.282815
+INFO 2020-06-28 23:44:12: iter 29100, max_viol=0.279025
+INFO 2020-06-28 23:44:29: iter 29200, max_viol=0.276908
+INFO 2020-06-28 23:44:45: iter 29300, max_viol=0.27458
+INFO 2020-06-28 23:45:07: iter 29400, max_viol=0.271603
+INFO 2020-06-28 23:45:26: iter 29500, max_viol=0.267988
+INFO 2020-06-28 23:45:42: iter 29600, max_viol=0.267907
+INFO 2020-06-28 23:46:00: iter 29700, max_viol=0.263567
+INFO 2020-06-28 23:46:21: iter 29800, max_viol=0.263299
+INFO 2020-06-28 23:46:39: iter 29900, max_viol=0.258727
+INFO 2020-06-28 23:46:57: iter 30000, max_viol=0.255248
+INFO 2020-06-28 23:47:16: iter 30100, max_viol=0.254998
+INFO 2020-06-28 23:47:33: iter 30200, max_viol=0.250113
+INFO 2020-06-28 23:47:54: iter 30300, max_viol=0.252056
+INFO 2020-06-28 23:48:12: iter 30400, max_viol=0.247285
+INFO 2020-06-28 23:48:28: iter 30500, max_viol=0.244072
+INFO 2020-06-28 23:48:44: iter 30600, max_viol=0.240435
+INFO 2020-06-28 23:48:58: iter 30700, max_viol=0.238651
+INFO 2020-06-28 23:49:15: iter 30800, max_viol=0.238404
+INFO 2020-06-28 23:49:32: iter 30900, max_viol=0.234105
+INFO 2020-06-28 23:49:50: iter 31000, max_viol=0.232033
+INFO 2020-06-28 23:50:06: iter 31100, max_viol=0.228744
+INFO 2020-06-28 23:50:22: iter 31200, max_viol=0.226837
+INFO 2020-06-28 23:50:35: iter 31300, max_viol=0.222939
+INFO 2020-06-28 23:50:54: iter 31400, max_viol=0.221142
+INFO 2020-06-28 23:51:12: iter 31500, max_viol=0.21968
+INFO 2020-06-28 23:51:27: iter 31600, max_viol=0.218178
+INFO 2020-06-28 23:51:42: iter 31700, max_viol=0.214108
+INFO 2020-06-28 23:51:54: iter 31800, max_viol=0.213182
+INFO 2020-06-28 23:52:13: iter 31900, max_viol=0.212344
+INFO 2020-06-28 23:52:27: iter 32000, max_viol=0.209415
+INFO 2020-06-28 23:52:42: iter 32100, max_viol=0.206636
+INFO 2020-06-28 23:52:56: iter 32200, max_viol=0.205946
+INFO 2020-06-28 23:53:08: iter 32300, max_viol=0.202347
+INFO 2020-06-28 23:53:21: iter 32400, max_viol=0.199339
+INFO 2020-06-28 23:53:36: iter 32500, max_viol=0.198844
+INFO 2020-06-28 23:53:50: iter 32600, max_viol=0.197853
+INFO 2020-06-28 23:54:03: iter 32700, max_viol=0.196489
+INFO 2020-06-28 23:54:16: iter 32800, max_viol=0.194746
+INFO 2020-06-28 23:54:30: iter 32900, max_viol=0.19162
+INFO 2020-06-28 23:54:43: iter 33000, max_viol=0.191753
+INFO 2020-06-28 23:54:56: iter 33100, max_viol=0.188582
+INFO 2020-06-28 23:55:07: iter 33200, max_viol=0.18768
+INFO 2020-06-28 23:55:20: iter 33300, max_viol=0.186823
+INFO 2020-06-28 23:55:35: iter 33400, max_viol=0.184418
+INFO 2020-06-28 23:55:50: iter 33500, max_viol=0.181558
+INFO 2020-06-28 23:56:06: iter 33600, max_viol=0.179449
+INFO 2020-06-28 23:56:18: iter 33700, max_viol=0.176762
+INFO 2020-06-28 23:56:28: iter 33800, max_viol=0.175283
+INFO 2020-06-28 23:56:40: iter 33900, max_viol=0.172658
+INFO 2020-06-28 23:56:57: iter 34000, max_viol=0.173108
+INFO 2020-06-28 23:57:13: iter 34100, max_viol=0.170564
+INFO 2020-06-28 23:57:23: iter 34200, max_viol=0.170305
+INFO 2020-06-28 23:57:37: iter 34300, max_viol=0.166451
+INFO 2020-06-28 23:57:46: iter 34400, max_viol=0.165623
+INFO 2020-06-28 23:57:57: iter 34500, max_viol=0.163708
+INFO 2020-06-28 23:58:06: iter 34600, max_viol=0.162642
+INFO 2020-06-28 23:58:20: iter 34700, max_viol=0.161357
+INFO 2020-06-28 23:58:29: iter 34800, max_viol=0.158616
+INFO 2020-06-28 23:58:36: iter 34900, max_viol=0.156362
+INFO 2020-06-28 23:58:43: iter 35000, max_viol=0.156592
+INFO 2020-06-28 23:58:56: iter 35100, max_viol=0.15686
+INFO 2020-06-28 23:59:06: iter 35200, max_viol=0.152343
+INFO 2020-06-28 23:59:18: iter 35300, max_viol=0.150473
+INFO 2020-06-28 23:59:27: iter 35400, max_viol=0.149306
+INFO 2020-06-28 23:59:36: iter 35500, max_viol=0.14901
+INFO 2020-06-28 23:59:42: iter 35600, max_viol=0.147302
+INFO 2020-06-28 23:59:55: iter 35700, max_viol=0.14527
+INFO 2020-06-29 00:00:06: iter 35800, max_viol=0.143757
+INFO 2020-06-29 00:00:17: iter 35900, max_viol=0.143358
+INFO 2020-06-29 00:00:26: iter 36000, max_viol=0.141026
+INFO 2020-06-29 00:00:35: iter 36100, max_viol=0.140885
+INFO 2020-06-29 00:00:47: iter 36200, max_viol=0.146147
+INFO 2020-06-29 00:00:58: iter 36300, max_viol=0.136783
+INFO 2020-06-29 00:01:06: iter 36400, max_viol=0.134189
+INFO 2020-06-29 00:01:15: iter 36500, max_viol=0.133015
+INFO 2020-06-29 00:01:25: iter 36600, max_viol=0.132561
+INFO 2020-06-29 00:01:37: iter 36700, max_viol=0.132099
+INFO 2020-06-29 00:01:47: iter 36800, max_viol=0.129451
+INFO 2020-06-29 00:01:55: iter 36900, max_viol=0.128597
+INFO 2020-06-29 00:02:06: iter 37000, max_viol=0.128103
+INFO 2020-06-29 00:02:16: iter 37100, max_viol=0.124606
+INFO 2020-06-29 00:02:24: iter 37200, max_viol=0.124485
+INFO 2020-06-29 00:02:32: iter 37300, max_viol=0.124594
+INFO 2020-06-29 00:02:44: iter 37400, max_viol=0.122965
+INFO 2020-06-29 00:02:52: iter 37500, max_viol=0.120459
+INFO 2020-06-29 00:03:02: iter 37600, max_viol=0.131394
+INFO 2020-06-29 00:03:13: iter 37700, max_viol=0.117895
+INFO 2020-06-29 00:03:23: iter 37800, max_viol=0.118454
+INFO 2020-06-29 00:03:33: iter 37900, max_viol=0.116741
+INFO 2020-06-29 00:03:40: iter 38000, max_viol=0.115245
+INFO 2020-06-29 00:03:49: iter 38100, max_viol=0.113733
+INFO 2020-06-29 00:03:59: iter 38200, max_viol=0.11315
+INFO 2020-06-29 00:04:08: iter 38300, max_viol=0.112309
+INFO 2020-06-29 00:04:15: iter 38400, max_viol=0.110499
+INFO 2020-06-29 00:04:23: iter 38500, max_viol=0.109244
+INFO 2020-06-29 00:04:31: iter 38600, max_viol=0.10799
+INFO 2020-06-29 00:04:39: iter 38700, max_viol=0.10711
+INFO 2020-06-29 00:04:49: iter 38800, max_viol=0.109228
+INFO 2020-06-29 00:04:59: iter 38900, max_viol=0.10558
+INFO 2020-06-29 00:05:06: iter 39000, max_viol=0.104483
+INFO 2020-06-29 00:05:18: iter 39100, max_viol=0.10431
+INFO 2020-06-29 00:05:24: iter 39200, max_viol=0.101903
+INFO 2020-06-29 00:05:32: iter 39300, max_viol=0.101941
+INFO 2020-06-29 00:05:40: iter 39400, max_viol=0.10105
+INFO 2020-06-29 00:05:49: iter 39500, max_viol=0.0992933
+INFO 2020-06-29 00:05:56: iter 39600, max_viol=0.0990464
+INFO 2020-06-29 00:06:05: iter 39700, max_viol=0.0988069
+INFO 2020-06-29 00:06:10: iter 39800, max_viol=0.09731
+INFO 2020-06-29 00:06:15: iter 39900, max_viol=0.0958686
+INFO 2020-06-29 00:06:21: iter 40000, max_viol=0.0961693
+INFO 2020-06-29 00:06:29: iter 40100, max_viol=0.0955567
+INFO 2020-06-29 00:06:38: iter 40200, max_viol=0.0933383
+INFO 2020-06-29 00:06:45: iter 40300, max_viol=0.0920938
+INFO 2020-06-29 00:06:51: iter 40400, max_viol=0.0919298
+INFO 2020-06-29 00:06:56: iter 40500, max_viol=0.0908283
+INFO 2020-06-29 00:07:03: iter 40600, max_viol=0.089991
+INFO 2020-06-29 00:07:07: iter 40700, max_viol=0.0939668
+INFO 2020-06-29 00:07:15: iter 40800, max_viol=0.0886412
+INFO 2020-06-29 00:07:21: iter 40900, max_viol=0.0879286
+INFO 2020-06-29 00:07:28: iter 41000, max_viol=0.088016
+INFO 2020-06-29 00:07:38: iter 41100, max_viol=0.086279
+INFO 2020-06-29 00:07:42: iter 41200, max_viol=0.0848932
+INFO 2020-06-29 00:07:49: iter 41300, max_viol=0.0833012
+INFO 2020-06-29 00:07:57: iter 41400, max_viol=0.0841242
+INFO 2020-06-29 00:08:02: iter 41500, max_viol=0.0832484
+INFO 2020-06-29 00:08:08: iter 41600, max_viol=0.0820755
+INFO 2020-06-29 00:08:14: iter 41700, max_viol=0.0810234
+INFO 2020-06-29 00:08:18: iter 41800, max_viol=0.0809269
+INFO 2020-06-29 00:08:25: iter 41900, max_viol=0.0791591
+INFO 2020-06-29 00:08:31: iter 42000, max_viol=0.090373
+INFO 2020-06-29 00:08:36: iter 42100, max_viol=0.0783984
+INFO 2020-06-29 00:08:40: iter 42200, max_viol=0.0777133
+INFO 2020-06-29 00:08:46: iter 42300, max_viol=0.0772679
+INFO 2020-06-29 00:08:52: iter 42400, max_viol=0.0759691
+INFO 2020-06-29 00:08:57: iter 42500, max_viol=0.074838
+INFO 2020-06-29 00:09:03: iter 42600, max_viol=0.0749256
+INFO 2020-06-29 00:09:09: iter 42700, max_viol=0.0735944
+INFO 2020-06-29 00:09:14: iter 42800, max_viol=0.0747082
+INFO 2020-06-29 00:09:18: iter 42900, max_viol=0.0731932
+INFO 2020-06-29 00:09:24: iter 43000, max_viol=0.0714337
+INFO 2020-06-29 00:09:30: iter 43100, max_viol=0.0706797
+INFO 2020-06-29 00:09:35: iter 43200, max_viol=0.0701867
+INFO 2020-06-29 00:09:41: iter 43300, max_viol=0.0695765
+INFO 2020-06-29 00:09:45: iter 43400, max_viol=0.0682994
+INFO 2020-06-29 00:09:48: iter 43500, max_viol=0.0682302
+INFO 2020-06-29 00:09:53: iter 43600, max_viol=0.0674505
+INFO 2020-06-29 00:09:58: iter 43700, max_viol=0.0665931
+INFO 2020-06-29 00:10:06: iter 43800, max_viol=0.0675913
+INFO 2020-06-29 00:10:09: iter 43900, max_viol=0.0657099
+INFO 2020-06-29 00:10:13: iter 44000, max_viol=0.0653469
+INFO 2020-06-29 00:10:17: iter 44100, max_viol=0.0652665
+INFO 2020-06-29 00:10:24: iter 44200, max_viol=0.0642081
+INFO 2020-06-29 00:10:29: iter 44300, max_viol=0.0637208
+INFO 2020-06-29 00:10:36: iter 44400, max_viol=0.0633823
+INFO 2020-06-29 00:10:39: iter 44500, max_viol=0.0619503
+INFO 2020-06-29 00:10:43: iter 44600, max_viol=0.0629367
+INFO 2020-06-29 00:10:47: iter 44700, max_viol=0.0614576
+INFO 2020-06-29 00:10:52: iter 44800, max_viol=0.0604222
+INFO 2020-06-29 00:11:00: iter 44900, max_viol=0.0596982
+INFO 2020-06-29 00:11:06: iter 45000, max_viol=0.0590589
+INFO 2020-06-29 00:11:11: iter 45100, max_viol=0.058645
+INFO 2020-06-29 00:11:15: iter 45200, max_viol=0.0576282
+INFO 2020-06-29 00:11:19: iter 45300, max_viol=0.0573954
+INFO 2020-06-29 00:11:22: iter 45400, max_viol=0.0562077
+INFO 2020-06-29 00:11:26: iter 45500, max_viol=0.0564526
+INFO 2020-06-29 00:11:31: iter 45600, max_viol=0.0559204
+INFO 2020-06-29 00:11:37: iter 45700, max_viol=0.0548136
+INFO 2020-06-29 00:11:41: iter 45800, max_viol=0.0549084
+INFO 2020-06-29 00:11:44: iter 45900, max_viol=0.0544364
+INFO 2020-06-29 00:11:50: iter 46000, max_viol=0.0542841
+INFO 2020-06-29 00:11:56: iter 46100, max_viol=0.0534688
+INFO 2020-06-29 00:12:00: iter 46200, max_viol=0.0527876
+INFO 2020-06-29 00:12:03: iter 46300, max_viol=0.0521843
+INFO 2020-06-29 00:12:06: iter 46400, max_viol=0.0521999
+INFO 2020-06-29 00:12:09: iter 46500, max_viol=0.0518002
+INFO 2020-06-29 00:12:11: iter 46600, max_viol=0.0549621
+INFO 2020-06-29 00:12:14: iter 46700, max_viol=0.0501333
+INFO 2020-06-29 00:12:17: iter 46800, max_viol=0.0496653
+INFO 2020-06-29 00:12:19: iter 46900, max_viol=0.0494904
+INFO 2020-06-29 00:12:24: iter 47000, max_viol=0.0491449
+INFO 2020-06-29 00:12:29: iter 47100, max_viol=0.0485326
+INFO 2020-06-29 00:12:32: iter 47200, max_viol=0.0478984
+INFO 2020-06-29 00:12:36: iter 47300, max_viol=0.0475826
+INFO 2020-06-29 00:12:42: iter 47400, max_viol=0.047203
+INFO 2020-06-29 00:12:47: iter 47500, max_viol=0.0473003
+INFO 2020-06-29 00:12:53: iter 47600, max_viol=0.046204
+INFO 2020-06-29 00:12:56: iter 47700, max_viol=0.0464557
+INFO 2020-06-29 00:13:00: iter 47800, max_viol=0.0454881
+INFO 2020-06-29 00:13:05: iter 47900, max_viol=0.0449836
+INFO 2020-06-29 00:13:09: iter 48000, max_viol=0.0446796
+INFO 2020-06-29 00:13:13: iter 48100, max_viol=0.0445324
+INFO 2020-06-29 00:13:15: iter 48200, max_viol=0.04387
+INFO 2020-06-29 00:13:21: iter 48300, max_viol=0.0433294
+INFO 2020-06-29 00:13:23: iter 48400, max_viol=0.0433735
+INFO 2020-06-29 00:13:27: iter 48500, max_viol=0.0429872
+INFO 2020-06-29 00:13:29: iter 48600, max_viol=0.042489
+INFO 2020-06-29 00:13:31: iter 48700, max_viol=0.0424625
+INFO 2020-06-29 00:13:33: iter 48800, max_viol=0.0413287
+INFO 2020-06-29 00:13:37: iter 48900, max_viol=0.0413952
+INFO 2020-06-29 00:13:41: iter 49000, max_viol=0.0405555
+INFO 2020-06-29 00:13:46: iter 49100, max_viol=0.0401737
+INFO 2020-06-29 00:13:50: iter 49200, max_viol=0.0399929
+INFO 2020-06-29 00:13:55: iter 49300, max_viol=0.0395021
+INFO 2020-06-29 00:14:00: iter 49400, max_viol=0.0388885
+INFO 2020-06-29 00:14:03: iter 49500, max_viol=0.0390153
+INFO 2020-06-29 00:14:05: iter 49600, max_viol=0.0385229
+INFO 2020-06-29 00:14:08: iter 49700, max_viol=0.0381281
+INFO 2020-06-29 00:14:11: iter 49800, max_viol=0.0380823
+INFO 2020-06-29 00:14:13: iter 49900, max_viol=0.0380608
+INFO 2020-06-29 00:14:16: iter 50000, max_viol=0.0373432
+INFO 2020-06-29 00:14:19: iter 50100, max_viol=0.0372644
+INFO 2020-06-29 00:14:24: iter 50200, max_viol=0.0366948
+INFO 2020-06-29 00:14:27: iter 50300, max_viol=0.0361019
+INFO 2020-06-29 00:14:30: iter 50400, max_viol=0.0356355
+INFO 2020-06-29 00:14:33: iter 50500, max_viol=0.0355827
+INFO 2020-06-29 00:14:35: iter 50600, max_viol=0.0352848
+INFO 2020-06-29 00:14:39: iter 50700, max_viol=0.0352197
+INFO 2020-06-29 00:14:42: iter 50800, max_viol=0.0351295
+INFO 2020-06-29 00:14:44: iter 50900, max_viol=0.03435
+INFO 2020-06-29 00:14:48: iter 51000, max_viol=0.0340237
+INFO 2020-06-29 00:14:51: iter 51100, max_viol=0.0338585
+INFO 2020-06-29 00:14:53: iter 51200, max_viol=0.0335099
+INFO 2020-06-29 00:14:57: iter 51300, max_viol=0.0335937
+INFO 2020-06-29 00:15:01: iter 51400, max_viol=0.0331163
+INFO 2020-06-29 00:15:03: iter 51500, max_viol=0.0328317
+INFO 2020-06-29 00:15:05: iter 51600, max_viol=0.0325645
+INFO 2020-06-29 00:15:07: iter 51700, max_viol=0.0322776
+INFO 2020-06-29 00:15:09: iter 51800, max_viol=0.0319012
+INFO 2020-06-29 00:15:12: iter 51900, max_viol=0.0318984
+INFO 2020-06-29 00:15:14: iter 52000, max_viol=0.0314998
+INFO 2020-06-29 00:15:16: iter 52100, max_viol=0.0312039
+INFO 2020-06-29 00:15:19: iter 52200, max_viol=0.0311449
+INFO 2020-06-29 00:15:20: iter 52300, max_viol=0.0304759
+INFO 2020-06-29 00:15:23: iter 52400, max_viol=0.03026
+INFO 2020-06-29 00:15:25: iter 52500, max_viol=0.0300982
+INFO 2020-06-29 00:15:26: iter 52600, max_viol=0.0297435
+INFO 2020-06-29 00:15:30: iter 52700, max_viol=0.0293436
+INFO 2020-06-29 00:15:35: iter 52800, max_viol=0.0292819
+INFO 2020-06-29 00:15:38: iter 52900, max_viol=0.028761
+INFO 2020-06-29 00:15:40: iter 53000, max_viol=0.0285332
+INFO 2020-06-29 00:15:43: iter 53100, max_viol=0.0283465
+INFO 2020-06-29 00:15:45: iter 53200, max_viol=0.0280757
+INFO 2020-06-29 00:15:47: iter 53300, max_viol=0.0278459
+INFO 2020-06-29 00:15:50: iter 53400, max_viol=0.0276971
+INFO 2020-06-29 00:15:51: iter 53500, max_viol=0.0272006
+INFO 2020-06-29 00:15:54: iter 53600, max_viol=0.0270869
+INFO 2020-06-29 00:15:56: iter 53700, max_viol=0.0268672
+INFO 2020-06-29 00:15:58: iter 53800, max_viol=0.0263237
+INFO 2020-06-29 00:15:59: iter 53900, max_viol=0.0263577
+INFO 2020-06-29 00:16:02: iter 54000, max_viol=0.0259979
+INFO 2020-06-29 00:16:05: iter 54100, max_viol=0.0275073
+INFO 2020-06-29 00:16:07: iter 54200, max_viol=0.0256303
+INFO 2020-06-29 00:16:10: iter 54300, max_viol=0.0258045
+INFO 2020-06-29 00:16:12: iter 54400, max_viol=0.025299
+INFO 2020-06-29 00:16:14: iter 54500, max_viol=0.024961
+INFO 2020-06-29 00:16:16: iter 54600, max_viol=0.0249614
+INFO 2020-06-29 00:16:18: iter 54700, max_viol=0.0246537
+INFO 2020-06-29 00:16:19: iter 54800, max_viol=0.0243544
+INFO 2020-06-29 00:16:20: iter 54900, max_viol=0.024125
+INFO 2020-06-29 00:16:23: iter 55000, max_viol=0.0241518
+INFO 2020-06-29 00:16:24: iter 55100, max_viol=0.0236342
+INFO 2020-06-29 00:16:27: iter 55200, max_viol=0.0234866
+INFO 2020-06-29 00:16:29: iter 55300, max_viol=0.0232759
+INFO 2020-06-29 00:16:33: iter 55400, max_viol=0.0238545
+INFO 2020-06-29 00:16:34: iter 55500, max_viol=0.0227623
+INFO 2020-06-29 00:16:36: iter 55600, max_viol=0.0227411
+INFO 2020-06-29 00:16:39: iter 55700, max_viol=0.0225993
+INFO 2020-06-29 00:16:40: iter 55800, max_viol=0.0224667
+INFO 2020-06-29 00:16:42: iter 55900, max_viol=0.0230795
+INFO 2020-06-29 00:16:43: iter 56000, max_viol=0.022268
+INFO 2020-06-29 00:16:46: iter 56100, max_viol=0.0220293
+INFO 2020-06-29 00:16:47: iter 56200, max_viol=0.0216229
+INFO 2020-06-29 00:16:48: iter 56300, max_viol=0.0213791
+INFO 2020-06-29 00:16:49: iter 56400, max_viol=0.0211461
+INFO 2020-06-29 00:16:50: iter 56500, max_viol=0.0210103
+INFO 2020-06-29 00:16:51: iter 56600, max_viol=0.02069
+INFO 2020-06-29 00:16:53: iter 56700, max_viol=0.0204296
+INFO 2020-06-29 00:16:55: iter 56800, max_viol=0.0203682
+INFO 2020-06-29 00:16:56: iter 56900, max_viol=0.0202187
+INFO 2020-06-29 00:16:58: iter 57000, max_viol=0.0200037
+INFO 2020-06-29 00:16:59: iter 57100, max_viol=0.0200138
+INFO 2020-06-29 00:17:01: iter 57200, max_viol=0.0196691
+INFO 2020-06-29 00:17:04: iter 57300, max_viol=0.0193744
+INFO 2020-06-29 00:17:05: iter 57400, max_viol=0.0193313
+INFO 2020-06-29 00:17:06: iter 57500, max_viol=0.0192654
+INFO 2020-06-29 00:17:09: iter 57600, max_viol=0.0190494
+INFO 2020-06-29 00:17:12: iter 57700, max_viol=0.018794
+INFO 2020-06-29 00:17:14: iter 57800, max_viol=0.0186876
+INFO 2020-06-29 00:17:17: iter 57900, max_viol=0.0186199
+INFO 2020-06-29 00:17:19: iter 58000, max_viol=0.0184118
+INFO 2020-06-29 00:17:22: iter 58100, max_viol=0.0178927
+INFO 2020-06-29 00:17:24: iter 58200, max_viol=0.0180641
+INFO 2020-06-29 00:17:25: iter 58300, max_viol=0.0177226
+INFO 2020-06-29 00:17:27: iter 58400, max_viol=0.017764
+INFO 2020-06-29 00:17:28: iter 58500, max_viol=0.0175796
+INFO 2020-06-29 00:17:29: iter 58600, max_viol=0.0173995
+INFO 2020-06-29 00:17:30: iter 58700, max_viol=0.017303
+INFO 2020-06-29 00:17:32: iter 58800, max_viol=0.0172701
+INFO 2020-06-29 00:17:33: iter 58900, max_viol=0.0169239
+INFO 2020-06-29 00:17:35: iter 59000, max_viol=0.0168903
+INFO 2020-06-29 00:17:36: iter 59100, max_viol=0.0171291
+INFO 2020-06-29 00:17:38: iter 59200, max_viol=0.0163875
+INFO 2020-06-29 00:17:40: iter 59300, max_viol=0.0163418
+INFO 2020-06-29 00:17:40: iter 59400, max_viol=0.0165217
+INFO 2020-06-29 00:17:43: iter 59500, max_viol=0.0162091
+INFO 2020-06-29 00:17:44: iter 59600, max_viol=0.0163946
+INFO 2020-06-29 00:17:45: iter 59700, max_viol=0.0161105
+INFO 2020-06-29 00:17:48: iter 59800, max_viol=0.0176027
+INFO 2020-06-29 00:17:49: iter 59900, max_viol=0.0158192
+INFO 2020-06-29 00:17:50: iter 60000, max_viol=0.015503
+INFO 2020-06-29 00:17:52: iter 60100, max_viol=0.0154531
+INFO 2020-06-29 00:17:53: iter 60200, max_viol=0.015183
+INFO 2020-06-29 00:17:53: iter 60300, max_viol=0.0150873
+INFO 2020-06-29 00:17:56: iter 60400, max_viol=0.0148152
+INFO 2020-06-29 00:17:58: iter 60500, max_viol=0.0148749
+INFO 2020-06-29 00:17:59: iter 60600, max_viol=0.01488
+INFO 2020-06-29 00:18:00: iter 60700, max_viol=0.0145181
+INFO 2020-06-29 00:18:03: iter 60800, max_viol=0.0144688
+INFO 2020-06-29 00:18:03: iter 60900, max_viol=0.0144703
+INFO 2020-06-29 00:18:05: iter 61000, max_viol=0.0145234
+INFO 2020-06-29 00:18:05: iter 61100, max_viol=0.0140605
+INFO 2020-06-29 00:18:06: iter 61200, max_viol=0.0140569
+INFO 2020-06-29 00:18:07: iter 61300, max_viol=0.0138349
+INFO 2020-06-29 00:18:07: iter 61400, max_viol=0.0137745
+INFO 2020-06-29 00:18:08: iter 61500, max_viol=0.0137985
+INFO 2020-06-29 00:18:09: iter 61600, max_viol=0.0135518
+INFO 2020-06-29 00:18:10: iter 61700, max_viol=0.0132918
+INFO 2020-06-29 00:18:11: iter 61800, max_viol=0.0131769
+INFO 2020-06-29 00:18:12: iter 61900, max_viol=0.0132756
+INFO 2020-06-29 00:18:13: iter 62000, max_viol=0.0131465
+INFO 2020-06-29 00:18:15: iter 62100, max_viol=0.0128613
+INFO 2020-06-29 00:18:16: iter 62200, max_viol=0.0129743
+INFO 2020-06-29 00:18:17: iter 62300, max_viol=0.0126577
+INFO 2020-06-29 00:18:18: iter 62400, max_viol=0.0125763
+INFO 2020-06-29 00:18:19: iter 62500, max_viol=0.0126035
+INFO 2020-06-29 00:18:22: iter 62600, max_viol=0.0124202
+INFO 2020-06-29 00:18:23: iter 62700, max_viol=0.0123227
+INFO 2020-06-29 00:18:24: iter 62800, max_viol=0.0122413
+INFO 2020-06-29 00:18:26: iter 62900, max_viol=0.0120745
+INFO 2020-06-29 00:18:28: iter 63000, max_viol=0.0119742
+INFO 2020-06-29 00:18:29: iter 63100, max_viol=0.0118617
+INFO 2020-06-29 00:18:30: iter 63200, max_viol=0.0118084
+INFO 2020-06-29 00:18:31: iter 63300, max_viol=0.011618
+INFO 2020-06-29 00:18:33: iter 63400, max_viol=0.0115315
+INFO 2020-06-29 00:18:33: iter 63500, max_viol=0.0114187
+INFO 2020-06-29 00:18:35: iter 63600, max_viol=0.0114677
+INFO 2020-06-29 00:18:35: iter 63700, max_viol=0.011271
+INFO 2020-06-29 00:18:36: iter 63800, max_viol=0.0112318
+INFO 2020-06-29 00:18:37: iter 63900, max_viol=0.0110765
+INFO 2020-06-29 00:18:37: iter 64000, max_viol=0.0111077
+INFO 2020-06-29 00:18:39: iter 64100, max_viol=0.0108573
+INFO 2020-06-29 00:18:40: iter 64200, max_viol=0.0109099
+INFO 2020-06-29 00:18:42: iter 64300, max_viol=0.0107723
+INFO 2020-06-29 00:18:44: iter 64400, max_viol=0.010592
+INFO 2020-06-29 00:18:44: iter 64500, max_viol=0.0105286
+INFO 2020-06-29 00:18:45: iter 64600, max_viol=0.0103833
+INFO 2020-06-29 00:18:45: iter 64700, max_viol=0.0103426
+INFO 2020-06-29 00:18:45: iter 64800, max_viol=0.010298
+INFO 2020-06-29 00:18:46: iter 64900, max_viol=0.0103636
+INFO 2020-06-29 00:18:48: iter 65000, max_viol=0.0103874
+INFO 2020-06-29 00:18:49: iter 65100, max_viol=0.010096
+INFO 2020-06-29 00:18:51: iter 65200, max_viol=0.00993331
+INFO 2020-06-29 00:18:52: iter 65300, max_viol=0.00988132
+INFO 2020-06-29 00:18:53: iter 65400, max_viol=0.00978115
+INFO 2020-06-29 00:18:53: iter 65500, max_viol=0.0097397
+INFO 2020-06-29 00:18:54: iter 65600, max_viol=0.009704
+INFO 2020-06-29 00:18:55: iter 65700, max_viol=0.00967664
+INFO 2020-06-29 00:18:56: iter 65800, max_viol=0.00950574
+INFO 2020-06-29 00:18:56: iter 65900, max_viol=0.00941741
+INFO 2020-06-29 00:18:56: iter 66000, max_viol=0.00935223
+INFO 2020-06-29 00:18:57: iter 66100, max_viol=0.00940255
+INFO 2020-06-29 00:18:58: iter 66200, max_viol=0.00920174
+INFO 2020-06-29 00:18:59: iter 66300, max_viol=0.00904305
+INFO 2020-06-29 00:19:00: iter 66400, max_viol=0.0089899
+INFO 2020-06-29 00:19:01: iter 66500, max_viol=0.00891915
+INFO 2020-06-29 00:19:01: iter 66600, max_viol=0.00881897
+INFO 2020-06-29 00:19:02: iter 66700, max_viol=0.0089156
+INFO 2020-06-29 00:19:03: iter 66800, max_viol=0.00870366
+INFO 2020-06-29 00:19:04: iter 66900, max_viol=0.00869471
+INFO 2020-06-29 00:19:05: iter 67000, max_viol=0.00854777
+INFO 2020-06-29 00:19:06: iter 67100, max_viol=0.00856181
+INFO 2020-06-29 00:19:07: iter 67200, max_viol=0.00845544
+INFO 2020-06-29 00:19:07: iter 67300, max_viol=0.00833956
+INFO 2020-06-29 00:19:08: iter 67400, max_viol=0.00837413
+INFO 2020-06-29 00:19:10: iter 67500, max_viol=0.00818615
+INFO 2020-06-29 00:19:11: iter 67600, max_viol=0.00811618
+INFO 2020-06-29 00:19:11: iter 67700, max_viol=0.0081592
+INFO 2020-06-29 00:19:13: iter 67800, max_viol=0.00805
+INFO 2020-06-29 00:19:13: iter 67900, max_viol=0.00796161
+INFO 2020-06-29 00:19:14: iter 68000, max_viol=0.0078814
+INFO 2020-06-29 00:19:15: iter 68100, max_viol=0.00780843
+INFO 2020-06-29 00:19:17: iter 68200, max_viol=0.00773026
+INFO 2020-06-29 00:19:18: iter 68300, max_viol=0.00772265
+INFO 2020-06-29 00:19:20: iter 68400, max_viol=0.00763509
+INFO 2020-06-29 00:19:21: iter 68500, max_viol=0.00785173
+INFO 2020-06-29 00:19:21: iter 68600, max_viol=0.00747708
+INFO 2020-06-29 00:19:23: iter 68700, max_viol=0.00739249
+INFO 2020-06-29 00:19:24: iter 68800, max_viol=0.00736911
+INFO 2020-06-29 00:19:25: iter 68900, max_viol=0.0072832
+INFO 2020-06-29 00:19:25: iter 69000, max_viol=0.00725077
+INFO 2020-06-29 00:19:26: iter 69100, max_viol=0.00720695
+INFO 2020-06-29 00:19:27: iter 69200, max_viol=0.00715454
+INFO 2020-06-29 00:19:28: iter 69300, max_viol=0.00705323
+INFO 2020-06-29 00:19:28: iter 69400, max_viol=0.00702091
+INFO 2020-06-29 00:19:29: iter 69500, max_viol=0.00692046
+INFO 2020-06-29 00:19:29: iter 69600, max_viol=0.00687398
+INFO 2020-06-29 00:19:30: iter 69700, max_viol=0.00683146
+INFO 2020-06-29 00:19:31: iter 69800, max_viol=0.00683487
+INFO 2020-06-29 00:19:32: iter 69900, max_viol=0.00672277
+INFO 2020-06-29 00:19:32: iter 70000, max_viol=0.00665431
+INFO 2020-06-29 00:19:33: iter 70100, max_viol=0.0066482
+INFO 2020-06-29 00:19:34: iter 70200, max_viol=0.00654167
+INFO 2020-06-29 00:19:34: iter 70300, max_viol=0.00652811
+INFO 2020-06-29 00:19:35: iter 70400, max_viol=0.00645147
+INFO 2020-06-29 00:19:35: iter 70500, max_viol=0.00640148
+INFO 2020-06-29 00:19:36: iter 70600, max_viol=0.00638946
+INFO 2020-06-29 00:19:38: iter 70700, max_viol=0.00637168
+INFO 2020-06-29 00:19:38: iter 70800, max_viol=0.00624733
+INFO 2020-06-29 00:19:38: iter 70900, max_viol=0.00620956
+INFO 2020-06-29 00:19:39: iter 71000, max_viol=0.00618947
+INFO 2020-06-29 00:19:40: iter 71100, max_viol=0.00610992
+INFO 2020-06-29 00:19:41: iter 71200, max_viol=0.00605473
+INFO 2020-06-29 00:19:41: iter 71300, max_viol=0.00604887
+INFO 2020-06-29 00:19:42: iter 71400, max_viol=0.00597117
+INFO 2020-06-29 00:19:43: iter 71500, max_viol=0.00585941
+INFO 2020-06-29 00:19:44: iter 71600, max_viol=0.00583519
+INFO 2020-06-29 00:19:44: iter 71700, max_viol=0.0057914
+INFO 2020-06-29 00:19:44: iter 71800, max_viol=0.0057475
+INFO 2020-06-29 00:19:45: iter 71900, max_viol=0.00569518
+INFO 2020-06-29 00:19:46: iter 72000, max_viol=0.00568539
+INFO 2020-06-29 00:19:46: iter 72100, max_viol=0.00559936
+INFO 2020-06-29 00:19:46: iter 72200, max_viol=0.0055648
+INFO 2020-06-29 00:19:47: iter 72300, max_viol=0.00550521
+INFO 2020-06-29 00:19:47: iter 72400, max_viol=0.0055335
+INFO 2020-06-29 00:19:48: iter 72500, max_viol=0.00539898
+INFO 2020-06-29 00:19:49: iter 72600, max_viol=0.0054276
+INFO 2020-06-29 00:19:49: iter 72700, max_viol=0.005356
+INFO 2020-06-29 00:19:50: iter 72800, max_viol=0.00525988
+INFO 2020-06-29 00:19:51: iter 72900, max_viol=0.00525533
+INFO 2020-06-29 00:19:51: iter 73000, max_viol=0.00521575
+INFO 2020-06-29 00:19:52: iter 73100, max_viol=0.00521957
+INFO 2020-06-29 00:19:53: iter 73200, max_viol=0.00517479
+INFO 2020-06-29 00:19:54: iter 73300, max_viol=0.00510904
+INFO 2020-06-29 00:19:55: iter 73400, max_viol=0.00503539
+INFO 2020-06-29 00:19:55: iter 73500, max_viol=0.00504571
+INFO 2020-06-29 00:19:56: iter 73600, max_viol=0.00498195
+INFO 2020-06-29 00:19:56: iter 73700, max_viol=0.00494735
+INFO 2020-06-29 00:19:57: iter 73800, max_viol=0.00490306
+INFO 2020-06-29 00:19:59: iter 73900, max_viol=0.00487044
+INFO 2020-06-29 00:20:00: iter 74000, max_viol=0.0048488
+INFO 2020-06-29 00:20:00: iter 74100, max_viol=0.00476859
+INFO 2020-06-29 00:20:00: iter 74200, max_viol=0.00473106
+INFO 2020-06-29 00:20:01: iter 74300, max_viol=0.00471856
+INFO 2020-06-29 00:20:02: iter 74400, max_viol=0.00464549
+INFO 2020-06-29 00:20:03: iter 74500, max_viol=0.00458498
+INFO 2020-06-29 00:20:04: iter 74600, max_viol=0.00468636
+INFO 2020-06-29 00:20:05: iter 74700, max_viol=0.00456418
+INFO 2020-06-29 00:20:05: iter 74800, max_viol=0.0044984
+INFO 2020-06-29 00:20:07: iter 74900, max_viol=0.00446611
+INFO 2020-06-29 00:20:07: iter 75000, max_viol=0.00452224
+INFO 2020-06-29 00:20:07: iter 75100, max_viol=0.00441574
+INFO 2020-06-29 00:20:08: iter 75200, max_viol=0.00436414
+INFO 2020-06-29 00:20:09: iter 75300, max_viol=0.00431918
+INFO 2020-06-29 00:20:09: iter 75400, max_viol=0.00428393
+INFO 2020-06-29 00:20:09: iter 75500, max_viol=0.00424698
+INFO 2020-06-29 00:20:09: iter 75600, max_viol=0.00418598
+INFO 2020-06-29 00:20:10: iter 75700, max_viol=0.00416566
+INFO 2020-06-29 00:20:10: iter 75800, max_viol=0.0041716
+INFO 2020-06-29 00:20:11: iter 75900, max_viol=0.00411111
+INFO 2020-06-29 00:20:11: iter 76000, max_viol=0.00407446
+INFO 2020-06-29 00:20:11: iter 76100, max_viol=0.00402413
+INFO 2020-06-29 00:20:12: iter 76200, max_viol=0.00402466
+INFO 2020-06-29 00:20:12: iter 76300, max_viol=0.00398579
+INFO 2020-06-29 00:20:12: iter 76400, max_viol=0.00393207
+INFO 2020-06-29 00:20:13: iter 76500, max_viol=0.00393546
+INFO 2020-06-29 00:20:13: iter 76600, max_viol=0.00388847
+INFO 2020-06-29 00:20:14: iter 76700, max_viol=0.00390957
+INFO 2020-06-29 00:20:15: iter 76800, max_viol=0.00381325
+INFO 2020-06-29 00:20:16: iter 76900, max_viol=0.00399224
+INFO 2020-06-29 00:20:16: iter 77000, max_viol=0.00380851
+INFO 2020-06-29 00:20:17: iter 77100, max_viol=0.00375402
+INFO 2020-06-29 00:20:18: iter 77200, max_viol=0.00370642
+INFO 2020-06-29 00:20:19: iter 77300, max_viol=0.00367384
+INFO 2020-06-29 00:20:19: iter 77400, max_viol=0.00362004
+INFO 2020-06-29 00:20:20: iter 77500, max_viol=0.00361098
+INFO 2020-06-29 00:20:21: iter 77600, max_viol=0.00367169
+INFO 2020-06-29 00:20:21: iter 77700, max_viol=0.003532
+INFO 2020-06-29 00:20:22: iter 77800, max_viol=0.00347859
+INFO 2020-06-29 00:20:23: iter 77900, max_viol=0.00352015
+INFO 2020-06-29 00:20:23: iter 78000, max_viol=0.00345249
+INFO 2020-06-29 00:20:23: iter 78100, max_viol=0.00345612
+INFO 2020-06-29 00:20:24: iter 78200, max_viol=0.00343202
+INFO 2020-06-29 00:20:24: iter 78300, max_viol=0.00344656
+INFO 2020-06-29 00:20:24: iter 78400, max_viol=0.00336193
+INFO 2020-06-29 00:20:25: iter 78500, max_viol=0.0033339
+INFO 2020-06-29 00:20:25: iter 78600, max_viol=0.00331537
+INFO 2020-06-29 00:20:26: iter 78700, max_viol=0.00328231
+INFO 2020-06-29 00:20:26: iter 78800, max_viol=0.00326664
+INFO 2020-06-29 00:20:26: iter 78900, max_viol=0.00321792
+INFO 2020-06-29 00:20:27: iter 79000, max_viol=0.00320829
+INFO 2020-06-29 00:20:27: iter 79100, max_viol=0.00322387
+INFO 2020-06-29 00:20:27: iter 79200, max_viol=0.0031676
+INFO 2020-06-29 00:20:28: iter 79300, max_viol=0.00314259
+INFO 2020-06-29 00:20:28: iter 79400, max_viol=0.00310175
+INFO 2020-06-29 00:20:28: iter 79500, max_viol=0.00310976
+INFO 2020-06-29 00:20:29: iter 79600, max_viol=0.00303497
+INFO 2020-06-29 00:20:30: iter 79700, max_viol=0.00302336
+INFO 2020-06-29 00:20:30: iter 79800, max_viol=0.00300654
+INFO 2020-06-29 00:20:31: iter 79900, max_viol=0.00297132
+INFO 2020-06-29 00:20:31: iter 80000, max_viol=0.00297202
+INFO 2020-06-29 00:20:32: iter 80100, max_viol=0.00294811
+INFO 2020-06-29 00:20:32: iter 80200, max_viol=0.00293647
+INFO 2020-06-29 00:20:33: iter 80300, max_viol=0.00289698
+INFO 2020-06-29 00:20:34: iter 80400, max_viol=0.00286991
+INFO 2020-06-29 00:20:34: iter 80500, max_viol=0.00290271
+INFO 2020-06-29 00:20:34: iter 80600, max_viol=0.00283754
+INFO 2020-06-29 00:20:35: iter 80700, max_viol=0.00281617
+INFO 2020-06-29 00:20:35: iter 80800, max_viol=0.00287999
+INFO 2020-06-29 00:20:35: iter 80900, max_viol=0.00276743
+INFO 2020-06-29 00:20:36: iter 81000, max_viol=0.00275761
+INFO 2020-06-29 00:20:37: iter 81100, max_viol=0.0027241
+INFO 2020-06-29 00:20:38: iter 81200, max_viol=0.00269426
+INFO 2020-06-29 00:20:38: iter 81300, max_viol=0.00267871
+INFO 2020-06-29 00:20:38: iter 81400, max_viol=0.00266121
+INFO 2020-06-29 00:20:40: iter 81500, max_viol=0.00266294
+INFO 2020-06-29 00:20:40: iter 81600, max_viol=0.00261984
+INFO 2020-06-29 00:20:41: iter 81700, max_viol=0.0025958
+INFO 2020-06-29 00:20:41: iter 81800, max_viol=0.0025582
+INFO 2020-06-29 00:20:42: iter 81900, max_viol=0.00255558
+INFO 2020-06-29 00:20:42: iter 82000, max_viol=0.00254301
+INFO 2020-06-29 00:20:42: iter 82100, max_viol=0.00251256
+INFO 2020-06-29 00:20:43: iter 82200, max_viol=0.0024867
+INFO 2020-06-29 00:20:43: iter 82300, max_viol=0.00248582
+INFO 2020-06-29 00:20:45: iter 82400, max_viol=0.0024413
+INFO 2020-06-29 00:20:45: iter 82500, max_viol=0.0024118
+INFO 2020-06-29 00:20:45: iter 82600, max_viol=0.00260368
+INFO 2020-06-29 00:20:45: iter 82700, max_viol=0.00238523
+INFO 2020-06-29 00:20:46: iter 82800, max_viol=0.00237369
+INFO 2020-06-29 00:20:46: iter 82900, max_viol=0.00236534
+INFO 2020-06-29 00:20:46: iter 83000, max_viol=0.00232268
+INFO 2020-06-29 00:20:47: iter 83100, max_viol=0.00232885
+INFO 2020-06-29 00:20:47: iter 83200, max_viol=0.00233822
+INFO 2020-06-29 00:20:47: iter 83300, max_viol=0.00228548
+INFO 2020-06-29 00:20:47: iter 83400, max_viol=0.00224676
+INFO 2020-06-29 00:20:48: iter 83500, max_viol=0.00222901
+INFO 2020-06-29 00:20:48: iter 83600, max_viol=0.00221757
+INFO 2020-06-29 00:20:49: iter 83700, max_viol=0.00222538
+INFO 2020-06-29 00:20:49: iter 83800, max_viol=0.00219222
+INFO 2020-06-29 00:20:50: iter 83900, max_viol=0.00216539
+INFO 2020-06-29 00:20:50: iter 84000, max_viol=0.00222883
+INFO 2020-06-29 00:20:50: iter 84100, max_viol=0.00214553
+INFO 2020-06-29 00:20:50: iter 84200, max_viol=0.00217691
+INFO 2020-06-29 00:20:51: iter 84300, max_viol=0.0020875
+INFO 2020-06-29 00:20:51: iter 84400, max_viol=0.0020935
+INFO 2020-06-29 00:20:51: iter 84500, max_viol=0.00208368
+INFO 2020-06-29 00:20:52: iter 84600, max_viol=0.00207415
+INFO 2020-06-29 00:20:52: iter 84700, max_viol=0.00204968
+INFO 2020-06-29 00:20:53: iter 84800, max_viol=0.0020268
+INFO 2020-06-29 00:20:53: iter 84900, max_viol=0.00201412
+INFO 2020-06-29 00:20:53: iter 85000, max_viol=0.00200129
+INFO 2020-06-29 00:20:54: iter 85100, max_viol=0.00199534
+INFO 2020-06-29 00:20:55: iter 85200, max_viol=0.00196075
+INFO 2020-06-29 00:20:55: iter 85300, max_viol=0.00193124
+INFO 2020-06-29 00:20:55: iter 85400, max_viol=0.00194233
+INFO 2020-06-29 00:20:55: iter 85500, max_viol=0.00191041
+INFO 2020-06-29 00:20:55: iter 85600, max_viol=0.00204151
+INFO 2020-06-29 00:20:55: iter 85700, max_viol=0.00187982
+INFO 2020-06-29 00:20:56: iter 85800, max_viol=0.00188038
+INFO 2020-06-29 00:20:56: iter 85900, max_viol=0.00186704
+INFO 2020-06-29 00:20:57: iter 86000, max_viol=0.00183542
+INFO 2020-06-29 00:20:57: iter 86100, max_viol=0.00183342
+INFO 2020-06-29 00:20:57: iter 86200, max_viol=0.00180146
+INFO 2020-06-29 00:20:58: iter 86300, max_viol=0.0018118
+INFO 2020-06-29 00:20:58: iter 86400, max_viol=0.00178428
+INFO 2020-06-29 00:20:58: iter 86500, max_viol=0.00176546
+INFO 2020-06-29 00:20:59: iter 86600, max_viol=0.00174943
+INFO 2020-06-29 00:20:59: iter 86700, max_viol=0.00174474
+INFO 2020-06-29 00:21:00: iter 86800, max_viol=0.00171263
+INFO 2020-06-29 00:21:00: iter 86900, max_viol=0.00171161
+INFO 2020-06-29 00:21:01: iter 87000, max_viol=0.0016931
+INFO 2020-06-29 00:21:01: iter 87100, max_viol=0.00167737
+INFO 2020-06-29 00:21:02: iter 87200, max_viol=0.00167307
+INFO 2020-06-29 00:21:02: iter 87300, max_viol=0.00165371
+INFO 2020-06-29 00:21:02: iter 87400, max_viol=0.00164906
+INFO 2020-06-29 00:21:03: iter 87500, max_viol=0.00164105
+INFO 2020-06-29 00:21:04: iter 87600, max_viol=0.00161607
+INFO 2020-06-29 00:21:04: iter 87700, max_viol=0.00159872
+INFO 2020-06-29 00:21:04: iter 87800, max_viol=0.00159773
+INFO 2020-06-29 00:21:05: iter 87900, max_viol=0.00157583
+INFO 2020-06-29 00:21:05: iter 88000, max_viol=0.00157915
+INFO 2020-06-29 00:21:06: iter 88100, max_viol=0.0015493
+INFO 2020-06-29 00:21:06: iter 88200, max_viol=0.00153826
+INFO 2020-06-29 00:21:06: iter 88300, max_viol=0.00155835
+INFO 2020-06-29 00:21:06: iter 88400, max_viol=0.00162067
+INFO 2020-06-29 00:21:07: iter 88500, max_viol=0.00150791
+INFO 2020-06-29 00:21:07: iter 88600, max_viol=0.00149791
+INFO 2020-06-29 00:21:07: iter 88700, max_viol=0.0014775
+INFO 2020-06-29 00:21:08: iter 88800, max_viol=0.00148032
+INFO 2020-06-29 00:21:08: iter 88900, max_viol=0.00152777
+INFO 2020-06-29 00:21:08: iter 89000, max_viol=0.00146106
+INFO 2020-06-29 00:21:08: iter 89100, max_viol=0.00143449
+INFO 2020-06-29 00:21:08: iter 89200, max_viol=0.00143994
+INFO 2020-06-29 00:21:08: iter 89300, max_viol=0.00142331
+INFO 2020-06-29 00:21:08: iter 89400, max_viol=0.00139823
+INFO 2020-06-29 00:21:09: iter 89500, max_viol=0.00138749
+INFO 2020-06-29 00:21:10: iter 89600, max_viol=0.0013902
+INFO 2020-06-29 00:21:10: iter 89700, max_viol=0.00137175
+INFO 2020-06-29 00:21:10: iter 89800, max_viol=0.00137814
+INFO 2020-06-29 00:21:10: iter 89900, max_viol=0.00134735
+INFO 2020-06-29 00:21:11: iter 90000, max_viol=0.00134482
+INFO 2020-06-29 00:21:11: iter 90100, max_viol=0.00133791
+INFO 2020-06-29 00:21:11: iter 90200, max_viol=0.00134042
+INFO 2020-06-29 00:21:12: iter 90300, max_viol=0.00131985
+INFO 2020-06-29 00:21:12: iter 90400, max_viol=0.00131984
+INFO 2020-06-29 00:21:12: iter 90500, max_viol=0.00128616
+INFO 2020-06-29 00:21:12: iter 90600, max_viol=0.00138123
+INFO 2020-06-29 00:21:12: iter 90700, max_viol=0.00128347
+INFO 2020-06-29 00:21:13: iter 90800, max_viol=0.00127297
+INFO 2020-06-29 00:21:13: iter 90900, max_viol=0.00126331
+INFO 2020-06-29 00:21:13: iter 91000, max_viol=0.00125312
+INFO 2020-06-29 00:21:13: iter 91100, max_viol=0.0012378
+INFO 2020-06-29 00:21:14: iter 91200, max_viol=0.00122774
+INFO 2020-06-29 00:21:14: iter 91300, max_viol=0.00122926
+INFO 2020-06-29 00:21:14: iter 91400, max_viol=0.00122014
+INFO 2020-06-29 00:21:14: iter 91500, max_viol=0.00119959
+INFO 2020-06-29 00:21:14: iter 91600, max_viol=0.00122225
+INFO 2020-06-29 00:21:14: iter 91700, max_viol=0.00117859
+INFO 2020-06-29 00:21:15: iter 91800, max_viol=0.0011844
+INFO 2020-06-29 00:21:15: iter 91900, max_viol=0.00116956
+INFO 2020-06-29 00:21:15: iter 92000, max_viol=0.00115821
+INFO 2020-06-29 00:21:15: iter 92100, max_viol=0.00115169
+INFO 2020-06-29 00:21:15: iter 92200, max_viol=0.00113991
+INFO 2020-06-29 00:21:15: iter 92300, max_viol=0.00113707
+INFO 2020-06-29 00:21:16: iter 92400, max_viol=0.00110906
+INFO 2020-06-29 00:21:16: iter 92500, max_viol=0.0011026
+INFO 2020-06-29 00:21:16: iter 92600, max_viol=0.00111098
+INFO 2020-06-29 00:21:17: iter 92700, max_viol=0.0011008
+INFO 2020-06-29 00:21:17: iter 92800, max_viol=0.00108631
+INFO 2020-06-29 00:21:17: iter 92900, max_viol=0.00108003
+INFO 2020-06-29 00:21:18: iter 93000, max_viol=0.00106234
+INFO 2020-06-29 00:21:18: iter 93100, max_viol=0.00107049
+INFO 2020-06-29 00:21:19: iter 93200, max_viol=0.00105737
+INFO 2020-06-29 00:21:19: iter 93300, max_viol=0.00104213
+INFO 2020-06-29 00:21:20: iter 93400, max_viol=0.0010365
+INFO 2020-06-29 00:21:20: iter 93500, max_viol=0.0010289
+INFO 2020-06-29 00:21:20: iter 93600, max_viol=0.00102407
+INFO 2020-06-29 00:21:21: iter 93700, max_viol=0.00101689
+INFO 2020-06-29 00:21:21: *
+INFO 2020-06-29 00:21:21: optimization finished, #iter = 93772
+INFO 2020-06-29 00:21:26: nu = 0.284953
+INFO 2020-06-29 00:21:26: obj = -20283.489075, rho = 1.453068
+INFO 2020-06-29 00:21:26: nSV = 47509, nBSV = 17751
+INFO 2020-06-29 00:21:26: Total nSV = 47509
+INFO 2020-06-29 00:21:26: save SVM model to /scratch/users/surag/scATAC-reprog/svm//models/20200626_gc_matched_negatives/cluster_idx7/model.model.txt
