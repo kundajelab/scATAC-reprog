@@ -1,4 +1,4 @@
-MoDISco runs derived from SVM on 50k seqlets. Scripts etc in `20200626_svm_runs`. Copied over modisco outputs.
+MoDISco runs derived from SVM on 50k seqlets. Scripts etc in `20200626_modeling_runs`. Copied over modisco outputs.
 
 `for i in {1..18} ; do (mkdir cluster_idx$i/pfms ; python ~/kundajelab/surag-scripts/modisco/modisco_to_pfm.py -m cluster_idx$i/*.hdf5 -o cluster_idx$i/pfms) & done`
 
