@@ -39,7 +39,7 @@ parser.add_argument("-ps", "--peak_score_col", type=int, default=9, help="Column
 parser.add_argument("-o", "--output", type=str, required=True, help="Output bed file of ranges, unsorted, uncompressed")
 args = parser.parse_args()
 
-assert(args.min_width<args.max_width)
+assert(args.min_width<=args.max_width)
 
 MIN_WIDTH = args.min_width
 MAX_WIDTH = args.max_width
