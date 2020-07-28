@@ -245,6 +245,87 @@ def predict_argsparser():
                         "before writing to bigWig files", default=10000)
     return parser
 
+
+def block_ism_argsparser():
+    """ Command line arguments for the block_ism script
+
+        Returns:
+            argparse.ArgumentParser
+    """
+    
+    parser = argparse.ArgumentParser()
+    
+    # batch gen parameters
+    parser.add_argument('--batch-size', '-b', type=int, help="test batch size",
+                        default=64)
+        
+    parser.add_argument('--input-seq-len', type=int, 
+                        help="length of input DNA sequence", default=1346)
+
+    parser.add_argument('--output-len', type=int, 
+                        help="length of output profile", default=1000)
+    
+    # predict modes
+    parser.add_argument('--bed-file', '-r', type=str, required=True,
+                        help="the path to the bed file containing "
+                        "intervals which should be zero-d out. The sequence"
+                        "is centered around the interval")
+
+    # reference params
+    parser.add_argument('--reference-genome', '-g', type=str, required=True,
+                        help="the path to the reference genome fasta file")
+    
+    parser.add_argument('--chrom-sizes', '-s', type=str, required=True,
+                        help="path to chromosome sizes file")
+    
+        
+    parser.add_argument('--data-dir', type=str,
+                        help="input directory containing bigWigs and peaks", 
+                        default=".")
+    
+    parser.add_argument('--stranded', action='store_true', 
+                        help="specify if the input data is stranded or "
+                        "unstranded (i.e in case --has-control is True)")
+
+    parser.add_argument('--has-control', action='store_true', 
+                        help="specify if the input data has controls")
+    
+    parser.add_argument('--model', '-m', type=str, 
+                        help="path to the .h5 model file")
+
+    parser.add_argument('--model-name', type=str,
+                        help="the name of the model that will be used in "
+                        "for predictions", default='BPNet')
+    
+    parser.add_argument('--model-dir', type=str,
+                        help="directory where .h5 model files are stored")
+    
+    # output params
+    parser.add_argument('--output-dir', '-o', type=str, required=True,
+                        help="destination directory to store predictions as a "
+                        "bigWig file")
+
+    parser.add_argument('--automate-filenames', action='store_true', 
+                        help="specify if the predictions output should "
+                        "be stored in a timestamped subdirectory within "
+                        "--output-dir")
+    
+    parser.add_argument('--time-zone', type=str,
+                        help="time zone to use for timestamping model "
+                        "directories", default='US/Pacific')
+    
+    parser.add_argument('--output-window-size', type=int,
+                        help="size of the central window of the output "
+                        "profile predictions that will be written to the "
+                        "bigWig files", default=1000)
+
+    parser.add_argument('--other-tags', nargs='+',
+                        help="list of additional tags to be added as "
+                        "suffix to the filenames", default=[])
+
+    return parser
+
+
 def metrics_argsparser():
     """ Command line arguments for the metrics script
 

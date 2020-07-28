@@ -1,0 +1,1788 @@
+Live
+A path to save has been provided. It is /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k/
+The path to the importance scores is /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/interpretation/2020-06-29_21_42_32
+ Scores path is /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/interpretation/2020-06-29_21_42_32/counts_scores.h5
+MEMORY 28.075302912
+On task task0
+Computing windowed sums on original
+Generating null dist
+peak(mu)= -0.002910295208240771
+Computing threshold
+Thresholds from null dist were -0.08813539905440859  and  0.058458218233499795
+Passing windows frac was 0.023429061647278048 , which is below  0.03 ; adjusting
+Final raw thresholds are -0.049322837079580475  and  0.049322837079580475
+Final transformed thresholds are -0.9699999980744158  and  0.9699999980744158
+saving plot to figures/scoredist_0.png
+Got 599496 coords
+After resolving overlaps, got 599496 seqlets
+Across all tasks, the weakest transformed threshold used was: 0.9698999980744158
+MEMORY 38.685974528
+599496 identified in total
+min_metacluster_size_frac * len(seqlets) = 5994 is more than min_metacluster_size=100.
+Using it as a new min_metacluster_size
+2 activity patterns with support >= 5994 out of 3 possible patterns
+Metacluster sizes:  [551640, 47856]
+Idx to activities:  {0: '1', 1: '-1'}
+MEMORY 38.686605312
+On metacluster 1
+Metacluster size 47856
+Relevant tasks:  ('task0',)
+Relevant signs:  (-1,)
+TfModiscoSeqletsToPatternsFactory: seed=1234
+(Round 1) num seqlets: 47856
+(Round 1) Computing coarse affmat
+MEMORY 38.687944704
+Beginning embedding computation
+Computing embeddings
+Finished embedding computation in 91.6 s
+Starting affinity matrix computations
+Normalization computed in 96.0 s
+Cosine similarity mat computed in 6079.99 s
+Normalization computed in 95.89 s
+Cosine similarity mat computed in 6069.3 s
+Finished affinity matrix computations in 12165.77 s
+(Round 1) Compute nearest neighbors from coarse affmat
+MEMORY 84.031860736
+Computed nearest neighbors in 76.16 s
+MEMORY 84.813529088
+(Round 1) Computing affinity matrix on nearest neighbors
+MEMORY 84.813529088
+Launching nearest neighbors affmat calculation job
+MEMORY 84.81441792
+Parallel runs completed
+MEMORY 85.236023296
+Job completed in: 486.42 s
+MEMORY 103.417155584
+Launching nearest neighbors affmat calculation job
+MEMORY 103.336689664
+Parallel runs completed
+MEMORY 103.530795008
+Job completed in: 469.23 s
+MEMORY 121.711812608
+(Round 1) Computed affinity matrix on nearest neighbors in 984.96 s
+MEMORY 103.665577984
+Filtered down to 16005 of 47856
+(Round 1) Retained 16005 rows out of 47856 after filtering
+MEMORY 103.666700288
+(Round 1) Computing density adapted affmat
+MEMORY 76.18439168
+[t-SNE] Computing 31 nearest neighbors...
+[t-SNE] Indexed 16005 samples in 0.304s...
+[t-SNE] Computed neighbors for 16005 samples in 1.551s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 16005
+[t-SNE] Computed conditional probabilities for sample 2000 / 16005
+[t-SNE] Computed conditional probabilities for sample 3000 / 16005
+[t-SNE] Computed conditional probabilities for sample 4000 / 16005
+[t-SNE] Computed conditional probabilities for sample 5000 / 16005
+[t-SNE] Computed conditional probabilities for sample 6000 / 16005
+[t-SNE] Computed conditional probabilities for sample 7000 / 16005
+[t-SNE] Computed conditional probabilities for sample 8000 / 16005
+[t-SNE] Computed conditional probabilities for sample 9000 / 16005
+[t-SNE] Computed conditional probabilities for sample 10000 / 16005
+[t-SNE] Computed conditional probabilities for sample 11000 / 16005
+[t-SNE] Computed conditional probabilities for sample 12000 / 16005
+[t-SNE] Computed conditional probabilities for sample 13000 / 16005
+[t-SNE] Computed conditional probabilities for sample 14000 / 16005
+[t-SNE] Computed conditional probabilities for sample 15000 / 16005
+[t-SNE] Computed conditional probabilities for sample 16000 / 16005
+[t-SNE] Computed conditional probabilities for sample 16005 / 16005
+[t-SNE] Mean sigma: 0.226233
+(Round 1) Computing clustering
+MEMORY 78.233878528
+Beginning preprocessing + Leiden
+Quality: 0.7523701588722642
+Quality: 0.7532425462704576
+Quality: 0.7535956082413183
+Quality: 0.7537932222437488
+Got 22 clusters after round 1
+Counts:
+{4: 1351, 12: 357, 1: 1656, 0: 1806, 10: 732, 2: 1610, 5: 1288, 16: 113, 9: 734, 11: 633, 8: 1068, 3: 1384, 6: 1236, 14: 221, 7: 1157, 13: 260, 15: 170, 21: 3, 19: 51, 18: 62, 17: 85, 20: 28}
+MEMORY 76.185673728
+(Round 1) Aggregating seqlets in each cluster
+MEMORY 76.185673728
+Aggregating for cluster 0 with 1806 seqlets
+MEMORY 76.185677824
+Trimmed 60 out of 1806
+Aggregating for cluster 1 with 1656 seqlets
+MEMORY 76.196179968
+Trimmed 26 out of 1656
+Aggregating for cluster 2 with 1610 seqlets
+MEMORY 76.2002432
+Trimmed 70 out of 1610
+Aggregating for cluster 3 with 1384 seqlets
+MEMORY 76.203728896
+Trimmed 51 out of 1384
+Aggregating for cluster 4 with 1351 seqlets
+MEMORY 76.206145536
+Trimmed 17 out of 1351
+Aggregating for cluster 5 with 1288 seqlets
+MEMORY 76.21005312
+Trimmed 49 out of 1288
+Aggregating for cluster 6 with 1236 seqlets
+MEMORY 76.212363264
+Trimmed 29 out of 1236
+Aggregating for cluster 7 with 1157 seqlets
+MEMORY 76.215058432
+Trimmed 65 out of 1157
+Aggregating for cluster 8 with 1068 seqlets
+MEMORY 76.217679872
+Trimmed 80 out of 1068
+Aggregating for cluster 9 with 734 seqlets
+MEMORY 76.21951488
+Trimmed 33 out of 734
+Aggregating for cluster 10 with 732 seqlets
+MEMORY 76.220301312
+Trimmed 82 out of 732
+Aggregating for cluster 11 with 633 seqlets
+MEMORY 76.221612032
+Trimmed 62 out of 633
+Aggregating for cluster 12 with 357 seqlets
+MEMORY 76.222660608
+Trimmed 66 out of 357
+Aggregating for cluster 13 with 260 seqlets
+MEMORY 76.222922752
+Trimmed 14 out of 260
+Removed 2 duplicate seqlets
+Dropping cluster 13 with 244 seqlets due to sign disagreement
+Aggregating for cluster 14 with 221 seqlets
+MEMORY 76.222922752
+Trimmed 8 out of 221
+Aggregating for cluster 15 with 170 seqlets
+MEMORY 76.222922752
+Trimmed 27 out of 170
+Aggregating for cluster 16 with 113 seqlets
+MEMORY 76.222922752
+Trimmed 3 out of 113
+Dropping cluster 16 with 110 seqlets due to sign disagreement
+Aggregating for cluster 17 with 85 seqlets
+MEMORY 76.222930944
+Trimmed 10 out of 85
+Aggregating for cluster 18 with 62 seqlets
+MEMORY 76.223033344
+Trimmed 0 out of 62
+Aggregating for cluster 19 with 51 seqlets
+MEMORY 76.223090688
+Trimmed 1 out of 51
+Aggregating for cluster 20 with 28 seqlets
+MEMORY 76.223107072
+Trimmed 6 out of 28
+Aggregating for cluster 21 with 3 seqlets
+MEMORY 76.223250432
+Trimmed 0 out of 3
+Dropping cluster 21 with 3 seqlets due to sign disagreement
+(Round 2) num seqlets: 15244
+(Round 2) Computing coarse affmat
+MEMORY 76.225634304
+Beginning embedding computation
+Computing embeddings
+Finished embedding computation in 25.14 s
+Starting affinity matrix computations
+Normalization computed in 30.16 s
+Cosine similarity mat computed in 648.45 s
+Normalization computed in 29.92 s
+Cosine similarity mat computed in 641.41 s
+Finished affinity matrix computations in 1292.76 s
+(Round 2) Compute nearest neighbors from coarse affmat
+MEMORY 76.2281984
+Computed nearest neighbors in 9.31 s
+MEMORY 75.695587328
+(Round 2) Computing affinity matrix on nearest neighbors
+MEMORY 75.695587328
+Launching nearest neighbors affmat calculation job
+MEMORY 75.695783936
+Parallel runs completed
+MEMORY 75.739447296
+Job completed in: 143.75 s
+MEMORY 75.739447296
+Launching nearest neighbors affmat calculation job
+MEMORY 75.739447296
+Parallel runs completed
+MEMORY 75.739721728
+Job completed in: 150.32 s
+MEMORY 77.097037824
+(Round 2) Computed affinity matrix on nearest neighbors in 298.42 s
+MEMORY 77.598756864
+Not applying filtering for rounds above first round
+MEMORY 77.598756864
+(Round 2) Computing density adapted affmat
+MEMORY 77.598756864
+[t-SNE] Computing 31 nearest neighbors...
+[t-SNE] Indexed 15244 samples in 0.292s...
+[t-SNE] Computed neighbors for 15244 samples in 1.317s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 15244
+[t-SNE] Computed conditional probabilities for sample 2000 / 15244
+[t-SNE] Computed conditional probabilities for sample 3000 / 15244
+[t-SNE] Computed conditional probabilities for sample 4000 / 15244
+[t-SNE] Computed conditional probabilities for sample 5000 / 15244
+[t-SNE] Computed conditional probabilities for sample 6000 / 15244
+[t-SNE] Computed conditional probabilities for sample 7000 / 15244
+[t-SNE] Computed conditional probabilities for sample 8000 / 15244
+[t-SNE] Computed conditional probabilities for sample 9000 / 15244
+[t-SNE] Computed conditional probabilities for sample 10000 / 15244
+[t-SNE] Computed conditional probabilities for sample 11000 / 15244
+[t-SNE] Computed conditional probabilities for sample 12000 / 15244
+[t-SNE] Computed conditional probabilities for sample 13000 / 15244
+[t-SNE] Computed conditional probabilities for sample 14000 / 15244
+[t-SNE] Computed conditional probabilities for sample 15000 / 15244
+[t-SNE] Computed conditional probabilities for sample 15244 / 15244
+[t-SNE] Mean sigma: 0.215355
+(Round 2) Computing clustering
+MEMORY 75.739717632
+Beginning preprocessing + Leiden
+Quality: 0.7495143210459749
+Got 23 clusters after round 2
+Counts:
+{8: 672, 21: 18, 13: 125, 0: 2679, 2: 1629, 19: 22, 3: 1581, 6: 1284, 1: 2406, 9: 428, 17: 34, 11: 171, 12: 138, 16: 45, 18: 29, 4: 1503, 10: 225, 14: 80, 7: 725, 5: 1352, 20: 22, 22: 11, 15: 65}
+MEMORY 75.740504064
+(Round 2) Aggregating seqlets in each cluster
+MEMORY 75.740504064
+Aggregating for cluster 0 with 2679 seqlets
+MEMORY 75.740504064
+Trimmed 95 out of 2679
+Removed 2 duplicate seqlets
+Aggregating for cluster 1 with 2406 seqlets
+MEMORY 75.755900928
+Trimmed 61 out of 2406
+Skipped 1 seqlets
+Removed 6 duplicate seqlets
+Aggregating for cluster 2 with 1629 seqlets
+MEMORY 75.760676864
+Trimmed 26 out of 1629
+Removed 2 duplicate seqlets
+Aggregating for cluster 3 with 1581 seqlets
+MEMORY 75.761434624
+Trimmed 31 out of 1581
+Aggregating for cluster 4 with 1503 seqlets
+MEMORY 75.764109312
+Trimmed 99 out of 1503
+Removed 4 duplicate seqlets
+Aggregating for cluster 5 with 1352 seqlets
+MEMORY 75.768983552
+Trimmed 115 out of 1352
+Aggregating for cluster 6 with 1284 seqlets
+MEMORY 75.771785216
+Trimmed 43 out of 1284
+Aggregating for cluster 7 with 725 seqlets
+MEMORY 75.773546496
+Trimmed 12 out of 725
+Aggregating for cluster 8 with 672 seqlets
+MEMORY 75.77380864
+Trimmed 35 out of 672
+Removed 1 duplicate seqlets
+Dropping cluster 8 with 636 seqlets due to sign disagreement
+Aggregating for cluster 9 with 428 seqlets
+MEMORY 75.774869504
+Trimmed 27 out of 428
+Aggregating for cluster 10 with 225 seqlets
+MEMORY 75.774869504
+Trimmed 22 out of 225
+Aggregating for cluster 11 with 171 seqlets
+MEMORY 75.774869504
+Trimmed 11 out of 171
+Aggregating for cluster 12 with 138 seqlets
+MEMORY 75.774869504
+Trimmed 12 out of 138
+Removed 1 duplicate seqlets
+Aggregating for cluster 13 with 125 seqlets
+MEMORY 75.774869504
+Trimmed 31 out of 125
+Dropping cluster 13 with 94 seqlets due to sign disagreement
+Aggregating for cluster 14 with 80 seqlets
+MEMORY 75.774869504
+Trimmed 4 out of 80
+Aggregating for cluster 15 with 65 seqlets
+MEMORY 75.774922752
+Trimmed 10 out of 65
+Removed 4 duplicate seqlets
+Aggregating for cluster 16 with 45 seqlets
+MEMORY 75.774922752
+Trimmed 15 out of 45
+Aggregating for cluster 17 with 34 seqlets
+MEMORY 75.774922752
+Trimmed 8 out of 34
+Aggregating for cluster 18 with 29 seqlets
+MEMORY 75.774951424
+Trimmed 0 out of 29
+Aggregating for cluster 19 with 22 seqlets
+MEMORY 75.775008768
+Trimmed 1 out of 22
+Dropping cluster 19 with 21 seqlets due to sign disagreement
+Aggregating for cluster 20 with 22 seqlets
+MEMORY 75.77501696
+Trimmed 1 out of 22
+Aggregating for cluster 21 with 18 seqlets
+MEMORY 75.775062016
+Trimmed 2 out of 18
+Dropping cluster 21 with 16 seqlets due to sign disagreement
+Aggregating for cluster 22 with 11 seqlets
+MEMORY 75.77511936
+Trimmed 0 out of 11
+Got 23 clusters
+Splitting into subclusters...
+MEMORY 75.775135744
+Inspecting for spurious merging
+Wrote graph to binary file in 8.983417987823486 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00984999
+After 3 runs, maximum modularity is Q = 0.00985002
+Louvain completed 23 runs in 19.412931442260742 seconds
+Similarity is 0.8307197515528251; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 7.037513971328735 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00459749
+After 2 runs, maximum modularity is Q = 0.00498369
+After 22 runs, maximum modularity is Q = 0.00498494
+Louvain completed 42 runs in 35.6831636428833 seconds
+Similarity is 0.8512850131668921; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 3.3484761714935303 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00570961
+After 4 runs, maximum modularity is Q = 0.00570998
+Louvain completed 24 runs in 13.300387144088745 seconds
+Similarity is 0.8969794424552189; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 3.101794719696045 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00428221
+After 2 runs, maximum modularity is Q = 0.00516183
+After 7 runs, maximum modularity is Q = 0.00516278
+After 11 runs, maximum modularity is Q = 0.00516281
+After 13 runs, maximum modularity is Q = 0.00516356
+After 25 runs, maximum modularity is Q = 0.00516365
+After 44 runs, maximum modularity is Q = 0.00516372
+Louvain completed 64 runs in 35.58502006530762 seconds
+Similarity is 0.92632548088855; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 2.5285391807556152 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0135355
+Louvain completed 21 runs in 9.777997970581055 seconds
+Similarity is 0.7768230506183302; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 1.3452746868133545 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00481046
+After 2 runs, maximum modularity is Q = 0.00481592
+After 10 runs, maximum modularity is Q = 0.00489209
+After 11 runs, maximum modularity is Q = 0.00489234
+Louvain completed 31 runs in 12.92520022392273 seconds
+Similarity is 0.911508559606584; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.4722270965576172 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0104943
+Louvain completed 21 runs in 6.894577264785767 seconds
+Similarity is 0.8863038850538995; is_dissimilar is False
+Got 2 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 1.9809105396270752 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0121775
+Louvain completed 21 runs in 9.031895160675049 seconds
+Similarity is 0.8211683643832015; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 1.9700613021850586 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00487789
+Louvain completed 21 runs in 9.624172925949097 seconds
+Similarity is 0.8171982638883423; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.6581399440765381 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0110345
+Louvain completed 21 runs in 7.198410511016846 seconds
+Similarity is 0.9028158208319159; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.5501325130462646 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00786161
+After 2 runs, maximum modularity is Q = 0.00905859
+After 4 runs, maximum modularity is Q = 0.0090631
+Louvain completed 24 runs in 8.641677618026733 seconds
+Similarity is 0.8706588468999183; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.2932124137878418 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0161496
+After 4 runs, maximum modularity is Q = 0.0162542
+After 8 runs, maximum modularity is Q = 0.0162543
+Louvain completed 28 runs in 8.921264410018921 seconds
+Similarity is 0.6672382207190067; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.10934853553771973 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0129728
+Louvain completed 21 runs in 6.335003852844238 seconds
+Similarity is 0.8203720269625674; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.08251070976257324 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.02652
+Louvain completed 21 runs in 6.127537965774536 seconds
+Similarity is 0.5352079360638521; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.01812434196472168 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00799201
+After 4 runs, maximum modularity is Q = 0.00811572
+After 6 runs, maximum modularity is Q = 0.00811769
+After 9 runs, maximum modularity is Q = 0.0081177
+Louvain completed 29 runs in 9.184561729431152 seconds
+Similarity is 0.5363040855042305; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.007175445556640625 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0112165
+Louvain completed 21 runs in 6.091505765914917 seconds
+Similarity is 0.5796557704343699; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004308938980102539 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00433799
+Louvain completed 21 runs in 6.00591778755188 seconds
+Similarity is 0.6757648338824931; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.00522613525390625 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.0127652
+After 2 runs, maximum modularity is Q = 0.0102283
+Louvain completed 22 runs in 6.869962453842163 seconds
+Similarity is 0.5161986597095414; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0043981075286865234 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00673855
+Louvain completed 21 runs in 5.985714912414551 seconds
+Similarity is 0.5558156220815658; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0037300586700439453 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00727095
+After 2 runs, maximum modularity is Q = 0.00727096
+After 3 runs, maximum modularity is Q = 0.00921192
+Louvain completed 23 runs in 7.111313819885254 seconds
+Similarity is 0.5202505166111684; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.015544414520263672 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00808745
+After 3 runs, maximum modularity is Q = 0.00814599
+Louvain completed 23 runs in 6.994164228439331 seconds
+Similarity is 0.8828288247191023; is_dissimilar is False
+Got 6 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 0.07703351974487305 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00200777
+After 2 runs, maximum modularity is Q = 0.00251931
+After 12 runs, maximum modularity is Q = 0.00251959
+Louvain completed 32 runs in 10.001810550689697 seconds
+Similarity is 0.9858514610119355; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.04831862449645996 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0142575
+After 2 runs, maximum modularity is Q = 0.0186894
+Louvain completed 22 runs in 6.797415018081665 seconds
+Similarity is 0.4255628493980548; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.04587149620056152 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.013747
+Louvain completed 21 runs in 5.711688041687012 seconds
+Similarity is 0.322289008421084; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.01147770881652832 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0151796
+Louvain completed 21 runs in 6.46031928062439 seconds
+Similarity is 0.49611712267896013; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0098724365234375 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00845662
+After 3 runs, maximum modularity is Q = 0.00845663
+After 4 runs, maximum modularity is Q = 0.00966673
+After 5 runs, maximum modularity is Q = 0.00968775
+Louvain completed 25 runs in 7.999275207519531 seconds
+Similarity is 0.3165621756835425; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0048596858978271484 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0104281
+After 5 runs, maximum modularity is Q = 0.0112386
+Louvain completed 25 runs in 7.4881978034973145 seconds
+Similarity is 0.434331802382426; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0031425952911376953 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0149086
+Louvain completed 21 runs in 5.944461822509766 seconds
+Similarity is 0.19336244872641883; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0039217472076416016 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00616906
+After 2 runs, maximum modularity is Q = 0.00625599
+Louvain completed 22 runs in 6.672168731689453 seconds
+Similarity is 0.7062049847052967; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.006459712982177734 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0121446
+Louvain completed 21 runs in 6.178152322769165 seconds
+Similarity is 0.6316544730214655; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005109071731567383 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00329386
+After 3 runs, maximum modularity is Q = 0.00329387
+Louvain completed 23 runs in 6.793050527572632 seconds
+Similarity is 0.8469986148381585; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0042150020599365234 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0087246
+After 2 runs, maximum modularity is Q = 0.00955604
+Louvain completed 22 runs in 6.519465684890747 seconds
+Similarity is 0.34966116541411374; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.00534367561340332 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0178297
+Louvain completed 21 runs in 5.8021790981292725 seconds
+Similarity is 0.8125543780857866; is_dissimilar is False
+Got 6 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 0.03061676025390625 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0108943
+After 2 runs, maximum modularity is Q = 0.0110339
+Louvain completed 22 runs in 6.624496698379517 seconds
+Similarity is 0.7054184368344443; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.014819860458374023 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.00468097
+After 2 runs, maximum modularity is Q = -0.00187309
+After 3 runs, maximum modularity is Q = 0.00838908
+After 6 runs, maximum modularity is Q = 0.00852384
+Louvain completed 26 runs in 8.202471733093262 seconds
+Similarity is 0.7752759357006285; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005980491638183594 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00908758
+After 2 runs, maximum modularity is Q = 0.00908759
+Louvain completed 22 runs in 6.587842226028442 seconds
+Similarity is 0.6205710852099449; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.00433349609375 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00767994
+After 7 runs, maximum modularity is Q = 0.00767995
+Louvain completed 27 runs in 7.92785906791687 seconds
+Similarity is 0.7942360225604895; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0028252601623535156 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00429932
+Louvain completed 21 runs in 6.315231561660767 seconds
+Similarity is 0.6434239906479733; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005376577377319336 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.0141359
+After 2 runs, maximum modularity is Q = 0.00902967
+After 3 runs, maximum modularity is Q = 0.0110668
+Louvain completed 23 runs in 7.35677433013916 seconds
+Similarity is 0.7094870815781766; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004992246627807617 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.0357705
+After 2 runs, maximum modularity is Q = 0.00950074
+Louvain completed 22 runs in 6.754415035247803 seconds
+Similarity is 0.7138045585634851; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0053806304931640625 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0108118
+After 2 runs, maximum modularity is Q = 0.0108708
+Louvain completed 22 runs in 6.628173589706421 seconds
+Similarity is 0.6753179912227496; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004133939743041992 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00475757
+Louvain completed 21 runs in 5.9786083698272705 seconds
+Similarity is 0.7892290758011902; is_dissimilar is True
+Got 6 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 0.025716781616210938 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00412102
+After 3 runs, maximum modularity is Q = 0.00434995
+Louvain completed 23 runs in 7.21390175819397 seconds
+Similarity is 0.9490796498761097; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.01742410659790039 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00700753
+Louvain completed 21 runs in 5.926734924316406 seconds
+Similarity is 0.9608914148996984; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.00673365592956543 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0062628
+After 2 runs, maximum modularity is Q = 0.00716079
+After 4 runs, maximum modularity is Q = 0.00729418
+After 7 runs, maximum modularity is Q = 0.00729419
+Louvain completed 27 runs in 8.34171724319458 seconds
+Similarity is 0.8528507896305941; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0036859512329101562 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00701311
+Louvain completed 21 runs in 6.0360426902771 seconds
+Similarity is 0.9058951846876758; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005299568176269531 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.0351341
+After 2 runs, maximum modularity is Q = 0.011843
+Louvain completed 22 runs in 6.413784742355347 seconds
+Similarity is 0.6405013448470074; is_dissimilar is True
+Got 2 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005084514617919922 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0124592
+After 2 runs, maximum modularity is Q = 0.0133437
+After 4 runs, maximum modularity is Q = 0.0134272
+Louvain completed 24 runs in 7.572008371353149 seconds
+Similarity is 0.33446045894862897; is_dissimilar is True
+Got 2 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 0.003428220748901367 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0170826
+Louvain completed 21 runs in 5.989511728286743 seconds
+Similarity is 0.44244098011376526; is_dissimilar is True
+Got 2 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0031774044036865234 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0111633
+Louvain completed 21 runs in 6.023057699203491 seconds
+Similarity is 0.7390142846244392; is_dissimilar is True
+Got 2 subclusters
+Merging on 43 clusters
+MEMORY 75.775991808
+On merging iteration 1
+Computing pattern to seqlet distances
+Computing pattern to pattern distances
+Collapsing 9 & 18 with prob 0.00020379935740110129 and sim 0.8600661256692326
+Trimmed 8 out of 678
+On merging iteration 2
+Computing pattern to seqlet distances
+Computing pattern to pattern distances
+Got 42 patterns after merging
+MEMORY 75.781894144
+Performing seqlet reassignment
+MEMORY 75.781894144
+Cross contin jaccard time taken: 91.18 s
+Cross contin jaccard time taken: 0.2 s
+Discarded 62 seqlets
+Got 26 patterns after reassignment
+MEMORY 75.854798848
+Total time taken is 16976.34s
+MEMORY 75.854798848
+On metacluster 0
+Metacluster size 551640 limited to 50000
+Relevant tasks:  ('task0',)
+Relevant signs:  (1,)
+TfModiscoSeqletsToPatternsFactory: seed=1234
+(Round 1) num seqlets: 50000
+(Round 1) Computing coarse affmat
+MEMORY 75.608158208
+Beginning embedding computation
+Computing embeddings
+Finished embedding computation in 77.3 s
+Starting affinity matrix computations
+Normalization computed in 100.1 s
+Cosine similarity mat computed in 6637.32 s
+Normalization computed in 100.18 s
+Cosine similarity mat computed in 6618.4 s
+Finished affinity matrix computations in 13274.36 s
+(Round 1) Compute nearest neighbors from coarse affmat
+MEMORY 85.600555008
+Computed nearest neighbors in 95.73 s
+MEMORY 86.413041664
+(Round 1) Computing affinity matrix on nearest neighbors
+MEMORY 86.413041664
+Launching nearest neighbors affmat calculation job
+MEMORY 86.41384448
+Parallel runs completed
+MEMORY 86.582157312
+Job completed in: 510.92 s
+MEMORY 105.94564096
+Launching nearest neighbors affmat calculation job
+MEMORY 105.939853312
+Parallel runs completed
+MEMORY 106.057695232
+Job completed in: 506.88 s
+MEMORY 125.421166592
+(Round 1) Computed affinity matrix on nearest neighbors in 1047.49 s
+MEMORY 106.650472448
+Filtered down to 23235 of 50000
+(Round 1) Retained 23235 rows out of 50000 after filtering
+MEMORY 106.65107456
+(Round 1) Computing density adapted affmat
+MEMORY 80.96999424
+[t-SNE] Computing 31 nearest neighbors...
+[t-SNE] Indexed 23235 samples in 0.646s...
+[t-SNE] Computed neighbors for 23235 samples in 3.213s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 23235
+[t-SNE] Computed conditional probabilities for sample 2000 / 23235
+[t-SNE] Computed conditional probabilities for sample 3000 / 23235
+[t-SNE] Computed conditional probabilities for sample 4000 / 23235
+[t-SNE] Computed conditional probabilities for sample 5000 / 23235
+[t-SNE] Computed conditional probabilities for sample 6000 / 23235
+[t-SNE] Computed conditional probabilities for sample 7000 / 23235
+[t-SNE] Computed conditional probabilities for sample 8000 / 23235
+[t-SNE] Computed conditional probabilities for sample 9000 / 23235
+[t-SNE] Computed conditional probabilities for sample 10000 / 23235
+[t-SNE] Computed conditional probabilities for sample 11000 / 23235
+[t-SNE] Computed conditional probabilities for sample 12000 / 23235
+[t-SNE] Computed conditional probabilities for sample 13000 / 23235
+[t-SNE] Computed conditional probabilities for sample 14000 / 23235
+[t-SNE] Computed conditional probabilities for sample 15000 / 23235
+[t-SNE] Computed conditional probabilities for sample 16000 / 23235
+[t-SNE] Computed conditional probabilities for sample 17000 / 23235
+[t-SNE] Computed conditional probabilities for sample 18000 / 23235
+[t-SNE] Computed conditional probabilities for sample 19000 / 23235
+[t-SNE] Computed conditional probabilities for sample 20000 / 23235
+[t-SNE] Computed conditional probabilities for sample 21000 / 23235
+[t-SNE] Computed conditional probabilities for sample 22000 / 23235
+[t-SNE] Computed conditional probabilities for sample 23000 / 23235
+[t-SNE] Computed conditional probabilities for sample 23235 / 23235
+[t-SNE] Mean sigma: 0.227082
+(Round 1) Computing clustering
+MEMORY 80.970186752
+Beginning preprocessing + Leiden
+Quality: 0.8645779703421025
+Quality: 0.8659340448978438
+Quality: 0.8663281583671962
+Quality: 0.8664492144723
+Quality: 0.8664811804932043
+Quality: 0.866742747128094
+Quality: 0.8667482864539149
+Quality: 0.8668766931834153
+Got 35 clusters after round 1
+Counts:
+{6: 1306, 1: 2161, 0: 2210, 19: 356, 22: 245, 8: 1157, 7: 1169, 27: 125, 20: 343, 14: 521, 5: 1434, 13: 579, 12: 628, 10: 836, 15: 496, 23: 231, 24: 182, 21: 260, 2: 2032, 9: 920, 17: 451, 16: 451, 11: 770, 3: 1778, 29: 62, 25: 169, 4: 1577, 18: 363, 28: 81, 34: 22, 26: 168, 31: 41, 30: 47, 32: 40, 33: 24}
+MEMORY 76.652224512
+(Round 1) Aggregating seqlets in each cluster
+MEMORY 76.652224512
+Aggregating for cluster 0 with 2210 seqlets
+MEMORY 76.652273664
+Trimmed 83 out of 2210
+Skipped 7 seqlets
+Removed 86 duplicate seqlets
+Aggregating for cluster 1 with 2161 seqlets
+MEMORY 76.662734848
+Trimmed 80 out of 2161
+Skipped 2 seqlets
+Removed 23 duplicate seqlets
+Aggregating for cluster 2 with 2032 seqlets
+MEMORY 76.668387328
+Trimmed 24 out of 2032
+Skipped 15 seqlets
+Removed 27 duplicate seqlets
+Removed 2 duplicate seqlets
+Aggregating for cluster 3 with 1778 seqlets
+MEMORY 76.672929792
+Trimmed 52 out of 1778
+Skipped 15 seqlets
+Removed 28 duplicate seqlets
+Aggregating for cluster 4 with 1577 seqlets
+MEMORY 76.6759936
+Trimmed 116 out of 1577
+Skipped 3 seqlets
+Aggregating for cluster 5 with 1434 seqlets
+MEMORY 76.678803456
+Trimmed 188 out of 1434
+Skipped 2 seqlets
+Removed 49 duplicate seqlets
+Removed 2 duplicate seqlets
+Aggregating for cluster 6 with 1306 seqlets
+MEMORY 76.680933376
+Trimmed 116 out of 1306
+Skipped 1 seqlets
+Aggregating for cluster 7 with 1169 seqlets
+MEMORY 76.683853824
+Trimmed 23 out of 1169
+Skipped 1 seqlets
+Removed 65 duplicate seqlets
+Aggregating for cluster 8 with 1157 seqlets
+MEMORY 76.685873152
+Trimmed 48 out of 1157
+Skipped 4 seqlets
+Removed 12 duplicate seqlets
+Aggregating for cluster 9 with 920 seqlets
+MEMORY 76.688863232
+Trimmed 109 out of 920
+Skipped 2 seqlets
+Aggregating for cluster 10 with 836 seqlets
+MEMORY 76.69020672
+Trimmed 37 out of 836
+Skipped 2 seqlets
+Removed 33 duplicate seqlets
+Aggregating for cluster 11 with 770 seqlets
+MEMORY 76.691124224
+Trimmed 50 out of 770
+Skipped 2 seqlets
+Aggregating for cluster 12 with 628 seqlets
+MEMORY 76.693057536
+Trimmed 28 out of 628
+Removed 6 duplicate seqlets
+Aggregating for cluster 13 with 579 seqlets
+MEMORY 76.693958656
+Trimmed 44 out of 579
+Removed 11 duplicate seqlets
+Aggregating for cluster 14 with 521 seqlets
+MEMORY 76.694822912
+Trimmed 5 out of 521
+Removed 54 duplicate seqlets
+Aggregating for cluster 15 with 496 seqlets
+MEMORY 76.695076864
+Trimmed 26 out of 496
+Aggregating for cluster 16 with 451 seqlets
+MEMORY 76.697030656
+Trimmed 7 out of 451
+Removed 32 duplicate seqlets
+Aggregating for cluster 17 with 451 seqlets
+MEMORY 76.697939968
+Trimmed 11 out of 451
+Skipped 2 seqlets
+Removed 7 duplicate seqlets
+Aggregating for cluster 18 with 363 seqlets
+MEMORY 76.699160576
+Trimmed 11 out of 363
+Skipped 7 seqlets
+Removed 2 duplicate seqlets
+Aggregating for cluster 19 with 356 seqlets
+MEMORY 76.69958656
+Trimmed 22 out of 356
+Aggregating for cluster 20 with 343 seqlets
+MEMORY 76.70030336
+Trimmed 49 out of 343
+Aggregating for cluster 21 with 260 seqlets
+MEMORY 76.700925952
+Trimmed 16 out of 260
+Skipped 1 seqlets
+Aggregating for cluster 22 with 245 seqlets
+MEMORY 76.701351936
+Trimmed 15 out of 245
+Skipped 1 seqlets
+Removed 38 duplicate seqlets
+Aggregating for cluster 23 with 231 seqlets
+MEMORY 76.701712384
+Trimmed 6 out of 231
+Removed 76 duplicate seqlets
+Aggregating for cluster 24 with 182 seqlets
+MEMORY 76.701974528
+Trimmed 7 out of 182
+Removed 44 duplicate seqlets
+Aggregating for cluster 25 with 169 seqlets
+MEMORY 76.701974528
+Trimmed 40 out of 169
+Aggregating for cluster 26 with 168 seqlets
+MEMORY 76.702396416
+Trimmed 13 out of 168
+Skipped 5 seqlets
+Aggregating for cluster 27 with 125 seqlets
+MEMORY 76.702859264
+Trimmed 4 out of 125
+Removed 17 duplicate seqlets
+Aggregating for cluster 28 with 81 seqlets
+MEMORY 76.702859264
+Trimmed 6 out of 81
+Aggregating for cluster 29 with 62 seqlets
+MEMORY 76.702896128
+Trimmed 8 out of 62
+Aggregating for cluster 30 with 47 seqlets
+MEMORY 76.702957568
+Trimmed 0 out of 47
+Skipped 1 seqlets
+Aggregating for cluster 31 with 41 seqlets
+MEMORY 76.702978048
+Trimmed 23 out of 41
+Aggregating for cluster 32 with 40 seqlets
+MEMORY 76.703072256
+Trimmed 4 out of 40
+Aggregating for cluster 33 with 24 seqlets
+MEMORY 76.70321152
+Trimmed 1 out of 24
+Aggregating for cluster 34 with 22 seqlets
+MEMORY 76.70321152
+Trimmed 2 out of 22
+Removed 1 duplicate seqlets
+(Round 2) num seqlets: 21198
+(Round 2) Computing coarse affmat
+MEMORY 76.603551744
+Beginning embedding computation
+Computing embeddings
+Finished embedding computation in 32.65 s
+Starting affinity matrix computations
+Normalization computed in 41.84 s
+Cosine similarity mat computed in 1228.79 s
+Normalization computed in 42.58 s
+Cosine similarity mat computed in 1231.37 s
+Finished affinity matrix computations in 2464.93 s
+(Round 2) Compute nearest neighbors from coarse affmat
+MEMORY 78.404333568
+Computed nearest neighbors in 18.29 s
+MEMORY 77.937573888
+(Round 2) Computing affinity matrix on nearest neighbors
+MEMORY 77.937573888
+Launching nearest neighbors affmat calculation job
+MEMORY 77.937573888
+Parallel runs completed
+MEMORY 77.981478912
+Job completed in: 216.77 s
+MEMORY 80.398168064
+Launching nearest neighbors affmat calculation job
+MEMORY 80.398168064
+Parallel runs completed
+MEMORY 80.397848576
+Job completed in: 209.15 s
+MEMORY 82.814537728
+(Round 2) Computed affinity matrix on nearest neighbors in 433.34 s
+MEMORY 81.5757312
+Not applying filtering for rounds above first round
+MEMORY 81.5757312
+(Round 2) Computing density adapted affmat
+MEMORY 79.778308096
+[t-SNE] Computing 31 nearest neighbors...
+[t-SNE] Indexed 21198 samples in 0.540s...
+[t-SNE] Computed neighbors for 21198 samples in 2.842s...
+[t-SNE] Computed conditional probabilities for sample 1000 / 21198
+[t-SNE] Computed conditional probabilities for sample 2000 / 21198
+[t-SNE] Computed conditional probabilities for sample 3000 / 21198
+[t-SNE] Computed conditional probabilities for sample 4000 / 21198
+[t-SNE] Computed conditional probabilities for sample 5000 / 21198
+[t-SNE] Computed conditional probabilities for sample 6000 / 21198
+[t-SNE] Computed conditional probabilities for sample 7000 / 21198
+[t-SNE] Computed conditional probabilities for sample 8000 / 21198
+[t-SNE] Computed conditional probabilities for sample 9000 / 21198
+[t-SNE] Computed conditional probabilities for sample 10000 / 21198
+[t-SNE] Computed conditional probabilities for sample 11000 / 21198
+[t-SNE] Computed conditional probabilities for sample 12000 / 21198
+[t-SNE] Computed conditional probabilities for sample 13000 / 21198
+[t-SNE] Computed conditional probabilities for sample 14000 / 21198
+[t-SNE] Computed conditional probabilities for sample 15000 / 21198
+[t-SNE] Computed conditional probabilities for sample 16000 / 21198
+[t-SNE] Computed conditional probabilities for sample 17000 / 21198
+[t-SNE] Computed conditional probabilities for sample 18000 / 21198
+[t-SNE] Computed conditional probabilities for sample 19000 / 21198
+[t-SNE] Computed conditional probabilities for sample 20000 / 21198
+[t-SNE] Computed conditional probabilities for sample 21000 / 21198
+[t-SNE] Computed conditional probabilities for sample 21198 / 21198
+[t-SNE] Mean sigma: 0.218368
+(Round 2) Computing clustering
+MEMORY 79.778357248
+Beginning preprocessing + Leiden
+Quality: 0.8541605144651873
+Quality: 0.8541913212732045
+Quality: 0.8542080517427463
+Got 26 clusters after round 2
+Counts:
+{3: 2034, 19: 112, 8: 1203, 25: 19, 10: 787, 17: 147, 5: 1737, 12: 534, 9: 827, 2: 2047, 21: 54, 4: 1934, 14: 410, 16: 149, 15: 196, 22: 36, 0: 2431, 23: 36, 7: 1463, 1: 2265, 6: 1520, 11: 536, 18: 135, 20: 108, 24: 20, 13: 458}
+MEMORY 76.18383872
+(Round 2) Aggregating seqlets in each cluster
+MEMORY 76.18383872
+Aggregating for cluster 0 with 2431 seqlets
+MEMORY 76.18383872
+Trimmed 34 out of 2431
+Removed 292 duplicate seqlets
+Aggregating for cluster 1 with 2265 seqlets
+MEMORY 76.19006464
+Trimmed 72 out of 2265
+Removed 5 duplicate seqlets
+Aggregating for cluster 2 with 2047 seqlets
+MEMORY 76.19749888
+Trimmed 76 out of 2047
+Removed 18 duplicate seqlets
+Aggregating for cluster 3 with 2034 seqlets
+MEMORY 76.201713664
+Trimmed 56 out of 2034
+Removed 10 duplicate seqlets
+Aggregating for cluster 4 with 1934 seqlets
+MEMORY 76.20513792
+Trimmed 38 out of 1934
+Removed 4 duplicate seqlets
+Aggregating for cluster 5 with 1737 seqlets
+MEMORY 76.21285888
+Trimmed 106 out of 1737
+Removed 1 duplicate seqlets
+Aggregating for cluster 6 with 1520 seqlets
+MEMORY 76.213563392
+Trimmed 22 out of 1520
+Skipped 10 seqlets
+Removed 9 duplicate seqlets
+Aggregating for cluster 7 with 1463 seqlets
+MEMORY 76.21859328
+Trimmed 15 out of 1463
+Removed 234 duplicate seqlets
+Aggregating for cluster 8 with 1203 seqlets
+MEMORY 76.219088896
+Trimmed 92 out of 1203
+Removed 3 duplicate seqlets
+Aggregating for cluster 9 with 827 seqlets
+MEMORY 76.2211328
+Trimmed 21 out of 827
+Aggregating for cluster 10 with 787 seqlets
+MEMORY 76.222640128
+Trimmed 29 out of 787
+Aggregating for cluster 11 with 536 seqlets
+MEMORY 76.223885312
+Trimmed 15 out of 536
+Aggregating for cluster 12 with 534 seqlets
+MEMORY 76.224495616
+Trimmed 18 out of 534
+Removed 25 duplicate seqlets
+Aggregating for cluster 13 with 458 seqlets
+MEMORY 76.226117632
+Trimmed 11 out of 458
+Removed 4 duplicate seqlets
+Aggregating for cluster 14 with 410 seqlets
+MEMORY 76.227497984
+Trimmed 27 out of 410
+Removed 19 duplicate seqlets
+Aggregating for cluster 15 with 196 seqlets
+MEMORY 76.227497984
+Trimmed 7 out of 196
+Aggregating for cluster 16 with 149 seqlets
+MEMORY 76.227497984
+Trimmed 37 out of 149
+Aggregating for cluster 17 with 147 seqlets
+MEMORY 76.227497984
+Trimmed 20 out of 147
+Aggregating for cluster 18 with 135 seqlets
+MEMORY 76.227497984
+Trimmed 6 out of 135
+Aggregating for cluster 19 with 112 seqlets
+MEMORY 76.227649536
+Trimmed 4 out of 112
+Aggregating for cluster 20 with 108 seqlets
+MEMORY 76.227948544
+Trimmed 12 out of 108
+Removed 4 duplicate seqlets
+Aggregating for cluster 21 with 54 seqlets
+MEMORY 76.228030464
+Trimmed 3 out of 54
+Aggregating for cluster 22 with 36 seqlets
+MEMORY 76.228173824
+Trimmed 8 out of 36
+Aggregating for cluster 23 with 36 seqlets
+MEMORY 76.228173824
+Trimmed 1 out of 36
+Aggregating for cluster 24 with 20 seqlets
+MEMORY 76.228173824
+Trimmed 4 out of 20
+Aggregating for cluster 25 with 19 seqlets
+MEMORY 76.228227072
+Trimmed 0 out of 19
+Got 26 clusters
+Splitting into subclusters...
+MEMORY 76.22744064
+Inspecting for spurious merging
+Wrote graph to binary file in 6.090137243270874 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00918831
+Louvain completed 21 runs in 14.596851587295532 seconds
+Similarity is 0.8811775361400433; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 6.165020942687988 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00588001
+After 6 runs, maximum modularity is Q = 0.00588008
+Louvain completed 26 runs in 19.96050786972046 seconds
+Similarity is 0.9646719404518851; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 4.9558985233306885 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00490239
+After 5 runs, maximum modularity is Q = 0.00500235
+After 7 runs, maximum modularity is Q = 0.00500238
+After 12 runs, maximum modularity is Q = 0.0050024
+Louvain completed 32 runs in 21.248992204666138 seconds
+Similarity is 0.8372929981951523; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 5.028844594955444 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00923806
+After 4 runs, maximum modularity is Q = 0.00923811
+Louvain completed 24 runs in 15.217213869094849 seconds
+Similarity is 0.7948130104015456; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 1.6323473453521729 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00757915
+After 2 runs, maximum modularity is Q = 0.00757926
+Louvain completed 22 runs in 9.421552896499634 seconds
+Similarity is 0.8675764696052896; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 1.4179346561431885 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00582865
+After 6 runs, maximum modularity is Q = 0.0058388
+After 7 runs, maximum modularity is Q = 0.00583912
+Louvain completed 27 runs in 11.580891370773315 seconds
+Similarity is 0.888081146476615; is_dissimilar is False
+Got 2 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 4.6409993171691895 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00628078
+After 2 runs, maximum modularity is Q = 0.00679147
+Louvain completed 22 runs in 13.796169519424438 seconds
+Similarity is 0.8934742637103064; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 3.4073500633239746 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00821735
+After 3 runs, maximum modularity is Q = 0.00821786
+After 8 runs, maximum modularity is Q = 0.00821791
+After 10 runs, maximum modularity is Q = 0.00821808
+Louvain completed 30 runs in 17.632062435150146 seconds
+Similarity is 0.9283343466622626; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 2.816810369491577 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.011666
+Louvain completed 21 runs in 10.836257934570312 seconds
+Similarity is 0.7026741137462661; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 1.4129059314727783 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00772486
+After 2 runs, maximum modularity is Q = 0.00790128
+Louvain completed 22 runs in 9.051420450210571 seconds
+Similarity is 0.8478790894655623; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.5647170543670654 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00686501
+After 2 runs, maximum modularity is Q = 0.00861624
+After 10 runs, maximum modularity is Q = 0.00861625
+Louvain completed 30 runs in 10.536066055297852 seconds
+Similarity is 0.29082050879508403; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.21120524406433105 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.00179662
+After 2 runs, maximum modularity is Q = 0.00436595
+After 7 runs, maximum modularity is Q = 0.00437152
+After 21 runs, maximum modularity is Q = 0.00437187
+Louvain completed 41 runs in 13.799386739730835 seconds
+Similarity is 0.3281363696242622; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0511474609375 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.00798929
+After 2 runs, maximum modularity is Q = 0.00413629
+Louvain completed 22 runs in 7.1062705516815186 seconds
+Similarity is 0.23239033012110627; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.017160415649414062 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00342989
+After 2 runs, maximum modularity is Q = 0.00443142
+After 6 runs, maximum modularity is Q = 0.00459801
+Louvain completed 26 runs in 8.489389419555664 seconds
+Similarity is 0.12068439819666033; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.010835647583007812 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00527022
+After 4 runs, maximum modularity is Q = 0.00527556
+After 5 runs, maximum modularity is Q = 0.0055111
+After 6 runs, maximum modularity is Q = 0.00551111
+After 15 runs, maximum modularity is Q = 0.00553513
+Louvain completed 35 runs in 11.59342885017395 seconds
+Similarity is 0.27037210574314574; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005028486251831055 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.0329381
+After 2 runs, maximum modularity is Q = 0.0081666
+After 12 runs, maximum modularity is Q = 0.00816661
+Louvain completed 32 runs in 10.253257751464844 seconds
+Similarity is 0.25412705654649503; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004545688629150391 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00627817
+Louvain completed 21 runs in 6.579944610595703 seconds
+Similarity is 0.2793028594769059; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.007898569107055664 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00389322
+After 3 runs, maximum modularity is Q = 0.00428765
+After 4 runs, maximum modularity is Q = 0.00438949
+After 5 runs, maximum modularity is Q = 0.0043895
+Louvain completed 25 runs in 8.58274531364441 seconds
+Similarity is 0.20648606918454357; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.003270387649536133 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00583086
+After 3 runs, maximum modularity is Q = 0.00583087
+Louvain completed 23 runs in 7.404394626617432 seconds
+Similarity is 0.15187070286900406; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004064798355102539 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00712882
+Louvain completed 21 runs in 6.445362091064453 seconds
+Similarity is 0.1459229551821689; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.02286362648010254 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00356492
+After 2 runs, maximum modularity is Q = 0.00402969
+After 4 runs, maximum modularity is Q = 0.00423673
+After 12 runs, maximum modularity is Q = 0.00427807
+After 13 runs, maximum modularity is Q = 0.00439001
+Louvain completed 33 runs in 11.005642890930176 seconds
+Similarity is 0.3689113876294622; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.008759021759033203 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00564491
+After 2 runs, maximum modularity is Q = 0.00571849
+After 3 runs, maximum modularity is Q = 0.00621097
+After 4 runs, maximum modularity is Q = 0.00623477
+Louvain completed 24 runs in 8.10934591293335 seconds
+Similarity is 0.24054033765486255; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004789829254150391 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00506677
+After 2 runs, maximum modularity is Q = 0.00746489
+After 7 runs, maximum modularity is Q = 0.00814766
+Louvain completed 27 runs in 8.816345691680908 seconds
+Similarity is 0.24513864155005446; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.007391452789306641 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.0270049
+After 2 runs, maximum modularity is Q = 0.00651261
+After 9 runs, maximum modularity is Q = 0.007076
+After 10 runs, maximum modularity is Q = 0.00707601
+Louvain completed 30 runs in 10.009421110153198 seconds
+Similarity is 0.32325122005481005; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.06945061683654785 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00481089
+After 2 runs, maximum modularity is Q = 0.00488497
+Louvain completed 22 runs in 7.247335910797119 seconds
+Similarity is 0.046415698979510665; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.023566246032714844 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00485181
+After 2 runs, maximum modularity is Q = 0.00534321
+Louvain completed 22 runs in 7.0058135986328125 seconds
+Similarity is 0.26306693041333995; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0063741207122802734 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00552262
+After 2 runs, maximum modularity is Q = 0.00635447
+After 4 runs, maximum modularity is Q = 0.00638867
+After 15 runs, maximum modularity is Q = 0.00638868
+Louvain completed 35 runs in 11.22995901107788 seconds
+Similarity is 0.17136448713893815; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004561662673950195 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00878434
+After 3 runs, maximum modularity is Q = 0.00955714
+After 4 runs, maximum modularity is Q = 0.00955715
+Louvain completed 24 runs in 7.971712112426758 seconds
+Similarity is 0.2102851611573593; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0032715797424316406 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00764311
+Louvain completed 21 runs in 6.49612283706665 seconds
+Similarity is 0.22435231470848493; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004754304885864258 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00609531
+After 2 runs, maximum modularity is Q = 0.00854801
+After 3 runs, maximum modularity is Q = 0.00854802
+Louvain completed 23 runs in 7.474323034286499 seconds
+Similarity is 0.3072041454400402; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.014028787612915039 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = -0.00760591
+After 2 runs, maximum modularity is Q = 0.00517989
+After 6 runs, maximum modularity is Q = 0.0051799
+Louvain completed 26 runs in 8.327528715133667 seconds
+Similarity is 0.24371866496598912; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005414247512817383 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00728833
+After 3 runs, maximum modularity is Q = 0.00728834
+Louvain completed 23 runs in 7.484915733337402 seconds
+Similarity is 0.3025166137822517; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004445075988769531 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00510612
+After 3 runs, maximum modularity is Q = 0.00579301
+After 4 runs, maximum modularity is Q = 0.00714646
+After 9 runs, maximum modularity is Q = 0.00714647
+Louvain completed 29 runs in 9.662106275558472 seconds
+Similarity is 0.2945425495044257; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.007343292236328125 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00511681
+After 2 runs, maximum modularity is Q = 0.00761107
+Louvain completed 22 runs in 7.074765205383301 seconds
+Similarity is 0.24947857544195037; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004168987274169922 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00600157
+After 3 runs, maximum modularity is Q = 0.00616426
+After 6 runs, maximum modularity is Q = 0.00653885
+Louvain completed 26 runs in 8.344562768936157 seconds
+Similarity is 0.1616564050796883; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.09096693992614746 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00587484
+After 7 runs, maximum modularity is Q = 0.00588308
+Louvain completed 27 runs in 8.625585317611694 seconds
+Similarity is 0.6533173227280039; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.04358267784118652 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00460715
+After 2 runs, maximum modularity is Q = 0.0051046
+Louvain completed 22 runs in 7.138681888580322 seconds
+Similarity is 0.7814366914521477; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.013582944869995117 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00686919
+Louvain completed 21 runs in 6.457658529281616 seconds
+Similarity is 0.7436279550470046; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.006894826889038086 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00290977
+After 2 runs, maximum modularity is Q = 0.00356183
+After 3 runs, maximum modularity is Q = 0.00400757
+Louvain completed 23 runs in 7.69252872467041 seconds
+Similarity is 0.8110906460094178; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004073143005371094 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00423178
+After 2 runs, maximum modularity is Q = 0.00518454
+After 7 runs, maximum modularity is Q = 0.00519121
+Louvain completed 27 runs in 9.003414392471313 seconds
+Similarity is 0.6891188309617328; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.011945724487304688 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00544752
+After 4 runs, maximum modularity is Q = 0.00544753
+After 5 runs, maximum modularity is Q = 0.00556483
+After 10 runs, maximum modularity is Q = 0.00571692
+Louvain completed 30 runs in 9.950976371765137 seconds
+Similarity is 0.7896910174703264; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.006034135818481445 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00657304
+Louvain completed 21 runs in 6.599006414413452 seconds
+Similarity is 0.7048594756747197; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005225658416748047 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.003406
+After 2 runs, maximum modularity is Q = 0.00380171
+Louvain completed 22 runs in 7.068451166152954 seconds
+Similarity is 0.8099146861388441; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.025257349014282227 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00597972
+After 7 runs, maximum modularity is Q = 0.00601189
+After 9 runs, maximum modularity is Q = 0.0060119
+Louvain completed 29 runs in 9.307259321212769 seconds
+Similarity is 0.44265487689147165; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.007806301116943359 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00444515
+After 2 runs, maximum modularity is Q = 0.00519256
+After 3 runs, maximum modularity is Q = 0.00557235
+Louvain completed 23 runs in 7.5249364376068115 seconds
+Similarity is 0.3290889820229126; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.004053354263305664 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00486551
+Louvain completed 21 runs in 6.582129955291748 seconds
+Similarity is 0.11917346876500573; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0047571659088134766 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0104103
+After 2 runs, maximum modularity is Q = 0.0105696
+Louvain completed 22 runs in 7.008396148681641 seconds
+Similarity is 0.3299910839810921; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.010882377624511719 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0071681
+Louvain completed 21 runs in 6.513635873794556 seconds
+Similarity is 0.5497046302971008; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0036306381225585938 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00560702
+Louvain completed 21 runs in 6.438050031661987 seconds
+Similarity is 0.48634535072328455; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0040972232818603516 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00374884
+After 4 runs, maximum modularity is Q = 0.00382344
+Louvain completed 24 runs in 7.494161367416382 seconds
+Similarity is 0.6686286711949991; is_dissimilar is True
+Got 8 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 1.9273505210876465 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0086604
+Louvain completed 21 runs in 9.350517272949219 seconds
+Similarity is 0.9056916395609358; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 1.5856349468231201 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00770614
+Louvain completed 21 runs in 9.109755277633667 seconds
+Similarity is 0.799615253861897; is_dissimilar is True
+Inspecting for spurious merging
+Wrote graph to binary file in 0.7692885398864746 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00469747
+After 3 runs, maximum modularity is Q = 0.00469912
+After 4 runs, maximum modularity is Q = 0.00470183
+Louvain completed 24 runs in 9.28315544128418 seconds
+Similarity is 0.9556232686825885; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.4354982376098633 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0054897
+After 3 runs, maximum modularity is Q = 0.00549018
+Louvain completed 23 runs in 7.874498128890991 seconds
+Similarity is 0.8784397179194618; is_dissimilar is False
+Got 2 subclusters
+Inspecting for spurious merging
+Wrote graph to binary file in 0.8480544090270996 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00408126
+After 2 runs, maximum modularity is Q = 0.00489732
+Louvain completed 22 runs in 8.420140027999878 seconds
+Similarity is 0.9522211873137727; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.7393243312835693 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00540155
+After 3 runs, maximum modularity is Q = 0.00540211
+After 6 runs, maximum modularity is Q = 0.0054023
+After 14 runs, maximum modularity is Q = 0.00540231
+After 16 runs, maximum modularity is Q = 0.00540232
+Louvain completed 36 runs in 13.799495220184326 seconds
+Similarity is 0.9842663699019425; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.4524862766265869 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00660005
+After 6 runs, maximum modularity is Q = 0.00660014
+Louvain completed 26 runs in 9.038252115249634 seconds
+Similarity is 0.9378633476950196; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.40929555892944336 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00637453
+After 2 runs, maximum modularity is Q = 0.00637546
+After 9 runs, maximum modularity is Q = 0.00640913
+After 10 runs, maximum modularity is Q = 0.00640959
+Louvain completed 30 runs in 10.640739917755127 seconds
+Similarity is 0.905246596159734; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.36696290969848633 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0063235
+After 4 runs, maximum modularity is Q = 0.00632661
+Louvain completed 24 runs in 8.108426094055176 seconds
+Similarity is 0.9363510076510841; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.24499893188476562 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00675166
+After 5 runs, maximum modularity is Q = 0.0067522
+Louvain completed 25 runs in 8.135270118713379 seconds
+Similarity is 0.9510198248641728; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.06577110290527344 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00556487
+After 2 runs, maximum modularity is Q = 0.00556488
+Louvain completed 22 runs in 7.022922992706299 seconds
+Similarity is 0.9332533241539072; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.01933002471923828 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0119712
+Louvain completed 21 runs in 6.504930019378662 seconds
+Similarity is 0.8093258346117584; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.03321504592895508 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00738694
+After 2 runs, maximum modularity is Q = 0.00977079
+Louvain completed 22 runs in 7.102165937423706 seconds
+Similarity is 0.9407981692749984; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.03418135643005371 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00696298
+Louvain completed 21 runs in 6.418686151504517 seconds
+Similarity is 0.8979823269985738; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.023752689361572266 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.0126804
+Louvain completed 21 runs in 6.608032941818237 seconds
+Similarity is 0.9043187860413575; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.02295398712158203 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00339359
+Louvain completed 21 runs in 6.349689722061157 seconds
+Similarity is 0.9738739865103103; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.007088184356689453 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00475095
+Louvain completed 21 runs in 6.423687696456909 seconds
+Similarity is 0.8061824992239496; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.0037813186645507812 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00468114
+After 3 runs, maximum modularity is Q = 0.00469901
+Louvain completed 23 runs in 7.515020847320557 seconds
+Similarity is 0.9328887339637969; is_dissimilar is False
+Inspecting for spurious merging
+Wrote graph to binary file in 0.005589723587036133 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.00093784
+After 2 runs, maximum modularity is Q = 0.000937843
+After 4 runs, maximum modularity is Q = 0.000957341
+After 15 runs, maximum modularity is Q = 0.000957342
+After 30 runs, maximum modularity is Q = 0.000957344
+Louvain completed 50 runs in 15.799686431884766 seconds
+Similarity is 0.9338191075095821; is_dissimilar is False
+Merging on 35 clusters
+MEMORY 76.225200128
+On merging iteration 1
+Computing pattern to seqlet distances
+Computing pattern to pattern distances
+Collapsing 28 & 31 with prob 1.0374981654708395e-05 and sim 0.9830578592803901
+Collapsing 6 & 18 with prob 0.0006494750702204483 and sim 0.9758699032371464
+Collapsing 0 & 15 with prob 0.041233311626102026 and sim 0.9129675072341683
+Collapsing 18 & 20 with prob 0.0004257895801889908 and sim 0.9103338239972495
+Collapsing 6 & 20 with prob 1.6939222109897936e-05 and sim 0.8836119677453842
+Collapsing 1 & 18 with prob 0.0003822386505432815 and sim 0.8523403405241361
+Collapsing 1 & 6 with prob 0.0015232276732192113 and sim 0.8516812160022711
+Trimmed 0 out of 136
+Removed 25 duplicate seqlets
+Trimmed 5 out of 2436
+Trimmed 8 out of 3319
+Trimmed 5 out of 2952
+Trimmed 44 out of 5135
+On merging iteration 2
+Computing pattern to seqlet distances
+Computing pattern to pattern distances
+Got 30 patterns after merging
+MEMORY 76.078473216
+Performing seqlet reassignment
+MEMORY 76.078473216
+Cross contin jaccard time taken: 24.65 s
+Cross contin jaccard time taken: 0.04 s
+Discarded 15 seqlets
+Skipped 1 seqlets
+Got 27 patterns after reassignment
+MEMORY 76.156424192
+Total time taken is 20137.67s
+MEMORY 76.156424192
+Saved modisco results to file /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k/modisco_results_allChroms_counts.hdf5
+Saving seqlets to /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k/seqlets_counts.txt
+Saving pattern visualizations
+<modisco.core.AggregatedSeqlet object at 0x7f0c1865f0d0>
+pattern idx 0
+5092
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_0.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_0.png
+<modisco.core.AggregatedSeqlet object at 0x7f0be00f76d0>
+pattern idx 1
+3311
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_1.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_1.png
+<modisco.core.AggregatedSeqlet object at 0x7f0be0084190>
+pattern idx 2
+1955
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_2.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_2.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd86b21d0>
+pattern idx 3
+1894
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_3.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_3.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bdab3de10>
+pattern idx 4
+1035
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_4.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_4.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bdb380e10>
+pattern idx 5
+951
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_5.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_5.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bda8aed90>
+pattern idx 6
+937
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_6.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_6.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bda28a910>
+pattern idx 7
+758
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_7.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_7.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd9dc2350>
+pattern idx 8
+646
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_8.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_8.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd9a94c50>
+pattern idx 9
+491
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_9.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_9.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd9873a90>
+pattern idx 10
+463
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_10.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_10.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd95c7c50>
+pattern idx 11
+443
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_11.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_11.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd9428d10>
+pattern idx 12
+365
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_12.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_12.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd92b9c50>
+pattern idx 13
+195
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_13.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_13.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd9165e90>
+pattern idx 14
+189
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_14.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_14.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd9015d10>
+pattern idx 15
+129
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_15.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_15.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8f1c8d0>
+pattern idx 16
+128
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_16.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_16.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8e9a710>
+pattern idx 17
+127
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_17.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_17.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8e13910>
+pattern idx 18
+112
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_18.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_18.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8de3bd0>
+pattern idx 19
+111
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_19.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_19.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8db8750>
+pattern idx 20
+92
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_20.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_20.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8d0ab50>
+pattern idx 21
+90
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_21.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_21.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8ccfb90>
+pattern idx 22
+58
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_22.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_22.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8c96f10>
+pattern idx 23
+51
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_23.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_23.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8c52c10>
+pattern idx 24
+35
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_24.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_24.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8c0a390>
+pattern idx 25
+36
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_25.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_25.png
+<modisco.core.AggregatedSeqlet object at 0x7f0bd8c28b90>
+pattern idx 26
+29
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//contrib_26.png
+/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200625_filt256_in2346_out2000/cluster_idx10/modisco_2kb_50k//sequence_26.png

@@ -75,18 +75,20 @@ shap_scores_seq = []
 proj_shap_scores_seq = []
 one_hot_seqs = [] 
 
-center = int(scores['shap']['seq'].shape[-1]/2)
-start = center - 200
-end = center + 200
+# center = int(scores['shap']['seq'].shape[-1]/2)
+# start = center - 200
+# end = center + 200
 for i in scores['shap']['seq']:
-    shap_scores_seq.append(i[:,start:end].transpose())
-
+    #shap_scores_seq.append(i[:,start:end].transpose())
+    shap_scores_seq.append(i.transpose())
 
 for i in scores['projected_shap']['seq']:
-    proj_shap_scores_seq.append(i[:,start:end].transpose())
+    #proj_shap_scores_seq.append(i[:,start:end].transpose())
+    proj_shap_scores_seq.append(i.transpose())
 
 for i in scores['raw']['seq']:
-    one_hot_seqs.append(i[:,start:end].transpose())
+    #one_hot_seqs.append(i[:,start:end].transpose())
+    one_hot_seqs.append(i.transpose())
 
 tasks = ['task0']
 task_to_scores = OrderedDict()
