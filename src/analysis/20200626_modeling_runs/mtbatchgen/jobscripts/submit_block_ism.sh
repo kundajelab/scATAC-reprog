@@ -4,7 +4,7 @@ set -o pipefail
 set -u 
 
 BASE=/scratch/users/surag/scATAC-reprog/mtbatchgen/
-RUNNAME=20200625_filt256_in2346_out2000
+RUNNAME=20200727_all_peaks_filt256_in2346_out2000
 JOBSCRIPT=/scratch/users/surag/scATAC-reprog/mtbatchgen/jobscripts/jobscript.sh
 
 # run code from copy
@@ -15,12 +15,13 @@ cd $BASE/models/$RUNNAME/code
 #  mkdir -p $BASE/models/$RUNNAME/cluster_idx$i/block_ism
 # done
 
-for i in 12 13 15 
+for i in 13
  do
   sbatch --job-name block_ism_c$i \
          --output $BASE/models/$RUNNAME/cluster_idx$i/block_ism/log.txt \
          --error $BASE/models/$RUNNAME/cluster_idx$i/block_ism/err.txt \
-         --mem=200G \
+         --mem=250G \
+         --time=12:00:00 \
          $JOBSCRIPT block_ism.py \
          --model $BASE/models/$RUNNAME/cluster_idx$i/*/*.h5 \
          --chrom-sizes /scratch/users/surag/genomes/GRCh38_EBV.chrom.sizes \

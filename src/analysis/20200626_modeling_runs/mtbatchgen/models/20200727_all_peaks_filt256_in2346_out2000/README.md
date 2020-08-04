@@ -1,0 +1,1 @@
+Training all models with all peaks, i.e. with `overlap.with_iPSC.range.2000.2000.bed`. This is because models trained on their peaks only have a minimum count across all samples and can't predict loss of counts when motifs are disturbed in peaks with lowest number of counts.

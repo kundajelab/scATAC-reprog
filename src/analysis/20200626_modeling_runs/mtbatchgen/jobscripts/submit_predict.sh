@@ -4,7 +4,7 @@ set -o pipefail
 set -u 
 
 BASE=/scratch/users/surag/scATAC-reprog/mtbatchgen/
-RUNNAME=20200625_filt256_in2346_out2000
+RUNNAME=20200727_all_peaks_filt256_in2346_out2000
 JOBSCRIPT=/scratch/users/surag/scATAC-reprog/mtbatchgen/jobscripts/jobscript.sh
 
 # run code from copy

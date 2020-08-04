@@ -1,0 +1,13 @@
+Live
+2020-07-29 18:30:10,610 - root - INFO - INPUT DATA -
+OrderedDict([('cluster_idx9_unstranded', {'strand': 0, 'task_id': 0, 'peaks': '/scratch/users/surag/scATAC-reprog/mtbatchgen//data/20200518_n76052/cluster_idx9/peaks.bed'})])
+2020-07-29 18:30:10,611 - root - INFO - Loading /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200727_all_peaks_filt256_in2346_out2000/cluster_idx9/2020-07-27_23_05_12/DoJEFX.h5
+(406406, 10)
+(35858, 10)
+2020-07-29 18:30:14,792 - numexpr.utils - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2020-07-29 18:30:14,862 - root - WARNING - Since you have a chosen a batch size 128 > 1 the last 18 peaks will not be predicted because of batch size mismatch. To predict all peak positions use a batch size  of 1
+2020-07-29 18:30:14,862 - root - INFO - Test chroms ['chr1']
+2020-07-29 18:30:14,862 - root - INFO - Test data size (35858, 2)
+2020-07-29 18:30:14,867 - root - INFO - Profile bigWig - /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200727_all_peaks_filt256_in2346_out2000/cluster_idx9/predictions/DoJEFX_cluster_idx9_unstranded.bw
+2020-07-29 18:30:14,867 - root - INFO - Counts bigWig - /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20200727_all_peaks_filt256_in2346_out2000/cluster_idx9/predictions/DoJEFX_cluster_idx9_unstranded_exponentiated_counts.bw
+2020-07-29 18:47:33,259 - root - INFO - Total Elapsed Time: 1038.391933441162 secs
