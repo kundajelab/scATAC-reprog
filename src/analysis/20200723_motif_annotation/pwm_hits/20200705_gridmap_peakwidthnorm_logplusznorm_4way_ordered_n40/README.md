@@ -4,12 +4,12 @@ TF list compiled by aggregating all TFs from previous MoDISco runs on SVM and BP
 
 `cat ../20200702_modisco_summarize/data/20200518_n76052/*/*/*/tomtom_matches.homer.tsv  | awk '$3<0.05' | cut -f2 | grep -v match | usu | wc -l`
 
-Removed SCL manually.
+Removed SCL manually. Added NANOG manually.
 
 ### Scan Peaks for Motifs
 
 Custom script to get selected motif PWMs:
-`python ../../scripts/extract_motifs_from_homer.py -s tf.homer.list.txt -m ../../../resources/HOMER/custom.motifs -o  selected.homer.motifs.homer`
+`python ../../scripts/extract_motifs_from_homer.py -s tf.homer.list.txt -m ../../../../../resources/HOMER/custom.motifs -o  selected.homer.motifs.homer`
 
 Scan:
 `scanMotifGenomeWide.pl selected.homer.motifs.homer 20200705_gridmap_peakwidthnorm_logplusznorm_4way_ordered_n40.fa -bed > homer.all.hits 2> >(grep Processing > homer.all.log)`
@@ -18,6 +18,9 @@ Scan:
 
 Sort:
 `cat homer.all.hits | sort -k1,1 -k2,2n -k3,3nr > homer.all.sorted.hits`
+
+To BED:
+`cat homer.all.sorted.hits | sed 's/:/\t/' | sed 's/-/\t/' | awk -v OFS='\t' '{print $1, $2+$4-1, $2+$5, $6, $7, $8}' > homer.all.sorted.bed`
 
 Remove intervals contained within other intervals:
 `cat homer.all.sorted.hits   |python ../../scripts/remove_subsumed_intervals.py -b -  > homer.all.superset.hits`
