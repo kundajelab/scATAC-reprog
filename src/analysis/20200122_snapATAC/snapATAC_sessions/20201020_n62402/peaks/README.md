@@ -16,3 +16,7 @@ To get peaks without iPSC peaks and without clump:
 - `python ~/kundajelab/scATAC-reprog/src/processing/20200502_merge_peaks/range_merge.py -np ./overlap.no_iPSC.no_clump.peaks.qval.sort.narrowPeak.gz -min 200 -max 300 -o ./overlap.no_iPSC.no_clump.range.200.300.bed`
 
 Same for idr.
+
+For BPNet training (with iPSC, without clump):
+- `find ../croo/cluster_idx*/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz | grep -v idx15 |  xargs -I{} zcat {} | sort -k9 -nr | gzip > overlap.with_iPSC.no_clump.peaks.qval.sort.narrowPeak.gz`
+- `python ~/kundajelab/scATAC-reprog/src/processing/20200502_merge_peaks/range_merge.py -np ./overlap.with_iPSC.no_clump.peaks.qval.sort.narrowPeak.gz -min 2000 -max 2000  -o ./overlap.with_iPSC.no_clump.range.2000.2000.bed` 
