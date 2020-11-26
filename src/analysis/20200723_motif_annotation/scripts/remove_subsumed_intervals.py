@@ -1,9 +1,9 @@
 import argparse
-import heapq
 import fileinput
 
 parser = argparse.ArgumentParser('Removes intervals completely subsumed by another. INPUT BED MUST BE SORTED -k1,1 -k2,2n -k3,3nr !!!')
 parser.add_argument("-b", "--bed", required=True, type=str, help="Input BED, must be sorted -k1,1 -k2,2n -k3,3nr. '-' for stdin.")
+parser.add_argument("-s", "--subsume_thresh", type=int, default=3, help="The interval that subsumes another must not be wider than this param")
 
 args = parser.parse_args()
 
@@ -12,12 +12,9 @@ class Interval():
         self.start = start
         self.end = end
 
-    def __lt__(self, other):
-        # heap will keep intervals with farthest ends at the top
-        return self.end > other.end
 
 cur_chr = None
-open_interval_ends_heap = []
+open_intervals = set()
 
 for line in fileinput.input(args.bed):
     line_split = line.strip().split('\t')
@@ -26,31 +23,31 @@ for line in fileinput.input(args.bed):
     if chrm != cur_chr:
         # reset
         cur_chr = chrm
-        open_interval_ends_heap = []
+        open_intervals = set()
 
     is_subsumed = False
-    while open_interval_ends_heap:
-        if open_interval_ends_heap[0].end >= end:
-             # an open interval potentially subsumes this interval
-            if open_interval_ends_heap[0].start <= start:
-                # skip, it is subsumed by another interval
-                is_subsumed = True
-                break 
+    
+    # collect intervals that are no longer relevant (to delete later)
+    expired_intervals = []
+    
+    for interval in open_intervals:
+        # by definition interval will start <= current one (since inputs are sorted -k2,2n)
+        assert(interval.start <= start)
 
-            else:
-                # interval has expired, remove from heap
-                # retry with next available interval
-                heapq.heappop(open_interval_ends_heap)
-        
-        else: 
-            # no interval subsumes it 
-            break
+        if interval.end >= end:
+            if (interval.end-interval.start) - (end-start) <= args.subsume_thresh:
+                # skip, it is subsumed by interval
+                is_subsumed = True
+                break
+        elif interval.end < start:
+            # interval no long relevant
+            expired_intervals.append(interval)
+
+    for interval in expired_intervals:
+        open_intervals.remove(interval)
 
     if not is_subsumed:
-        # add to heap
-        heapq.heappush(open_interval_ends_heap, Interval(start,end))
-
+        # add to open intervals and print out
+        open_intervals.add(Interval(start,end))
         print(line, end='')
-
-
 
