@@ -1,0 +1,108 @@
+{
+    "name": "sox2_bs256_lr1e-4",
+    "n_gpu": 1,
+    "config_processor": {
+        "type": "data_loaders.sequence_only.intervals_data_loader.intervals_config_processor"
+    },
+    "arch": {
+        "type": "models.sequence_only.factorized_basset.FactorizedBasset",
+        "args": {
+            "sequence_length": 1000,
+            "num_outputs": 1,
+            "dropout": 0.3
+        }
+    },
+    "data_loader": {
+        "type": "data_loaders.sequence_only.intervals_data_loader.IntervalsDataLoader",
+        "_comment": "args below are common args to train/test/val data loaders",
+        "args": {
+            "genome_fasta": "/users/surag/genomes/hg38/GRCh38_no_alt_analysis_set_GCA_000001405.15.fasta",
+            "labels_tsv": "/users/surag/kundajelab/scATAC-reprog/src/analysis/20210204_BPNet_ChIP/GenoPyT/data/SOX2.labels.tsv.gz",
+            "num_workers": 10,
+            "cache": "/mnt/lab_data2/surag/tmp/"
+        },
+        "train": {
+            "batch_size": 256,
+            "chromosomes": "auto",
+            "tasks": [
+                0
+            ],
+            "sampler": {
+                "type": "IntervalsWeightedSampler",
+                "args": {
+                    "positive_sample_prob": 0.3,
+                    "num_samples": 10000
+                }
+            }
+        },
+        "validation": {
+            "batch_size": 1024,
+            "chromosomes": [
+                "chr8",
+                "chr10"
+            ],
+            "tasks": "all",
+            "sampler": {
+                "type": "IntervalsRandomSampler",
+                "args": {
+                    "num_samples": 320
+                }
+            }
+        },
+        "test": {
+            "batch_size": 256,
+            "chromosomes": [
+                "chr1"
+            ],
+            "tasks": "all",
+            "sampler": {
+                "type": "IntervalsSequentialSampler",
+                "args": {
+                    "subsample": 1
+                }
+            }
+        }
+    },
+    "optimizer": {
+        "type": "torch.optim.Adam",
+        "args": {
+            "lr": 0.0001,
+            "weight_decay": 0,
+            "amsgrad": true
+        }
+    },
+    "loss": {
+        "type": "torch.nn.BCEWithLogitsLoss"
+    },
+    "metrics": [
+        {
+            "type": "metrics.classification.AUPRCAvgTask",
+            "args": {
+                "compute_during_training": false
+            }
+        },
+        {
+            "type": "metrics.classification.AUROCAvgTask",
+            "args": {
+                "compute_during_training": false
+            }
+        }
+    ],
+    "lr_scheduler": {
+        "type": "torch.optim.lr_scheduler.StepLR",
+        "args": {
+            "step_size": 50,
+            "gamma": 0.1
+        }
+    },
+    "trainer": {
+        "epochs": 100,
+        "save_dir": "/users/surag/kundajelab/scATAC-reprog/src/analysis/20210204_BPNet_ChIP/GenoPyT/saved/",
+        "save_period": 1,
+        "save_only_best": true,
+        "verbosity": 2,
+        "monitor": "max val_AUPRC_averaged_across_tasks",
+        "early_stop": 10,
+        "tensorboard": true
+    }
+}
