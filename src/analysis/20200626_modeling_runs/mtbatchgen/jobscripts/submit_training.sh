@@ -11,14 +11,14 @@ JOBSCRIPT=/scratch/users/surag/scATAC-reprog/mtbatchgen/jobscripts/jobscript.sh
 mkdir -p $BASE/models/$RUNNAME
 cp -r /home/users/surag/kundajelab/mtbatchgen/example/ $BASE/models/$RUNNAME/code
 
-for i in {1..14} 16
+for i in 4
  do
   mkdir -p $BASE/models/$RUNNAME/cluster_idx$i
  done
 
 cd /home/users/surag/kundajelab/mtbatchgen/example
 
-for i in {1..14} 16
+for i in 4 
  do
   sbatch --job-name train_cluster_idx$i \
          --output $BASE/models/$RUNNAME/cluster_idx$i/log.txt \

@@ -262,6 +262,8 @@ def metrics_main():
     print("counts pearson", counts_pearson)
     print("counts spearman", counts_spearman)
 
+    np.save("{}/countsA".format(metrics_dir), countsA)
+    np.save("{}/countsB".format(metrics_dir), countsB)
     np.savez_compressed('{}/mse'.format(metrics_dir), mse=mse)
     np.savez_compressed('{}/pearson'.format(metrics_dir), pearson=pearson)
     np.savez_compressed('{}/spearman'.format(metrics_dir), spearman=spearman)

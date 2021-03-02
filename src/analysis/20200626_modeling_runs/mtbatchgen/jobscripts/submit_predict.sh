@@ -10,12 +10,12 @@ JOBSCRIPT=/scratch/users/surag/scATAC-reprog/mtbatchgen/jobscripts/jobscript.sh
 # run code from copy
 cd $BASE/models/$RUNNAME/code
 
-for i in {1..14} 16
+for i in 4 
  do
   mkdir -p $BASE/models/$RUNNAME/cluster_idx$i/predictions
  done
 
-for i in {1..14} 16
+for i in 4
  do
   sbatch --job-name predict_c$i \
          --output $BASE/models/$RUNNAME/cluster_idx$i/predictions/log.txt \

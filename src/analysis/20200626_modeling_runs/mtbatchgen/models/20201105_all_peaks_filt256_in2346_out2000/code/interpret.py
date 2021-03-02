@@ -153,6 +153,7 @@ def interpret(args, interpret_dir):
     logging.info("Saving 'counts' scores")
     dd.io.save('{}/counts_scores.h5'.format(interpret_dir), counts_scores)
     
+    """
     logging.info("Generating 'profile' shap scores")
     profile_shap_scores = profile_model_profile_explainer.shap_values(
         [X, np.zeros((X.shape[0], 1000, 2))], progress_message=100)
@@ -169,7 +170,7 @@ def interpret(args, interpret_dir):
     # save the dictionary in HDF5 formnat
     logging.info("Saving 'profile' scores")
     dd.io.save('{}/profile_scores.h5'.format(interpret_dir), profile_scores)
-
+    """ 
     # create dataframe from all rows that were sucessfully processed
     df_valid_scores = pd.DataFrame(rows) 
     
