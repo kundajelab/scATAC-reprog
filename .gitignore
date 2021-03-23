@@ -22,6 +22,7 @@ __pycache__/
 *.bigwig
 *.mat.gz
 homer/
+gimmemotifs/
 *tmp*
 lsgkm/
 gene_lists/
@@ -43,7 +44,9 @@ resources/
 features*.tsv
 *seurat.rds
 *.h5ad
-image.png 
+image.png
+*density.txt
+*.motif 
 
 # surag -- analysis specific
 src/analysis/20200416_cicero/out/
@@ -54,6 +57,7 @@ src/analysis/20200723_motif_annotation/bpnet_scores/20200705_gridmap_peakwidthno
 src/analysis/20200723_motif_annotation/bpnet_scores/20201020_n62402/block_ism
 src/analysis/20200925_Peak2Gene/peak2gene_links
 *contrib_*.png
+src/analysis/20210310_autogenerate_loci_plots/plots/
 
 # surag -- abandoned analyses/archived/do not track
 src/analysis/20200117_EDA/
