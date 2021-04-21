@@ -4,18 +4,20 @@ set -o pipefail
 set -u 
 
 BASE=/scratch/users/surag/scATAC-reprog/mtbatchgen/
-RUNNAME=20201105_all_peaks_filt256_in2346_out2000
+RUNNAME=20210414_gc_neg_filt256_in2346_out2000
 JOBSCRIPT=/scratch/users/surag/scATAC-reprog/mtbatchgen/jobscripts/jobscript.sh
 
 # run code from copy
 cd $BASE/models/$RUNNAME/code
 
-for i in 4 
+for i in 16 
  do
   mkdir -p $BASE/models/$RUNNAME/cluster_idx$i/predictions
  done
 
-for i in 4
+# NOTE: deliberately using old 20201020_n62402 data peaks, since want to make predictions
+# on peaks across all cell states
+for i in 16
  do
   sbatch --job-name predict_c$i \
          --output $BASE/models/$RUNNAME/cluster_idx$i/predictions/log.txt \

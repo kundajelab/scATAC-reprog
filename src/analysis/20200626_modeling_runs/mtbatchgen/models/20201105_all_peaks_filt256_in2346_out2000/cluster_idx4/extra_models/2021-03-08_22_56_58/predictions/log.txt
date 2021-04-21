@@ -1,0 +1,13 @@
+Live
+2021-03-11 15:53:19,070 - root - INFO - INPUT DATA -
+OrderedDict([('cluster_idx4_unstranded', {'strand': 0, 'task_id': 0, 'peaks': '/scratch/users/surag/scATAC-reprog/mtbatchgen//data/20201020_n62402/cluster_idx4/peaks.bed'})])
+2021-03-11 15:53:19,071 - root - INFO - Loading /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20201105_all_peaks_filt256_in2346_out2000/cluster_idx4/extra_models/2021-03-08_22_56_58/P2qbCl.h5
+(410730, 10)
+(36424, 10)
+2021-03-11 15:53:38,679 - numexpr.utils - INFO - Note: NumExpr detected 20 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2021-03-11 15:53:38,880 - root - WARNING - Since you have a chosen a batch size 128 > 1 the last 72 peaks will not be predicted because of batch size mismatch. To predict all peak positions use a batch size  of 1
+2021-03-11 15:53:38,881 - root - INFO - Test chroms ['chr1']
+2021-03-11 15:53:38,881 - root - INFO - Test data size (36424, 2)
+2021-03-11 15:53:38,886 - root - INFO - Profile bigWig - /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20201105_all_peaks_filt256_in2346_out2000/cluster_idx4/extra_models/2021-03-08_22_56_58/predictions/P2qbCl_cluster_idx4_unstranded.bw
+2021-03-11 15:53:38,886 - root - INFO - Counts bigWig - /scratch/users/surag/scATAC-reprog/mtbatchgen//models/20201105_all_peaks_filt256_in2346_out2000/cluster_idx4/extra_models/2021-03-08_22_56_58/predictions/P2qbCl_cluster_idx4_unstranded_exponentiated_counts.bw
+2021-03-11 16:10:49,167 - root - INFO - Total Elapsed Time: 1030.281198501587 secs

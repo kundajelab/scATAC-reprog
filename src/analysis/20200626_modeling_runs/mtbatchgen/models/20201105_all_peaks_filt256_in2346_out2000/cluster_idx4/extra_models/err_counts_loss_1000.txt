@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "bpnettrainer.py", line 362, in <module>
+    trainer_main()
+  File "bpnettrainer.py", line 318, in trainer_main
+    os.mkdir(model_dir)
+FileExistsError: [Errno 17] File exists: '/scratch/users/surag/scATAC-reprog/mtbatchgen//models/20201105_all_peaks_filt256_in2346_out2000/cluster_idx4/extra_models/2021-03-08_22_56_58'
