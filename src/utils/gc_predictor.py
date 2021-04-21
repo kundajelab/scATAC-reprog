@@ -12,6 +12,8 @@ args = parser.parse_args()
 
 def calc_gc(s):
     tot = len([x for x in s.lower() if x=='g' or x=='c' or x=='a' or x=='t'])
+    if tot==0:
+        return 0
     return len([x for x in s.lower() if x=='g' or x=='c'])/tot
 
 def calc_cpg(s):
