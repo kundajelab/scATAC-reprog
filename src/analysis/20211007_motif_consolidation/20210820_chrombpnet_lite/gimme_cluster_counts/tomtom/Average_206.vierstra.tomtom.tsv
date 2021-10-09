@@ -1,0 +1,12 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Average_206	ASCL1_MOUSE.H11MO.0.A	-10	0.00177112	3.85928	1	14	TGGTGGCCGTAGCTGGAACTGCAG	GGGGGCAGCTGCAG	-
+Average_206	SOX8_HMG_7	-13	0.00188794	4.11381	1	11	TGGTGGCCGTAGCTGGAACTGCAG	ATGAATTGCAGTC	+
+Average_206	ZN816_HUMAN.H11MO.0.C	-5	0.0026833	5.8469	1	19	TGGTGGCCGTAGCTGGAACTGCAG	AAAAAAGGGGGACATGCAGGG	+
+Average_206	OSR2_HUMAN.H11MO.0.C	-8	0.00286219	6.23671	1	16	TGGTGGCCGTAGCTGGAACTGCAG	GCTGCTGCTTCTGCTG	+
+Average_206	Hic1.mouse_C2H2_1	-1	0.00321638	7.00849	1	18	TGGTGGCCGTAGCTGGAACTGCAG	GTTGGCATAGGCTGGCAC	-
+Average_206	SOX8_HMG_2	-13	0.00339844	7.40521	1	11	TGGTGGCCGTAGCTGGAACTGCAG	ATGAATTGCAGTC	+
+Average_206	MYBA_MOUSE.H11MO.0.C	-1	0.00361018	7.86659	1	15	TGGTGGCCGTAGCTGGAACTGCAG	AGTGGCAGTTGGAGA	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.1 compiled on Jan 10 2020 at 20:04:56
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc . -verbosity 1 -text -min-overlap 5 -mi 1 -dist pearson -evalue -thresh 10.0 meme/Average_206.meme /srv/www/kundaje/surag/resources/motif_archetypes/pfm_meme_format/motifs.meme.txt

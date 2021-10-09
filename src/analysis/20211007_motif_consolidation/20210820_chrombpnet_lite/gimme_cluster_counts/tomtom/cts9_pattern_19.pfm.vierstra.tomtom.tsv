@@ -1,0 +1,16 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+cts9_pattern_19.pfm	COE1_HUMAN.H11MO.0.A	-1	5.93856e-06	0.0129401	0.00766159	12	AACTCCCTGGGGA	GGTCCCTGGGGACTT	-
+cts9_pattern_19.pfm	COE1_MOUSE.H11MO.0.A	-1	8.32164e-06	0.0181328	0.00766159	12	AACTCCCTGGGGA	AGTCCCTGGGGAC	+
+cts9_pattern_19.pfm	EBF1_EBF_1	-1	1.27426e-05	0.0277662	0.00766159	12	AACTCCCTGGGGA	ATTCCCAAGGGAAT	+
+cts9_pattern_19.pfm	EBF1_MA0154.3	-1	1.27426e-05	0.0277662	0.00766159	12	AACTCCCTGGGGA	ATTCCCAAGGGAAT	+
+cts9_pattern_19.pfm	PRD16_MOUSE.H11MO.0.B	-2	1.41083e-05	0.030742	0.00766159	10	AACTCCCTGGGGA	TCCCCTGGGG	-
+cts9_pattern_19.pfm	MZF1_MA0056.1	-7	0.000561538	1.22359	0.221779	6	AACTCCCTGGGGA	TGGGGA	+
+cts9_pattern_19.pfm	RELB_MA1117.1	1	0.000785695	1.71203	0.284451	10	AACTCCCTGGGGA	GAATTCCCCGG	+
+cts9_pattern_19.pfm	MECP2_HUMAN.H11MO.0.C	-5	0.00222379	4.84563	0.687604	7	AACTCCCTGGGGA	CCCGGAG	+
+cts9_pattern_19.pfm	MECP2_MOUSE.H11MO.0.C	-5	0.00222379	4.84563	0.687604	7	AACTCCCTGGGGA	CCCGGAG	+
+cts9_pattern_19.pfm	STAT1_MA0137.3	-2	0.0025872	5.63752	0.687604	11	AACTCCCTGGGGA	TTTCCTGGAAA	-
+cts9_pattern_19.pfm	TFAP2A_TFAP_3	-2	0.00309642	6.74709	0.704809	11	AACTCCCTGGGGA	TGCCCCGGGGGCA	-
+
+# Tomtom (Motif Comparison Tool): Version 5.0.1 compiled on Jan 10 2020 at 20:04:56
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc . -verbosity 1 -text -min-overlap 5 -mi 1 -dist pearson -evalue -thresh 10.0 meme/cts9_pattern_19.pfm.meme /srv/www/kundaje/surag/resources/motif_archetypes/pfm_meme_format/motifs.meme.txt

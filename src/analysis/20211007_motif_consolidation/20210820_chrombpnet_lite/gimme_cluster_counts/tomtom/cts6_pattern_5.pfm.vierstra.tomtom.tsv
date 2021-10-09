@@ -1,0 +1,11 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+cts6_pattern_5.pfm	SP1_HUMAN.H11MO.0.A	-4	0.000294891	0.642568	0.654463	22	ACCCGGGAGGCGGAGCTTGCAGTGAGCCGA	GGGGGGCGGGGCCGGGGGGGGG	+
+cts6_pattern_5.pfm	SP1_MA0079.3	-5	0.00030035	0.654463	0.654463	11	ACCCGGGAGGCGGAGCTTGCAGTGAGCCGA	GGGGGCGGGGC	-
+cts6_pattern_5.pfm	SP2_HUMAN.H11MO.0.A	0	0.00140802	3.06807	1	22	ACCCGGGAGGCGGAGCTTGCAGTGAGCCGA	GGGGGGGGGGCGGGGCCGGGGG	+
+cts6_pattern_5.pfm	SP2_MOUSE.H11MO.0.B	0	0.00140802	3.06807	1	22	ACCCGGGAGGCGGAGCTTGCAGTGAGCCGA	GGGGGGGGGGCGGGGCCGGGGG	+
+cts6_pattern_5.pfm	SP2_MA0516.1	-1	0.0021543	4.69422	1	15	ACCCGGGAGGCGGAGCTTGCAGTGAGCCGA	GGGAGGGGGCGGGGC	-
+cts6_pattern_5.pfm	E2F4_MOUSE.H11MO.0.A	-4	0.00330821	7.20859	1	14	ACCCGGGAGGCGGAGCTTGCAGTGAGCCGA	AGGGGGCGGGAAAT	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.1 compiled on Jan 10 2020 at 20:04:56
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc . -verbosity 1 -text -min-overlap 5 -mi 1 -dist pearson -evalue -thresh 10.0 meme/cts6_pattern_5.pfm.meme /srv/www/kundaje/surag/resources/motif_archetypes/pfm_meme_format/motifs.meme.txt
