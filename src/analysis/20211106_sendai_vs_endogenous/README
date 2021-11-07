@@ -1,0 +1,31 @@
+## print BAM with header, filter to region of interest with gene of interest, only for barcodes that pass QC.
+
+for x in D0 D2 D4 D6 D8 D10 D12 D14 iPSC ; do bamToBed -i <(grep -f <(cat <(printf "@\n") <(cat ~/kundajelab/scATAC-reprog/src/analysis/20200828_RNA_Seurat/sessions/20210725_n59378/atac.20210717_n62599.cluster.transfer.tsv | awk -v DD=$x '($2==DD)' | cut -f1 -d- )) <(samtools view -h     ~/oak/projects/scRNA-reprog/cellranger/$x/outs/possorted_genome_bam.bam chr6:31,162,245-31,173,169 | python filter_10x_bam.py -g POU5F1  )  ) > ./out/OCT4$x.bed & done
+
+for x in D0 D2 D4 D6 D8 D10 D12 D14 iPSC ; do bamToBed -i <(grep -f <(cat <(printf "@\n") <(cat ~/kundajelab/scATAC-reprog/src/analysis/20200828_RNA_Seurat/sessions/20210725_n59378/atac.20210717_n62599.cluster.transfer.tsv | awk -v DD=$x '($2==DD)' | cut -f1 -d- )) <(samtools view -h     ~/oak/projects/scRNA-reprog/cellranger/$x/outs/possorted_genome_bam.bam chr3:181,709,624-181,716,736 | python filter_10x_bam.py -g SOX2  )  ) > ./out/SOX2/$x.bed & done
+
+for x in D0 D2 D4 D6 D8 D10 D12 D14 iPSC ; do bamToBed -i <(grep -f <(cat <(printf "@\n") <(cat ~/kundajelab/scATAC-reprog/src/analysis/20200828_RNA_Seurat/sessions/20210725_n59378/atac.20210717_n62599.cluster.transfer.tsv | awk -v DD=$x '($2==DD)' | cut -f1 -d- )) <(samtools view -h     ~/oak/projects/scRNA-reprog/cellranger/$x/outs/possorted_genome_bam.bam chr9:107,482,651-107,491,969 | python filter_10x_bam.py -g KLF4  )  ) > ./out/KLF4/$x.bed & done
+
+for x in D0 D2 D4 D6 D8 D10 D12 D14 iPSC ; do bamToBed -i <(grep -f <(cat <(printf "@\n") <(cat ~/kundajelab/scATAC-reprog/src/analysis/20200828_RNA_Seurat/sessions/20210725_n59378/atac.20210717_n62599.cluster.transfer.tsv | awk -v DD=$x '($2==DD)' | cut -f1 -d- )) <(samtools view -h     ~/oak/projects/scRNA-reprog/cellranger/$x/outs/possorted_genome_bam.bam chr8:127,731,433-127,745,151 | python filter_10x_bam.py -g MYC  )  ) > ./out/MYC/$x.bed & done
+
+## To make 5' pileup bigwigs:
+bedtools genomecov  -i iPSC.bed -5 -bg -g ~/genomes/hg38/hg38.chrom.sizes | sort -k1,1 -k2,2n > ipsc.5p.bg 
+bedGraphToBigWig ipsc.5p.bg ~/genomes/hg38/hg38.chrom.sizes ipsc.5p.bw &
+
+Also performed this for "control" genes (GAPDH, NANOG, TOP2A) to see which end to use-- 5' makes more sense since read lengths are different between D0-D14 (150bp) and iPSC (91bp).
+
+## To get endo/exo quantifications:
+
+For OS:
+for x in D0 D2 D4 D6 D8 D10 D12 D14 iPSC ; do python iterative_bc_endo_exo_cts.py -n ./out/SOX2/iPSC.bed -x ./out/SOX2/D2.bed -s ./out/SOX2/$x.bed -o ./out/SOX2/$x.quant -t + & done
+
+O: - strand [should match strand in bed file from previous step]
+S: + strand
+M: + strand
+K: - strand
+
+For KLF4 only (had to extend END by 1000 to account for an edge case where a transcript found outside bounds of what was seen in D2 and iPSC):
+for x in D0 D2 D4 D6 D8 D10 D12 D14 iPSC ; do python iterative_bc_endo_exo_cts.py -n ./out/KLF4/iPSC.bed -x ./out/KLF4/D2.bed -s ./out/KLF4/$x.bed -o ./out/KLF4/$x.quant -t - -e 1000 & done
+
+For MYC had to extend END by 100:
+for x in D0 D2 D4 D6 D8 D10 D12 D14 iPSC ; do python iterative_bc_endo_exo_cts.py -n ./out/MYC/iPSC.bed -x ./out/MYC/D2.bed -s ./out/MYC/$x.bed -o ./out/MYC/$x.quant -t + -e 100 & done
