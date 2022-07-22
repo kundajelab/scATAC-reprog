@@ -1,0 +1,3 @@
+bedtools intersect -a <(sed 1d ~/kundajelab/scATAC-reprog/src/figures_factory/Fig5/motif_scans/scans/importance_thresholded/AP1.not.OCTSOX.tsv ) -b ~/oak/projects/scATAC-reprog/clusters/20210714_n64913/croo/cluster_idx1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz -v >  AP1.not.fibr.bed 
+
+bedtools intersect -a <(cat ~/kundajelab/scATAC-reprog/src/analysis/20211007_motif_consolidation/20210820_chrombpnet_lite/motifs.importance.thresholded.bed | grep FOSL2 ) -b ~/oak/projects/scATAC-reprog/clusters/20210714_n64913/croo/cluster_idx1/peak/overlap_reproducibility/overlap.optimal_peak.narrowPeak.gz -wa -u > AP1.fibr.bed
