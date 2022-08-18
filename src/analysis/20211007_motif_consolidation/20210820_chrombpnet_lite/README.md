@@ -42,3 +42,11 @@ Importance thresholding:
 
 Peak x motif matrix for ChromVAR:
 `Rscript scripts/make_peak_x_motif_matrix.R`
+
+To extract a representative for each motif cluster, pick constituent motif with the most seqlets:
+`grep -f tfs_final.txt <(for x in  $(ls gimme_cluster_counts/tomtom/*) ; do cat $x | head -2 | tail -1 ; done | cut -f1,2,5|  sort -k3g | head -36 | cut -f1-2) > tfs_with_clst.tsv`
+`python scripts/get_representative.py --tfs tfs_with_clst.tsv --pfm pfms/ --cluster-key gimme_cluster_counts/cluster_key.txt  -o tfs_final_w_rep.tsv`
+`rm tfs_with_clst.tsv`
+
+Added manually for three clusters that were added above.
+
