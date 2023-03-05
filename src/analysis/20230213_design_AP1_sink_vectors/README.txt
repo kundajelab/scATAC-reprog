@@ -14,3 +14,31 @@ and counted using:
 Manually edited sequences in trial.modified.txt to remove off-target hits.
 
 Removed all TTGT/ACAA matches, also ATGCAA. Did it iteratively.
+
+28/02/2023
+
+Unfortunately above sequences can not be synthesized as they are highly repetetive.
+
+Instead generating shorter sequences with 1/3/5 binding sites, flanked by Aval sequence CTCGGG.
+
+For ONE: 
+cat seq.modified.txt  | tail -1 | cut -c 1-30 | grep TGAGTCA
+
+Manually:
+CTCGGG - 7 flank - ATGAGTCAT - 8 flank - CTCGGG
+
+Also stitched two instances to ensure no motifs after stitching (when stitching remove double CTCGGG).
+
+For THREE:
+cat seq.modified.txt  | tail -1 | cut -c 1-90 | grep TGAGTCA
+
+For FIVE:
+cat seq.modified.txt  | tail -1 | cut -c 1-150
+
+Same for TEN and TWENTY.
+
+Scrambles:
+First tried scrambling only motifs but keeping bases intact (i.e. using bases ATGAGTCAT). But doing this creates motifs for FOX, OCT4.
+
+Replacement:
+Replace ATGA[G|C]TCAT with either CCCAAACCC or GGGTTTGGG randomly. Removed one case of match with TWIST motif manually.
