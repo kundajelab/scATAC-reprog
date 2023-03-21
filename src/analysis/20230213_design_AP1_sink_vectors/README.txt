@@ -35,10 +35,17 @@ cat seq.modified.txt  | tail -1 | cut -c 1-90 | grep TGAGTCA
 For FIVE:
 cat seq.modified.txt  | tail -1 | cut -c 1-150
 
-Same for TEN and TWENTY.
+Same for TEN, TWENTY, THIRTY, FORTY, FIFTY.
 
 Scrambles:
 First tried scrambling only motifs but keeping bases intact (i.e. using bases ATGAGTCAT). But doing this creates motifs for FOX, OCT4.
 
 Replacement:
-Replace ATGA[G|C]TCAT with either CCCAAACCC or GGGTTTGGG randomly. Removed one case of match with TWIST motif manually.
+Replace ATGA[G|C]TCAT with either CCCAAACCC or GGGTTTGGG randomly. 
+
+Ensure the scramble doesn't introduce CTCGGG or it's reverse complement.
+(e.g. python replace_AP1.py short/30.motif.Aval.txt | grep -e CTCGGG -e CCCGAG)
+
+20 - Removed one case of match with TWIST motif manually.
+30 - Removed 1 match to CEBP
+40 - removed 1 each to AP1, NFY and ELK
