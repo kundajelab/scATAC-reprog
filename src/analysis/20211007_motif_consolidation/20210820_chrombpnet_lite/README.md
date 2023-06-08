@@ -50,3 +50,6 @@ To extract a representative for each motif cluster, pick constituent motif with 
 
 Added manually for three clusters that were added above.
 
+Added names manually for each cluster.
+
+Stored as MEME file: `python pfms_to_meme_final_list.py -i ../tfs_final_w_rep.tsv -o ../tfs_final_w_rep.meme`
