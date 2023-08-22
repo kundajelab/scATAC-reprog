@@ -2,7 +2,7 @@
 
 The models were trained using tf1.14. The models are provided in h5 format for tf1.14 (py3.7) and SavedModel format for tf2.X. 
 
-tf2.X tested only for py3.8-10, tf2.8-11.
+tf2.X tested only for py3.8-11, tf2.8-13.
 
 To load the models in tf1.14:
 `python
