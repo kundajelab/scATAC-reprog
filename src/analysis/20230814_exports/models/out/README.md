@@ -5,48 +5,48 @@ The models were trained using tf1.14. The models are provided in h5 format for t
 tf2.X tested only for py3.8-11, tf2.8-13.
 
 To load the models in tf1.14:
-`python
+```python
 model = tf.keras.models.load_model("path/to/model.h5")
-`
+```
 
 In tf2:
-`python
+```python
 model = tf.keras.models.load_model("path/to/model_dir")
-`
+```
 
 If all fails, you can load the architecture as provided in `model_arch.py` with default parameters (`bpnet_seq` for bias model and `chrombpnet` for chrombpnet model), and then load the weights using `model.load_weights` from the weights provided in the `weights` directory.
 
 ## Usage:
 The bias models take as input one-hot sequence of length 2000. It has 2 outputs, a vector of logits of length 2000, and 1 logcounts scalar:
 
-`python
+```python
 # seq_one_hot of length B x 2000 x 4
 out_bias_logits, out_bias_logcounts = bias_model.predict(seq_one_hot)
 
 # out_bias_logits: B x 2000
 # out_bias_logcounts: B x 1
-`
+```
 
 The ChromBPNet model takes as input a one-hot sequence of length 2000, bias logits of length 2000 and bias log-counts scalar. It has the same output types as the bias model. To run the chrombpnet model to obtain predictions:
-`python
+```python
 
 pred_profile, pred_logcounts = chrombpnet_model.predict([seq_one_hot, out_bias_logits, out_bias_logcounts])
 
 # pred_profile: B x 2000
 # pred_logcounts: B x 1
-`
+```
 
-If you wish to obtain the "de-biased" predictions (see methods), simply pass in zeros instead of the bias model predictions as:
-`python
+If you wish to obtain the "de-biased" predictions (see Methods), simply pass in zeros instead of the bias model predictions as:
+```python
 pred_profile_debiased, pred_logcounts_debiased = chrombpnet_model.predict([seq_one_hot, np.zeros((seq_one_hot.shape[0], 2000)), np.zeros((seq_one_hot.shape[0], 1))])
-`
+```
 
 To obtain predicted per-base predicted counts (with or without bias):
-`python
+```python
 pred_per_base_counts = scipy.special.softmax(pred_profile, axis=-1) * (np.exp(pred_logcounts)-1)
 
 # pred_per_base_counts: B x 2000
-`
+```
 
 Note that in general predicted counts can't be compared across models as they are not corrected for sequencing depth.
 
@@ -55,6 +55,8 @@ Note that in general predicted counts can't be compared across models as they ar
 All bias models used across folds are identical, except for the final intercept term in the counts output (see Methods), that is specific to each cell state, fold combination.
 
 ## Folds:
+
+The bigwigs and training regions are provided in `data/`. The splits used for training the different folds are as below:
 
 | Fold | Test Chromosomes           | Validation Chromosomes        |
 |------|----------------------------|-------------------------------|
