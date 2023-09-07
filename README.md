@@ -6,7 +6,8 @@ This repository contains code for the analysis performed in the paper "Transcrip
 
 - As this code as evolved over the course of the project, the figure directories in `src/figures_factory` do not correspond exactly to the figures in the manuscript. Please refer to the index below to find the appropriate notebooks. 
 - The cluster IDs used in the repository are different from that in the paper (unless referred to as "`new_cluster`"). Please see `src/figures_factory/configs/cluster.tsv` for the conversion between old cluster IDs to the ones used in the paper.
-- The xOSK (extreme OSK) and hOSK (high OSK) states were previously known as hOSK (high OSK) and low OSK states respectively. 
+- The xOSK (extreme OSK) and hOSK (high OSK) states were previously known as hOSK (high OSK) and low OSK states respectively.
+- The peak sets are labeled 1-20 in the same order as in the paper.
 
 ## Analysis Code
 
@@ -167,7 +168,7 @@ _Related_
 
 ### Fig 5
 
-- `dhs_overlap.sh` and `DHS_overlap.ipynb` [[dhs_overlap.sh](https://github.com/kundajelab/scATAC-reprog/blob/dc696746653a1f6d552721dc3761524075e9716e/src/figures_factory/Fig5/dhs_overlap.sh), [DHS_overlap.ipynb](https://github.com/kundajelab/scATAC-reprog/blob/dc696746653a1f6d552721dc3761524075e9716e/src/figures_factory/Fig5/DHS_overlap.ipynb)]
+- `dhs_overlap.sh` and `DHS_overlap.ipynb` [[dhs_overlap.sh](https://github.com/kundajelab/scATAC-reprog/blob/dc696746653a1f6d552721dc3761524075e9716e/src/figures_factory/Fig5/dhs_overlap.sh), [DHS_overlap.ipynb](https://github.com/kundajelab/scATAC-reprog/blob/dc696746653a1f6d552721dc3761524075e9716e/src/figures_factory/Fig5/DHS_overlap.ipynb)] Compute overlap of peak sets with peaks from DNase Index
 - `make_early_on_peak_set.sh`: set of peaks that is not in peak sets 6,7,8 or fibroblast peaks but is open along all other cell states along the primary reprogramming trajectory [[script](https://github.com/kundajelab/scATAC-reprog/blob/0665a0386a192a1bb1b5befb3eb4703ea9c95b75/src/figures_factory/Fig5/make_early_on_peak_set.sh)]
 - `VortexPlots.ipynb`: Vortex plots with integrative analysis of bulk TF and histone ChIP-seq datasets [[commit](https://github.com/kundajelab/scATAC-reprog/blob/050e33b5ddd89f4ea979c4be3a63a531dc440d3f/src/figures_factory/Fig5/VortexPlots.ipynb)]
 
