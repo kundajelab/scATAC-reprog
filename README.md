@@ -142,6 +142,7 @@ The code used for model training, evaluation and interpretation is available at 
 - `MoDISco_Breakdown_Plot.ipynb`: Builds on `20211118_modisco_breakdown`. Curate top motifs across cell types, assign MoDISco motifs to them using TomTom followed by manual adjustments. Plots breakdown of seqlets per cell state to these top motifs. [[commit](https://github.com/kundajelab/scATAC-reprog/blob/1fbb44628d660497c19b7915a19e1e89e8fa2c74/src/figures_factory/Fig4_new/MoDISco_Breakdown_Plot.ipynb)] [[preprocessing](https://github.com/kundajelab/scATAC-reprog/tree/5556a9f5fc7f6e52c106f431718abe48302513c4/src/analysis/20211118_modisco_breakdown)]
     - **NB**: For some reason I used a different set of curated motifs instead of the 30 in `tfs_final.txt`
     - **This has been superseded by** `20230607_re_modisco_breakdown` [[commit]](https://github.com/kundajelab/scATAC-reprog/tree/ee1c8e247dc8a/src/analysis/20230607_re_modisco_breakdown).  Updated plot can be found in `MoDISco_Re_Breakdown_Plot.ipynb` [[commit]](https://github.com/kundajelab/scATAC-reprog/blob/ee1c8e247dc/src/figures_factory/Fig4_new/MoDISco_Re_Breakdown_Plot.ipynb)
+    - **This has been further superseded by** `MoDISco_Re_Breakdown_Hits_Plot.ipynb`. In this, we use the motif hits, filter them down to motifs picked up by MoDISco in each cell type, and handle SP and KLF manually since their sites tend to overlap a lot. [[commit](https://github.com/kundajelab/scATAC-reprog/blob/3aab1897170/src/figures_factory/Fig4_new/MoDISco_Re_Breakdown_Hits_Plot.ipynb)]
 
 
 _Supplement_
