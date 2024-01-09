@@ -5,6 +5,8 @@ Date: 05/05/2020
 
 This the README for the ENCODE Unified GRCh38 Blacklist
 
+Copy of black list available at https://www.encodeproject.org/files/ENCFF356LFX/.
+
 The blacklist is a unification of three separate blacklists followed by extensive manual curation
 
 The three blacklists that were unified are as follows
