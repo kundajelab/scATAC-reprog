@@ -2,6 +2,8 @@
 
 This repository contains code for the analysis performed in the paper "Transcription factor stoichiometry, motif affinity and syntax regulate single-cell chromatin dynamics during fibroblast reprogramming to pluripotency" by Nair, Ameen et al. Please refer to the details below for finding the path to the relevant analysis. 
 
+Links to data downloads can be found here: https://kundajelab.github.io/reprogramming-browser/home.html
+
 ## Important Notes
 
 - As this code as evolved over the course of the project, the figure directories in `src/figures_factory` do not correspond exactly to the figures in the manuscript. Please refer to the index below to find the appropriate notebooks. 
